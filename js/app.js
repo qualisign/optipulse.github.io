@@ -17,11 +17,12 @@ var protocol = {"offer" :
 
 var offerPromptList = ["Give your offer a name.",
                        "Add tags to your offer to make it easier to find.",
-                       "Add a description to your offer.",
+                       "How would you describe your offer?",
                        "Which currencies will you accept for your offer?",
                        "Give your offer a value.",                               
                        "Choose location(s) for your offer.",                     
-                       "When should your offer be valid?",                       
+                       "When should your offer be valid?",
+                       "Look good?"
                   ];
 
 function explain(element){    

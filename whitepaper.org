@@ -23,7 +23,7 @@ design and build this app as well as form a business that can support it.
 Check out the prototype (under construction):
 https://optipulse.github.io
 
-Needless to say, this is only for the sake of illustration only represent an early stage of the front-end.  It isn't able to handle transactions yet.
+Needless to say, this is only for the sake of illustration and only represents an early stage of the front-end.  It isn't able to handle transactions yet.
 
 This whitepaper includes the following sections:
 - 1. a section explaining theoretical background knowledge of relevant technologies
@@ -293,8 +293,7 @@ Meshmarks enables easy conversion between payment methods.  Users can load credi
 Users are not required to buy Meshmarks to make transactions with one-another, but it does help users using unequal payment methods (e.g. Bitcoin and PayPal) reach one-another.
 
 ***** A Possible Cryptocurrency (MMR)
-One possibility that should be discussed is the minting of a new cryptocurrency bound to store credits.  As such, it would be bound to the growth of decentralized resources
-as a
+One possibility that should be discussed is the minting of a new crypto-currency to serve as store credit.  As such, it would be bound to the growth of decentralized resources.
 
 ** Use Cases
 These use cases will be made into tutorials in the future.
