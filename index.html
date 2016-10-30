@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Mesh Market</title>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.4/addons/p5.dom.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="http://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCspgVlNqoa887cssVbYN4KwHfO1m5miyM"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/geocomplete/1.7.0/jquery.geocomplete.js"></script>
+
+      <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css"/>
+      <script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+
+      <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+
+    </head>
+    <body>
+      <div id="site-container" class="container-fluid">
+        <div id="canvas-container" style="z-index: 999"></div>
+        <div id="app-container" v-show="appShow">
+          <div id="map">
+            <script src="js/app.js"></script>
+            <div id="details" v-show="(offerShow || findShow)">
+              <div id="details-close">
+                <i class="fa fa-times-circle-o fa-2x clickable" v-on:click="detailsClose"></i>
+              </div>
+              <div class="row">
+                <div class="col-x-6">
+                  <div id="prompt" class="well"><h2>{{ offerPrompt }}</h2></div>
+                </div>
+                <div class="col-x-6">
+                  <div id="option">
+
+                    <form id="offer-form" v-on:submit="makeOffer" v-show="offerShow">
+
+                      <div v-show="offerCount==1"><input class="offer-form" type="text" v-model="offer.name" id="offer-name">
+                      </div>
+                      <div v-show="offerCount==2"><input class="offer-form" type="text" v-model="offer.tags" id="offer-tags">
+                      </div>
+                      <div v-show="offerCount==3" class="row">
+                        <div class="col-xs-3"><label>USD<input class="offer-form" type="checkbox" value="USD" v-model="offer.currencies" name="currency"/></label></div>
+                        <div class="col-xs-3"><label>BTC<input class="offer-form" type="checkbox" value="BTC" v-model="offer.currencies" name="currency"/></label></div>
+                        <div class="col-xs-3"><label>ETH<input class="offer-form" type="checkbox" value="ETH" v-model="offer.currencies" name="currency"/></label></div>
+                      </div>
+                      <div v-show="offerCount==4"><input type="text" class="offer-form" v-model="offer.value" id="offer-value">
+                      </div>
+                      <div v-show="offerCount==5"><input type="text" class="offer-form" v-model="offer.location" id="offer-location">
+                      </div>
+                      <div v-show="offerCount==6"><textarea class="offer-form" rows="4" cols="70" v-model="offer.description" id="offer-description"></textarea>
+                      </div>
+                      <div v-show="offerCount==7" class="row">
+                        <div><label for="from">Valid from: <input type="text" id="from" class="offer-form" name="from" v-model="offer.validFrom"></label></div>
+                        <div><label for="to">Valid to: <input type="text" id="to" class="offer-form" name="to" v-model="offer.validTo"></label></div>
+                      </div>
+                      <input class="btn btn-primary" type="submit" value="make offer" v-show="offerCount==7"/>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+            <div id="offer-preview" v-show="offer.name">
+              <div v-show="offer.name"> <h4>Name: {{offer.name}}</h4> </div>
+              <div v-show="offer.tags"><h4>Tags: {{offer.tags}}</h4> </div>
+              <div v-show="offer.currencies[0]"><h4>Currencies: {{offer.currencies}}</h4> </div>
+              <div v-show="offer.value"> <h4>Value: {{offer.value}}</h4></div>
+              <div v-show="offer.location"> <h4>Location(s): {{offer.location}}</h4> </div>
+              <div v-show="offer.description"><h4>Description: {{offer.description}}</h4></div>
+            </div>
+            <nav id="details-nav">
+              <div id="details-back" v-show="offerCount>1" v-on:click="offerCount-=1">
+                <i class="fa fa-arrow-left fa-2x clickable"></i>
+              </div>
+              <div id="details-next" v-show="offerCount<8" v-on:click="offerCount+=1">
+                <i class="fa fa-arrow-right fa-2x clickable"></i>
+              </div>
+            </nav>
+            </div>
+          </div>
+
+          <div id="side-bar">
+            <div id="side-bottom">
+              <div id="results"></div>
+            </div>
+            <div id="side-top">
+              <div id="protocol">
+                <div id="explanation">Mesh Market</div>
+                <div id="tag"></div>
+                <div id="recommendation"></div>
+                <div id="justification"></div>
+              </div>
+              <div id="top-right">
+                <div id="account">
+                  <form>
+                    <div id="login" style="padding: 15px;">
+                      <label>address:<input class="pro" id="address"/></label>
+                      <label>password:<input class="pro" id="password"/></label>
+                    </div>
+                    <div>
+                      <button class="col-xs-6 btn btn-primary">open <i class="fa fa-key"></i></button>
+                      <button class="col-xs-6 btn btn-primary">create <i class="fa fa-plus"></i></button>
+                    </div>
+                  </form>
+                  <div id="profile"></div>
+                  <div id="wallet"></div>
+                </div>
+                <div id="find" class="pro clickable" v-on:click="findShow=true"><img src="media/find.png" id="find-image" height="35" width="35" style="margin-top: 20px; margin-left: 30px;"></img></div>
+                <div id="offer" class="pro clickable" v-on:click="offerShow=true"><img id="offer-image" src="media/offer.gif" height="35" width="35" style="margin-top: 20px; margin-left: 30px;"></img></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div v-show="protocolShow" id="protocol-container" style="visibility: hidden">
+          <div id="protocol-list">
+          </div>
+          <div id="protocol-graph">
+          </div>
+          <div id="protocol-add">
+            <form id="protocol-form">
+              <input id="tag-input"/>
+              <input id="prescription-input"/>
+              <input id="justification-input"/>
+              <button id="btn btn-primary"></button>
+            </form>
+          </div>
+        </div>
+        <div v-show="apiShow" id="api-container" style="visibility: hidden">
+        </div>
+      </div>
+    </body>
+
+
+  </html>
