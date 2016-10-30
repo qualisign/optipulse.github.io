@@ -42,10 +42,9 @@
 <li><a href="#sec-3-2-3">3.2.3. Agriculture</a></li>
 <li><a href="#sec-3-2-4">3.2.4. Transportation</a></li>
 <li><a href="#sec-3-2-5">3.2.5. Real Estate</a></li>
-<li><a href="#sec-3-2-6">3.2.6. Artists/Makers</a></li>
-<li><a href="#sec-3-2-7">3.2.7. Small Business/Entrepreneurs</a></li>
-<li><a href="#sec-3-2-8">3.2.8. City Planners</a></li>
-<li><a href="#sec-3-2-9">3.2.9. Suggest Another Use Case!</a></li>
+<li><a href="#sec-3-2-6">3.2.6. Small Business/Entrepreneurs</a></li>
+<li><a href="#sec-3-2-7">3.2.7. City Planners</a></li>
+<li><a href="#sec-3-2-8">3.2.8. Suggest Another Use Case!</a></li>
 </ul>
 </li>
 <li><a href="#sec-3-3">3.3. Development Timeline</a></li>
@@ -90,10 +89,10 @@ Mesh Market is a free application that aims to:
 Most aspects of this idea haven't achieved finality, though the above seems to be a good starting point.  Open discussion between experts across various fields will be needed to
 design and build this app as well as form a business that can support it.
 
-A prototype is being build and is available for viewing at:
+Check out the prototype (under construction):
 <https://optipulse.github.io>
 
-Needless to say, this is only for the sake of illustration, and it only represent an early stage of the front-end.  It isn't able to handle transactions yet.
+Needless to say, this is only for the sake of illustration and only represents an early stage of the front-end.  It isn't able to handle transactions yet.
 
 This whitepaper includes the following sections:
 -   1. a section explaining theoretical background knowledge of relevant technologies
@@ -234,16 +233,16 @@ This brings us to the design of the application itself, which should give OptiPu
 ### Installation<a id="sec-3-1-1" name="sec-3-1-1"></a>
 
 Mesh Market requires the following software:
--   1. Ethereum
--   2. CJDNS, for ad-hoc routing
--   3. Clojure(Script), for interfacing between the front-end and command line tools (specifically Trickle <https://github.com/mariusae/trickle>)
--   4. a modern web browser
--   5. a running Mesh Market client
+-   1. git (technically not necessary but it makes installation much easier)
+-   2. Ethereum
+-   3. CJDNS, for ad-hoc routing
+-   4. Clojure(Script), for interfacing between the front-end and command line tools (specifically Trickle <https://github.com/mariusae/trickle>)
+-   5. a modern web browser
+-   6. a running Mesh Market client
 
-To install the Mesh Market client:
-Linux/Mac:
+To install the Mesh Market client using git:
 
-    clone github.com/optipulse/mesh-market.git
+    git clone github.com/optipulse/mesh-market.git
 
 The Mesh Market Foundation plans to sell minimalist computers in the future specifically for use with Mesh Market.  These will have the software pre-installed,
 and come in packaged bundles for specific use-cases (e.g. solar starter kit, ISP starter kit, etc.)
@@ -329,7 +328,7 @@ what they decide is relevant to making a good choice.
     The offer taker's device is then triggered to inform the blockchain that consideration was met, and that funds should be released.
     -   9) Transfer Funds
 
-    Finally, the funds being held by the contract since step 4 are released, and the transaction is complete.
+    Finally, the funds being held by the contract starting at step 4 are released, and the transaction is complete.
 
 ### Basic: GUI<a id="sec-3-1-4" name="sec-3-1-4"></a>
 
@@ -337,17 +336,15 @@ what they decide is relevant to making a good choice.
 
 1.  A. Make an Offer
 
+    ![img](./offer.png)
+
 2.  B. Find an Offer
+
+    1.  TODO add find form
 
 3.  C. Wallet
 
-4.  D. Protocol
-
-5.  E. Results
-
-6.  F. Map
-
-7.  Protocol: Definining Resource Consumption for the Future
+4.  D. Protocol: Definining Resource Consumption for the Future
 
     The Mesh Market protocol provides dynamically updated in-app documentation for:
     -   the features of the app itself
@@ -381,12 +378,18 @@ what they decide is relevant to making a good choice.
 
             {"wireless":
               {"upvotes": 15,
-               "downvotes: 5,
+               "downvotes": 5,
                "recommendation": "optical",
                "justification" : "more bandwidth, less RF pollution",
-               "children": ["optical", "WIFI", "wigig", ...]
+               "children": ["optical", "WIFI", "WiGig", ...]
               }
             }
+
+5.  E. Results
+
+    1.  TODO add results section
+
+6.  F. Map
 
 ### Advanced: API<a id="sec-3-1-5" name="sec-3-1-5"></a>
 
@@ -406,8 +409,7 @@ what they decide is relevant to making a good choice.
 
     2.  A Possible Cryptocurrency (MMR)
 
-        One possibility that should be discussed is the minting of a new cryptocurrency bound to store credits.  As such, it would be bound to the growth of decentralized resources
-        as a
+        One possibility that should be discussed is the minting of a new crypto-currency to serve as store credit.  As such, it would be bound to the growth of decentralized resources.
 
 ## Use Cases<a id="sec-3-2" name="sec-3-2"></a>
 
@@ -453,13 +455,13 @@ These use cases will be made into tutorials in the future.
 
 ### Transportation<a id="sec-3-2-4" name="sec-3-2-4"></a>
 
-1.  Make a Living Driving (While You Still Can).
+1.  Make a Living Driving.
 
     -   Difficulty: Medium
     -   Investment: Medium/Low (provided you own a car)
     -   Profit: Medium
 
-2.  Get Your Package Delivered, Fast.
+2.  Get Dinner Delivered
 
     -   Difficulty: Easy
     -   Investment: Low
@@ -473,15 +475,7 @@ These use cases will be made into tutorials in the future.
     -   Investment: Low/Medium
     -   Profit: Medium
 
-### Artists/Makers<a id="sec-3-2-6" name="sec-3-2-6"></a>
-
-1.  Find Something You Like While Supporting Local Artists.
-
-    -   Difficulty: Low
-    -   Investment: Low/Medium/High
-    -   Profit: N/A
-
-### Small Business/Entrepreneurs<a id="sec-3-2-7" name="sec-3-2-7"></a>
+### Small Business/Entrepreneurs<a id="sec-3-2-6" name="sec-3-2-6"></a>
 
 1.  Add Your Business to the Mesh Market and Reach New Audiences.
 
@@ -489,9 +483,9 @@ These use cases will be made into tutorials in the future.
     -   Investment: N/A
     -   Profit: Low/Medium/High
 
-### City Planners<a id="sec-3-2-8" name="sec-3-2-8"></a>
+### City Planners<a id="sec-3-2-7" name="sec-3-2-7"></a>
 
-### Suggest Another Use Case!<a id="sec-3-2-9" name="sec-3-2-9"></a>
+### Suggest Another Use Case!<a id="sec-3-2-8" name="sec-3-2-8"></a>
 
 Did we miss something?  Submit a pull request!
 
