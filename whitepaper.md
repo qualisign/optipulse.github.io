@@ -214,7 +214,7 @@ receiving some of the best internet service on the market.
 This implies that OptiPulse, as an ISP, might sell internet that comes with a commercial license (or form thereof) to end-users.  While this would give users the ability to resell
 service and possibly even cut into some of OptiPulse's target market, this would also have some overwhelmingly positive side-effects:
 
--   Each customer being serviced by a connection that is ultimately connected to the clearnet through OptiPulse is one fewer customer of one of an OptiPulse competitor.
+-   Each customer ultimately connected through an OptiPulse uplink is one fewer customer of an OptiPulse competitor.
 -   It would be hard to overestimate customer satisfaction with such a deal.  This would grow the network of app users possibly exponentially, and if every transaction is charged a certain amount to go into OptiPulse's "tip jar", this could grow astronomically.
 -   If OptiPulse wished to prevent any portion of profit whatsoever from being appropriated by end-users, it would be very simple to stipulate in a smart contract that customers can only sell to
 
