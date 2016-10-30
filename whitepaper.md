@@ -3,7 +3,7 @@
 <div id="text-table-of-contents">
 <ul>
 <li><a href="#sec-1">1. Introduction</a></li>
-<li><a href="#sec-2">2. Theory</a>
+<li><a href="#sec-2">2. Background</a>
 <ul>
 <li><a href="#sec-2-1">2.1. Platform Business</a></li>
 <li><a href="#sec-2-2">2.2. Mesh Networking</a>
@@ -16,9 +16,8 @@
 <ul>
 <li><a href="#sec-2-3-1">2.3.1. Smart Contracts</a></li>
 <li><a href="#sec-2-3-2">2.3.2. Incentivizing Behavior</a></li>
-<li><a href="#sec-2-3-3">2.3.3. Making Mesh Networks Viable for Mass-Markets</a></li>
+<li><a href="#sec-2-3-3">2.3.3. Making Mesh Networks Mass-Market Viable</a></li>
 <li><a href="#sec-2-3-4">2.3.4. Undercutting the Competition</a></li>
-<li><a href="#sec-2-3-5">2.3.5. A Platform to End Platforms</a></li>
 </ul>
 </li>
 </ul>
@@ -27,17 +26,18 @@
 <ul>
 <li><a href="#sec-3-1">3.1. Design</a>
 <ul>
-<li><a href="#sec-3-1-1">3.1.1. Philosophy</a></li>
-<li><a href="#sec-3-1-2">3.1.2. Core Features</a></li>
-<li><a href="#sec-3-1-3">3.1.3. Prerequisites</a></li>
-<li><a href="#sec-3-1-4">3.1.4. Basic Use: GUI</a></li>
-<li><a href="#sec-3-1-5">3.1.5. Advanced Use: API</a></li>
-<li><a href="#sec-3-1-6">3.1.6. Advanced Use: Embeddable Widget</a></li>
+<li><a href="#sec-3-1-1">3.1.1. Installation</a></li>
+<li><a href="#sec-3-1-2">3.1.2. Assumptions</a></li>
+<li><a href="#sec-3-1-3">3.1.3. Core Features</a></li>
+<li><a href="#sec-3-1-4">3.1.4. Basic: GUI</a></li>
+<li><a href="#sec-3-1-5">3.1.5. Advanced: API</a></li>
+<li><a href="#sec-3-1-6">3.1.6. Advanced: Embeddable Widget</a></li>
+<li><a href="#sec-3-1-7">3.1.7. Possible Directions</a></li>
 </ul>
 </li>
 <li><a href="#sec-3-2">3.2. Use Cases</a>
 <ul>
-<li><a href="#sec-3-2-1">3.2.1. Internet</a></li>
+<li><a href="#sec-3-2-1">3.2.1. Internet Service</a></li>
 <li><a href="#sec-3-2-2">3.2.2. Energy</a></li>
 <li><a href="#sec-3-2-3">3.2.3. Agriculture</a></li>
 <li><a href="#sec-3-2-4">3.2.4. Transportation</a></li>
@@ -74,7 +74,7 @@ With Mesh Market, you can:
 -   start a do-it-yourself ISP
 -   start a profitable energy business from your own home
 -   reduce your electricity bills while supporting renewable energy
--   countless other things we haven't thought of, and some we have (check out more use cases)
+-   do countless other things we haven't thought of, and some we have (check out more use cases)
 
 # Introduction<a id="sec-1" name="sec-1"></a>
 
@@ -90,17 +90,17 @@ Mesh Market is a free application that aims to:
 Most aspects of this idea haven't achieved finality, though the above seems to be a good starting point.  Open discussion between experts across various fields will be needed to
 design and build this app as well as form a business that can support it.
 
-An in-progress prototype is available for viewing at:
+A prototype is being build and is available for viewing at:
 <https://optipulse.github.io>
 
-Needless to say, this prototype only includes the front-end for sake of illustration, and it isn't capable of handling transactions.
+Needless to say, this is only for the sake of illustration, and it only represent an early stage of the front-end.  It isn't able to handle transactions yet.
 
 This whitepaper includes the following sections:
-1.  a section explaining theoretical background knowledge of relevant technologies
-2.  a high-level description of a possible application taking advantage of the capabilities of these technologies
-3.  a description of a business model implementable by an autonomous organization that will support the development and maintenance of this app and secure its relevance in perpetuity
+-   1. a section explaining theoretical background knowledge of relevant technologies
+-   2. a high-level description of a possible application taking advantage of the capabilities of these technologies
+-   3. a description of a business model implementable by an autonomous organization that will support the development and maintenance of this app and secure its relevance in perpetuity
 
-# Theory<a id="sec-2" name="sec-2"></a>
+# Background<a id="sec-2" name="sec-2"></a>
 
 ## Platform Business<a id="sec-2-1" name="sec-2-1"></a>
 
@@ -196,7 +196,7 @@ services that empower consumers to help themselves.  Therefore, OptiPulse should
 These are the assumptions I am making as I develop the app for OptiPulse.  I will now briefly describe how blockchain can be used to incentivize the adoption of mesh networks,
 and finally what an app might look like that implements these.
 
-### Making Mesh Networks Viable for Mass-Markets<a id="sec-2-3-3" name="sec-2-3-3"></a>
+### Making Mesh Networks Mass-Market Viable<a id="sec-2-3-3" name="sec-2-3-3"></a>
 
 Since the benefits of mesh networks are not immediately apparent to anyone not versed in computer networking, getting people to switch may prove a difficult task unless some
 incentive is provided.
@@ -227,13 +227,28 @@ of platform business models, it seems a safer bet to error on the side of freedo
 
 This brings us to the design of the application itself, which should give OptiPulse the ability to make these types of decisions, and ideally customers as well.
 
-### A Platform to End Platforms<a id="sec-2-3-5" name="sec-2-3-5"></a>
-
 # Application<a id="sec-3" name="sec-3"></a>
 
 ## Design<a id="sec-3-1" name="sec-3-1"></a>
 
-### Philosophy<a id="sec-3-1-1" name="sec-3-1-1"></a>
+### Installation<a id="sec-3-1-1" name="sec-3-1-1"></a>
+
+Mesh Market requires the following software:
+-   1. Ethereum
+-   2. CJDNS, for ad-hoc routing
+-   3. Clojure(Script), for interfacing between the front-end and command line tools (specifically Trickle <https://github.com/mariusae/trickle>)
+-   4. a modern web browser
+-   5. a running Mesh Market client
+
+To install the Mesh Market client:
+Linux/Mac:
+
+    clone github.com/optipulse/mesh-market.git
+
+The Mesh Market Foundation plans to sell minimalist computers in the future specifically for use with Mesh Market.  These will have the software pre-installed,
+and come in packaged bundles for specific use-cases (e.g. solar starter kit, ISP starter kit, etc.)
+
+### Assumptions<a id="sec-3-1-2" name="sec-3-1-2"></a>
 
 From a high-level perspective, this discussion has been treating OptiPulse as an ISP that wishes to sell internet service without restrictions on how it does so, and customers as (perhaps equally)
 non-restricted entitites that may act as "mini ISP's" in their own right.  Therefore, the most effective design is one that meets the business requirements of "producers", while making no distinction between them and
@@ -245,78 +260,7 @@ sub-par goods and services can be discovered.  This is how "free markets" are su
 Incidentally, this is why there is no paid advertising on the Mesh Market platform.  It is an intentional design decision that the only information users see when looking for offers is
 what they decide is relevant to making a good choice.
 
-### Core Features<a id="sec-3-1-2" name="sec-3-1-2"></a>
-
-1.  Offers
-
-    Offers are just smart contracts that include information relevant to facilitating a certain type of exchange.
-
-2.  Transactions
-
-    1.  Meshmarks: A Credit System for Enabling Seemless Interaction with the Blockchain
-
-        Offers on the Mesh Market can be paid for in currencies of the offer maker's choosing, as well as in the Mesh Market's own virtual currency, Meshmarks.
-
-        Meshmarks enables easy conversion between payment methods.  Users can load credit to their account using PayPal, credit, debit, or a crypto-currency of their choice.
-
-        Users are not required to buy Meshmarks to make transactions with one-another, but it does help users using unequal payment methods (e.g. Bitcoin and PayPal) reach one-another.
-
-    2.  A Possible Cryptocurrency (MMR)
-
-        One possibility that should be discussed is the minting of a new cryptocurrency bound to store credits.  As such, it would be bound to the growth of decentralized resources
-        as a whole.
-
-3.  Protocol: Definining Resource Consumption for the Future
-
-    The Mesh Market protocol provides dynamically updated in-app documentation for:
-    -   the features of the app itself
-    -   the contents of offers available in the app
-
-    The Mesh Market Foundation will release an initial protocol specification.  Further development of the protocol may be determined democratically by user-submitted
-    entries, which is handled in a section of the website separate from the app.
-
-    A protocol entry is composed of:
-    -   a tag
-    -   a recommendation
-    -   a justification
-
-    Each user-submitted protocol entry undergoes vetting before it is added to the Protocol Object, which is a JSON object referenced for dynamic updating of in-app documentation.
-    Vetting is simple: those entries that receive more upvotes than downvotes are added to the Protocol Object.
-
-    1.  example protocol entry:
-
-            {"tag1":
-              {"upvotes": "",
-               "downvotes" : "",
-               "recommendation": "",
-               "justification": "",
-               "children": ["childTag1", "childTag2", ...]
-              },
-              "tag2":
-              {...}
-            }
-
-    2.  possible protocol object:
-
-            {"wireless":
-              {"upvotes": 15,
-               "downvotes: 5,
-               "recommendation": "optical",
-               "justification" : "more bandwidth, less RF pollution",
-               "children": ["optical", "WIFI", "wigig", ...]
-              }
-            }
-
-### Prerequisites<a id="sec-3-1-3" name="sec-3-1-3"></a>
-
-The application detailed in the following sections requires the following software to be installed:
--   A mesh-networking protocol so that any device running the app is capable of routing internet traffic
-
-<https://en.wikipedia.org/wiki/Wireless_mesh_network#Protocols>
--   A programming language like Python to serve as an intermediary between the device's front-end and operating system, possibly using a command line tool like Trickle <https://github.com/mariusae/trickle> to shape the device's bandwidth usage programatically.
--   A local Ethereum client for interacing with the Ethereum blockchain.
-
-### Basic Use: GUI<a id="sec-3-1-4" name="sec-3-1-4"></a>
+### Core Features<a id="sec-3-1-3" name="sec-3-1-3"></a>
 
 1.  Transaction Sequence Diagram
 
@@ -387,15 +331,89 @@ The application detailed in the following sections requires the following softwa
 
     Finally, the funds being held by the contract since step 4 are released, and the transaction is complete.
 
-### Advanced Use: API<a id="sec-3-1-5" name="sec-3-1-5"></a>
+### Basic: GUI<a id="sec-3-1-4" name="sec-3-1-4"></a>
 
-### Advanced Use: Embeddable Widget<a id="sec-3-1-6" name="sec-3-1-6"></a>
+
+
+1.  A. Make an Offer
+
+2.  B. Find an Offer
+
+3.  C. Wallet
+
+4.  D. Protocol
+
+5.  E. Results
+
+6.  F. Map
+
+7.  Protocol: Definining Resource Consumption for the Future
+
+    The Mesh Market protocol provides dynamically updated in-app documentation for:
+    -   the features of the app itself
+    -   the contents of offers available in the app
+
+    The Mesh Market Foundation will release an initial protocol specification.  Further development of the protocol may be determined democratically by user-submitted
+    entries, which is handled in a section of the website separate from the app.
+
+    A protocol entry is composed of:
+    -   a tag
+    -   a recommendation
+    -   a justification
+
+    Each user-submitted protocol entry undergoes vetting before it is added to the Protocol Object, which is a JSON object referenced for dynamic updating of in-app documentation.
+    Vetting is simple: those entries that receive more upvotes than downvotes are added to the Protocol Object.
+
+    1.  example protocol entry:
+
+            {"tag1":
+              {"upvotes": "",
+               "downvotes" : "",
+               "recommendation": "",
+               "justification": "",
+               "children": ["childTag1", "childTag2", ...]
+              },
+              "tag2":
+              {...}
+            }
+
+    2.  a possible protocol object:
+
+            {"wireless":
+              {"upvotes": 15,
+               "downvotes: 5,
+               "recommendation": "optical",
+               "justification" : "more bandwidth, less RF pollution",
+               "children": ["optical", "WIFI", "wigig", ...]
+              }
+            }
+
+### Advanced: API<a id="sec-3-1-5" name="sec-3-1-5"></a>
+
+### Advanced: Embeddable Widget<a id="sec-3-1-6" name="sec-3-1-6"></a>
+
+### Possible Directions<a id="sec-3-1-7" name="sec-3-1-7"></a>
+
+1.  Transactions
+
+    1.  Meshmarks: A Credit System for Enabling Seemless Interaction with the Blockchain
+
+        Offers on the Mesh Market can be paid for in currencies of the offer maker's choosing, as well as in the Mesh Market's own virtual currency, Meshmarks.
+
+        Meshmarks enables easy conversion between payment methods.  Users can load credit to their account using PayPal, credit, debit, or a crypto-currency of their choice.
+
+        Users are not required to buy Meshmarks to make transactions with one-another, but it does help users using unequal payment methods (e.g. Bitcoin and PayPal) reach one-another.
+
+    2.  A Possible Cryptocurrency (MMR)
+
+        One possibility that should be discussed is the minting of a new cryptocurrency bound to store credits.  As such, it would be bound to the growth of decentralized resources
+        as a
 
 ## Use Cases<a id="sec-3-2" name="sec-3-2"></a>
 
-These use cases are updated regularly and will evolve into mini tutorials on the many uses of the Mesh Market platform.
+These use cases will be made into tutorials in the future.
 
-### Internet<a id="sec-3-2-1" name="sec-3-2-1"></a>
+### Internet Service<a id="sec-3-2-1" name="sec-3-2-1"></a>
 
 1.  Start an ISP (That Customers Will Actually Like).
 
