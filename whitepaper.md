@@ -9,7 +9,7 @@
 <li><a href="#sec-2-2">2.2. Mesh Networking</a>
 <ul>
 <li><a href="#sec-2-2-1">2.2.1. Advantages of Mesh Networks</a></li>
-<li><a href="#sec-2-2-2">2.2.2. Disadvantages and Obstacles</a></li>
+<li><a href="#sec-2-2-2">2.2.2. Disadvantages, Obstacles</a></li>
 </ul>
 </li>
 <li><a href="#sec-2-3">2.3. Blockchain</a>
@@ -30,26 +30,25 @@
 <li><a href="#sec-3-1-1">3.1.1. Philosophy</a></li>
 <li><a href="#sec-3-1-2">3.1.2. Core Features</a></li>
 <li><a href="#sec-3-1-3">3.1.3. Prerequisites</a></li>
-<li><a href="#sec-3-1-4">3.1.4. Basic Use: the GUI</a></li>
+<li><a href="#sec-3-1-4">3.1.4. Basic Use: GUI</a></li>
 <li><a href="#sec-3-1-5">3.1.5. Advanced Use: API</a></li>
 <li><a href="#sec-3-1-6">3.1.6. Advanced Use: Embeddable Widget</a></li>
 </ul>
 </li>
-<li><a href="#sec-3-2">3.2. Implementation</a></li>
-<li><a href="#sec-3-3">3.3. Development Timeline</a></li>
-<li><a href="#sec-3-4">3.4. Use Cases</a>
+<li><a href="#sec-3-2">3.2. Use Cases</a>
 <ul>
-<li><a href="#sec-3-4-1">3.4.1. Internet</a></li>
-<li><a href="#sec-3-4-2">3.4.2. Energy</a></li>
-<li><a href="#sec-3-4-3">3.4.3. Agriculture</a></li>
-<li><a href="#sec-3-4-4">3.4.4. Transportation</a></li>
-<li><a href="#sec-3-4-5">3.4.5. Real Estate</a></li>
-<li><a href="#sec-3-4-6">3.4.6. Artists/Makers</a></li>
-<li><a href="#sec-3-4-7">3.4.7. Small Business/Entrepreneurs</a></li>
-<li><a href="#sec-3-4-8">3.4.8. City Planners</a></li>
-<li><a href="#sec-3-4-9">3.4.9. Suggest Another Use Case!</a></li>
+<li><a href="#sec-3-2-1">3.2.1. Internet</a></li>
+<li><a href="#sec-3-2-2">3.2.2. Energy</a></li>
+<li><a href="#sec-3-2-3">3.2.3. Agriculture</a></li>
+<li><a href="#sec-3-2-4">3.2.4. Transportation</a></li>
+<li><a href="#sec-3-2-5">3.2.5. Real Estate</a></li>
+<li><a href="#sec-3-2-6">3.2.6. Artists/Makers</a></li>
+<li><a href="#sec-3-2-7">3.2.7. Small Business/Entrepreneurs</a></li>
+<li><a href="#sec-3-2-8">3.2.8. City Planners</a></li>
+<li><a href="#sec-3-2-9">3.2.9. Suggest Another Use Case!</a></li>
 </ul>
 </li>
+<li><a href="#sec-3-3">3.3. Development Timeline</a></li>
 </ul>
 </li>
 <li><a href="#sec-4">4. The Mesh Market Foundation</a>
@@ -57,9 +56,9 @@
 <li><a href="#sec-4-1">4.1. Business Model Canvas</a></li>
 <li><a href="#sec-4-2">4.2. How to Contribute</a>
 <ul>
-<li><a href="#sec-4-2-1">4.2.1. Work with Us.</a></li>
-<li><a href="#sec-4-2-2">4.2.2. Submit Code.</a></li>
-<li><a href="#sec-4-2-3">4.2.3. Donate.</a></li>
+<li><a href="#sec-4-2-1">4.2.1. Submit Code</a></li>
+<li><a href="#sec-4-2-2">4.2.2. Work with Us</a></li>
+<li><a href="#sec-4-2-3">4.2.3. Donate</a></li>
 </ul>
 </li>
 </ul>
@@ -68,15 +67,14 @@
 </div>
 </div>
 
-Mesh Market:
+Mesh Market: A Web 3.0 Platform for Decentralizing Resources
 
-A Web 3.0 Platform for Decentralizing Resources
-
-Using Mesh Market, you can:
+With Mesh Market, you can:
 -   get cheaper, better internet service
--   start a DIY ISP
+-   start a do-it-yourself ISP
 -   start a profitable energy business from your own home
--   reduce your electricity bills while improving the environment
+-   reduce your electricity bills while supporting renewable energy
+-   countless other things we haven't thought of, and some we have (check out more use cases)
 
 # Introduction<a id="sec-1" name="sec-1"></a>
 
@@ -84,17 +82,20 @@ This whitepaper outlines the ongoing design and development of Mesh Market.
 
 Mesh Market is a free application that aims to:
 
--   introduce the concept of peer-to-peer goods and services to the public at large.
--   empower consumers to grow independent of centrally-owned resources by finding friendlier and more efficient local alternatives.
--   provide an infrastructure that knits together communities to make the above possible.
+-   introduce the benefit of peer-to-peer goods and services to the public at large - starting with internet service.
+-   enable consumers to find friendlier and cheaper local alternatives to centrally-owned, inefficient resources
+-   provide an infrastructure that knits together communities in order to make the above possible.
+-   accelerate deployment of OptiPulse's Light Grid internet technology by opening a direct-to-consumer market.
 
 Most aspects of this idea haven't achieved finality, though the above seems to be a good starting point.  Open discussion between experts across various fields will be needed to
 design and build this app as well as form a business that can support it.
 
-An in-progress prototype is available to view at: <https://github.com/qualisign.github.io>
-This only includes the front-end.  When the app goes live, it may be deployed on IPFS or Swarm.
+An in-progress prototype is available for viewing at:
+<https://optipulse.github.io>
 
-What follows are:
+Needless to say, this prototype only includes the front-end for sake of illustration, and it isn't capable of handling transactions.
+
+This whitepaper includes the following sections:
 1.  a section explaining theoretical background knowledge of relevant technologies
 2.  a high-level description of a possible application taking advantage of the capabilities of these technologies
 3.  a description of a business model implementable by an autonomous organization that will support the development and maintenance of this app and secure its relevance in perpetuity
@@ -105,8 +106,13 @@ What follows are:
 
 ## Mesh Networking<a id="sec-2-2" name="sec-2-2"></a>
 
+Before we discuss how Mesh Market makes it so easy to decentralize resources, we need to explain the role that mesh networking plays.
+
 According to Wikipedia, "A mesh network is a network topology in which each node relays data for the network. All mesh nodes cooperate in the distribution of data in the network."
-<https://en.wikipedia.org/wiki/Mesh_networking>
+
+In other words, mesh networks get rid of centralized computing resources in favor of distributed networks.
+
+Mesh Market takes this concept to the next level and seeks to decentralize all resources (insofar as that's possible).
 
 The goal of this app is to develop OptiPulse unique potential for revolutionizing the mesh/ad-hoc networking market with its Light Grid technology.  While the mesh-networking
 userbase is presently miniscule compared to that of conventional, centrally serviced connections (usually provided by one of only a few differnet ISP's), meshes offer many advantages
@@ -114,15 +120,13 @@ over heterogeneous networks, making them the ideal network topology for future n
 
 ### Advantages of Mesh Networks<a id="sec-2-2-1" name="sec-2-2-1"></a>
 
-<http://www.link-labs.com/mesh-network-topology-advantages-disadvantages/>
-
 1.  Scalability:
 
     Adding more devices to the network tends to improve mesh connections, in contrast to star topologies.  More devices connected to a mesh network locally means more possible paths from which internet traffic can be routed.
 
 2.  Robustnesss:
 
-    There is no central point of failure in a mesh.  Power outages, network attacks, and other threats to some nodes are much less likely to penetrate the network to affect others.
+    There is no central point of failure in a mesh network.  Power outages, network attacks, and threats to single nodes have no way of circulating and infecting the entire network, as in a star topology.
     Those who were able to get WIFI in the aftermath of Hurricane Sandy know this isn't mere speculation.  <http://techpresident.com/news/23127/red-hook-mesh-network-connects-sandy-survivors-still-without-power>
 
 3.  Decentralization/Democritization:
@@ -139,7 +143,7 @@ over heterogeneous networks, making them the ideal network topology for future n
     if the network is a mesh <https://www.schneier.com/blog/archives/2012/12/dictators_shutt.html#c1034991>.  This criticism would not apply to a network using OptiPulse's
     technology, since its point-to-point signals are not broadcast and would be very difficult to intercept.
 
-### Disadvantages and Obstacles<a id="sec-2-2-2" name="sec-2-2-2"></a>
+### Disadvantages, Obstacles<a id="sec-2-2-2" name="sec-2-2-2"></a>
 
 There are also several difficulties associated with meshes that shouldn't be overlooked.  Some of these may be mitigated by the design of an app fulfilling many
 functions normally assigned to the network administrator, while others may be reducable to inadequacies of current physical layer internet technologies that OptiPulse's
@@ -169,6 +173,7 @@ Light Grid may improve on.
 ## Blockchain<a id="sec-2-3" name="sec-2-3"></a>
 
 Blockchain technology is based on the idea of a distributed ledger.  It is meant to provide trust and security through radical transparency rather than limited access.
+Blockchain plays a crucial role in Mesh Market's plan to overcome the inertia keeping local value creation from being released.
 
 ### Smart Contracts<a id="sec-2-3-1" name="sec-2-3-1"></a>
 
@@ -179,7 +184,7 @@ account on the blockchain receives a certain amount of funds.
 
 ### Incentivizing Behavior<a id="sec-2-3-2" name="sec-2-3-2"></a>
 
-It may seem obvious from this simplistic discussion of smart contracts, but the ability for computers to listen to data and execute transactions on a blockchain enables
+It may not seem obvious from this simplistic discussion of smart contracts, but the ability for computers to listen to data and execute transactions on a blockchain enables
 an ennumerable array of business solutions heretofore unworkable - especially those based on the idea of turning a traditionally top-down service into a consumer-to-consumer platform.
 Decentralized platforms based on blockchain/smart contracts are already being developed across a range of industries (even entire governemnts!), though it is still too early
 for average consumers to notice any benefit.  Here is a listing of dozens of ideas currently being developed, many already fully functional <http://dapps.ethercasts.com/>
@@ -207,8 +212,7 @@ receiving some of the best internet service on the market.
 
 ### Undercutting the Competition<a id="sec-2-3-4" name="sec-2-3-4"></a>
 
-**\*\***
-This implies that OptiPulse, as an ISP, might sell internet that comes with a commercial license (or form thereof) to rear end-users.  While this would give users the ability to resell
+This implies that OptiPulse, as an ISP, might sell internet that comes with a commercial license (or form thereof) to end-users.  While this would give users the ability to resell
 service and possibly even cut into some of OptiPulse's target market, this would also have some overwhelmingly positive side-effects:
 
 -   Each customer being serviced by a connection that is ultimately connected to the clearnet through OptiPulse is one fewer customer of one of an OptiPulse competitor.
@@ -231,17 +235,15 @@ This brings us to the design of the application itself, which should give OptiPu
 
 ### Philosophy<a id="sec-3-1-1" name="sec-3-1-1"></a>
 
-The rest of this document describes the most up-to-date specification of the app.  The design of the app was originally motivated by the need to provide a platform for a decentralized ISP
-to popularize mesh networking.
-
-Mesh networks are inherently friendly to businesses embracing the platform model.  With a decentralized and free communications medium, viable local alternatives to inefficient,
-sub-par goods and services can be discovered.  This is how "free markets" are supposed to work; they only free and efficient insofar as information flow is.
-Incidentally, this is why there is no paid advertising on the Mesh Market platform.  It is an intentional design decision that the only information users see about offers is
-what they decide is relevant to the choice they are making.
-
 From a high-level perspective, this discussion has been treating OptiPulse as an ISP that wishes to sell internet service without restrictions on how it does so, and customers as (perhaps equally)
 non-restricted entitites that may act as "mini ISP's" in their own right.  Therefore, the most effective design is one that meets the business requirements of "producers", while making no distinction between them and
 them and their customers.  The core features of the app, described below, are an attempt to do this.
+
+Mesh networks are inherently friendly to businesses embracing the platform model.  With a decentralized and free communications medium, viable local alternatives to inefficient,
+sub-par goods and services can be discovered.  This is how "free markets" are supposed to work; they only free and efficient insofar as information flow is.
+
+Incidentally, this is why there is no paid advertising on the Mesh Market platform.  It is an intentional design decision that the only information users see when looking for offers is
+what they decide is relevant to making a good choice.
 
 ### Core Features<a id="sec-3-1-2" name="sec-3-1-2"></a>
 
@@ -257,29 +259,28 @@ them and their customers.  The core features of the app, described below, are an
 
         Meshmarks enables easy conversion between payment methods.  Users can load credit to their account using PayPal, credit, debit, or a crypto-currency of their choice.
 
-        Users are not required to buy MeshMarks to make transactions with one-another, but it does help users using unequal payment methods (e.g. Bitcoin and PayPal) reach one-another.
+        Users are not required to buy Meshmarks to make transactions with one-another, but it does help users using unequal payment methods (e.g. Bitcoin and PayPal) reach one-another.
 
-    2.  A Possible Cryptocurrency
+    2.  A Possible Cryptocurrency (MMR)
 
-        One possibility that should be discussed is the minting of a new cryptocurrency bound to store credits.  As such, it would bound to the growth of decentralized resources
+        One possibility that should be discussed is the minting of a new cryptocurrency bound to store credits.  As such, it would be bound to the growth of decentralized resources
         as a whole.
 
-3.  Mesh Market Protocol: Definining Technologies of the Future
+3.  Protocol: Definining Resource Consumption for the Future
 
-    This section of the app provides dynamically updated documentation for:
+    The Mesh Market protocol provides dynamically updated in-app documentation for:
     -   the features of the app itself
-    -   offer contents
+    -   the contents of offers available in the app
 
-    The Mesh Market Foundation will release an initial protocol specification.  Further development of the protocol will be determined democratically by user-submitted
-    entries.
+    The Mesh Market Foundation will release an initial protocol specification.  Further development of the protocol may be determined democratically by user-submitted
+    entries, which is handled in a section of the website separate from the app.
 
-    Protocol entries must include:
-    1.  a tag
-    2.  a recommendation
-    3.  a justification
+    A protocol entry is composed of:
+    -   a tag
+    -   a recommendation
+    -   a justification
 
     Each user-submitted protocol entry undergoes vetting before it is added to the Protocol Object, which is a JSON object referenced for dynamic updating of in-app documentation.
-
     Vetting is simple: those entries that receive more upvotes than downvotes are added to the Protocol Object.
 
     1.  example protocol entry:
@@ -315,7 +316,7 @@ The application detailed in the following sections requires the following softwa
 -   A programming language like Python to serve as an intermediary between the device's front-end and operating system, possibly using a command line tool like Trickle <https://github.com/mariusae/trickle> to shape the device's bandwidth usage programatically.
 -   A local Ethereum client for interacing with the Ethereum blockchain.
 
-### Basic Use: the GUI<a id="sec-3-1-4" name="sec-3-1-4"></a>
+### Basic Use: GUI<a id="sec-3-1-4" name="sec-3-1-4"></a>
 
 1.  Transaction Sequence Diagram
 
@@ -390,15 +391,11 @@ The application detailed in the following sections requires the following softwa
 
 ### Advanced Use: Embeddable Widget<a id="sec-3-1-6" name="sec-3-1-6"></a>
 
-## Implementation<a id="sec-3-2" name="sec-3-2"></a>
-
-## Development Timeline<a id="sec-3-3" name="sec-3-3"></a>
-
-## Use Cases<a id="sec-3-4" name="sec-3-4"></a>
+## Use Cases<a id="sec-3-2" name="sec-3-2"></a>
 
 These use cases are updated regularly and will evolve into mini tutorials on the many uses of the Mesh Market platform.
 
-### Internet<a id="sec-3-4-1" name="sec-3-4-1"></a>
+### Internet<a id="sec-3-2-1" name="sec-3-2-1"></a>
 
 1.  Start an ISP (That Customers Will Actually Like).
 
@@ -412,7 +409,7 @@ These use cases are updated regularly and will evolve into mini tutorials on the
     -   Investment: Low
     -   Profit: N/A
 
-### Energy<a id="sec-3-4-2" name="sec-3-4-2"></a>
+### Energy<a id="sec-3-2-2" name="sec-3-2-2"></a>
 
 1.  Make a Profit on Solar.
 
@@ -422,7 +419,7 @@ These use cases are updated regularly and will evolve into mini tutorials on the
 
 2.  Lower Your Electricity Bills.
 
-### Agriculture<a id="sec-3-4-3" name="sec-3-4-3"></a>
+### Agriculture<a id="sec-3-2-3" name="sec-3-2-3"></a>
 
 1.  Start an Urban Homestead for Profit and Pleasure.
 
@@ -436,7 +433,7 @@ These use cases are updated regularly and will evolve into mini tutorials on the
     -   Investment: Low
     -   Profit: N/A
 
-### Transportation<a id="sec-3-4-4" name="sec-3-4-4"></a>
+### Transportation<a id="sec-3-2-4" name="sec-3-2-4"></a>
 
 1.  Make a Living Driving (While You Still Can).
 
@@ -450,7 +447,7 @@ These use cases are updated regularly and will evolve into mini tutorials on the
     -   Investment: Low
     -   Profit: N/A
 
-### Real Estate<a id="sec-3-4-5" name="sec-3-4-5"></a>
+### Real Estate<a id="sec-3-2-5" name="sec-3-2-5"></a>
 
 1.  Lease a Spare Room in Your House.
 
@@ -458,7 +455,7 @@ These use cases are updated regularly and will evolve into mini tutorials on the
     -   Investment: Low/Medium
     -   Profit: Medium
 
-### Artists/Makers<a id="sec-3-4-6" name="sec-3-4-6"></a>
+### Artists/Makers<a id="sec-3-2-6" name="sec-3-2-6"></a>
 
 1.  Find Something You Like While Supporting Local Artists.
 
@@ -466,7 +463,7 @@ These use cases are updated regularly and will evolve into mini tutorials on the
     -   Investment: Low/Medium/High
     -   Profit: N/A
 
-### Small Business/Entrepreneurs<a id="sec-3-4-7" name="sec-3-4-7"></a>
+### Small Business/Entrepreneurs<a id="sec-3-2-7" name="sec-3-2-7"></a>
 
 1.  Add Your Business to the Mesh Market and Reach New Audiences.
 
@@ -474,11 +471,13 @@ These use cases are updated regularly and will evolve into mini tutorials on the
     -   Investment: N/A
     -   Profit: Low/Medium/High
 
-### City Planners<a id="sec-3-4-8" name="sec-3-4-8"></a>
+### City Planners<a id="sec-3-2-8" name="sec-3-2-8"></a>
 
-### Suggest Another Use Case!<a id="sec-3-4-9" name="sec-3-4-9"></a>
+### Suggest Another Use Case!<a id="sec-3-2-9" name="sec-3-2-9"></a>
 
 Did we miss something?  Submit a pull request!
+
+## Development Timeline<a id="sec-3-3" name="sec-3-3"></a>
 
 # The Mesh Market Foundation<a id="sec-4" name="sec-4"></a>
 
@@ -486,8 +485,8 @@ Did we miss something?  Submit a pull request!
 
 ## How to Contribute<a id="sec-4-2" name="sec-4-2"></a>
 
-### Work with Us.<a id="sec-4-2-1" name="sec-4-2-1"></a>
+### Submit Code<a id="sec-4-2-1" name="sec-4-2-1"></a>
 
-### Submit Code.<a id="sec-4-2-2" name="sec-4-2-2"></a>
+### Work with Us<a id="sec-4-2-2" name="sec-4-2-2"></a>
 
-### Donate.<a id="sec-4-2-3" name="sec-4-2-3"></a>
+### Donate<a id="sec-4-2-3" name="sec-4-2-3"></a>
