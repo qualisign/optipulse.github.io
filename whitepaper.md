@@ -333,7 +333,7 @@ what they decide is relevant to making a good choice.
 
 ### Basic: GUI<a id="sec-3-1-4" name="sec-3-1-4"></a>
 
-
+![img](./mesh-market-gui.png)
 
 1.  A. Make an Offer
 
