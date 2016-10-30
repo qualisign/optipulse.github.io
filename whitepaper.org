@@ -21,7 +21,7 @@ Most aspects of this idea haven't achieved finality, though the above seems to b
 design and build this app as well as form a business that can support it.
 
 An in-progress prototype is available for viewing at:
-https://github.com/optipulse.github.io
+https://optipulse.github.io
 
 Needless to say, this prototype only includes the front-end for sake of illustration, and it isn't capable of handling transactions.
 
