@@ -143,7 +143,7 @@ Mesh Market requires the following software:
 
 To install the Mesh Market client using git:
 #+BEGIN_SRC shell
-git clone github.com/optipulse/mesh-market.git
+git clone https://github.com/optipulse/mesh-market.git
 #+END_SRC
 
 The Mesh Market Foundation plans to sell minimalist computers in the future specifically for use with Mesh Market.  These will have the software pre-installed,
