@@ -122,8 +122,7 @@ service and possibly even cut into some of OptiPulse's target market, this would
 
 - Each customer ultimately connected through an OptiPulse uplink is one fewer customer of an OptiPulse competitor.
 - It would be hard to overestimate customer satisfaction with such a deal.  This would grow the network of app users possibly exponentially, and if every transaction is charged a certain amount to go into OptiPulse's "tip jar", this could grow astronomically.
-- If OptiPulse wished to prevent any portion of profit whatsoever from being appropriated by end-users, it would be very simple to stipulate in a smart contract that customers can only sell to
-those out of range of OptiPulse service.  Other schemes have been proposed, such as offering customers the opportunity to become an OptiPulse franchise.
+- If OptiPulse wished to prevent any portion of profit whatsoever from being appropriated by end-users, it would be very simple to stipulate in a smart contract that customers can only sell to those out of range of OptiPulse service.  Other schemes have been proposed, such as offering customers the opportunity to become an OptiPulse franchise.
 
 There are extreme versions of the type of license OptiPulse chooses for its service, from something completely restrictive (akin to what the average customer of XYZ ISP gets),
 to a license virtually free of restrictions.  What is best for OptiPulse probably lies someone between these two, and may need to be determined on an individual basis.  Considering the current influx
