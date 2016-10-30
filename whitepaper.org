@@ -226,7 +226,7 @@ The offer taker's device is then triggered to inform the blockchain that conside
 Finally, the funds being held by the contract since step 4 are released, and the transaction is complete.
 
 *** Basic: GUI
-[[mesh-market-gui.png]]
+[[./mesh-market-gui.png]]
 **** A. Make an Offer
 **** B. Find an Offer
 **** C. Wallet
