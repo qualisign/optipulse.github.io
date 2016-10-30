@@ -20,10 +20,10 @@ Mesh Market is a free application that aims to:
 Most aspects of this idea haven't achieved finality, though the above seems to be a good starting point.  Open discussion between experts across various fields will be needed to
 design and build this app as well as form a business that can support it.
 
-A prototype is being build and is available for viewing at:
+Check out the prototype (under construction):
 https://optipulse.github.io
 
-Needless to say, this is only for the sake of illustration, and it only represent an early stage of the front-end.  It isn't able to handle transactions yet.
+Needless to say, this is only for the sake of illustration only represent an early stage of the front-end.  It isn't able to handle transactions yet.
 
 This whitepaper includes the following sections:
 - 1. a section explaining theoretical background knowledge of relevant technologies
@@ -135,16 +135,16 @@ This brings us to the design of the application itself, which should give OptiPu
 ** Design
 *** Installation
 Mesh Market requires the following software:
-- 1. Ethereum
-- 2. CJDNS, for ad-hoc routing
-- 3. Clojure(Script), for interfacing between the front-end and command line tools (specifically Trickle https://github.com/mariusae/trickle)
-- 4. a modern web browser
-- 5. a running Mesh Market client
+- 1. git (technically not necessary but it makes installation much easier)
+- 2. Ethereum
+- 3. CJDNS, for ad-hoc routing
+- 4. Clojure(Script), for interfacing between the front-end and command line tools (specifically Trickle https://github.com/mariusae/trickle)
+- 5. a modern web browser
+- 6. a running Mesh Market client
 
-To install the Mesh Market client:
-Linux/Mac:
+To install the Mesh Market client using git:
 #+BEGIN_SRC shell
-clone github.com/optipulse/mesh-market.git
+git clone github.com/optipulse/mesh-market.git
 #+END_SRC
 
 The Mesh Market Foundation plans to sell minimalist computers in the future specifically for use with Mesh Market.  These will have the software pre-installed,
@@ -223,17 +223,15 @@ messages or a solar panel plus cabel sending power.
 - 8) Send Confirmation
 The offer taker's device is then triggered to inform the blockchain that consideration was met, and that funds should be released.
 - 9) Transfer Funds
-Finally, the funds being held by the contract since step 4 are released, and the transaction is complete.
+Finally, the funds being held by the contract starting at step 4 are released, and the transaction is complete.
 
 *** Basic: GUI
 [[./mesh-market-gui.png]]
 **** A. Make an Offer
+[[./offer.png]]
 **** B. Find an Offer
 **** C. Wallet
-**** D. Protocol
-**** E. Results
-**** F. Map
-**** Protocol: Definining Resource Consumption for the Future
+**** D. Protocol: Definining Resource Consumption for the Future
 
 The Mesh Market protocol provides dynamically updated in-app documentation for:
 - the features of the app itself
@@ -280,6 +278,9 @@ Vetting is simple: those entries that receive more upvotes than downvotes are ad
 }
 #+END_SRC
 
+**** E. Results
+**** F. Map
+
 *** Advanced: API
 *** Advanced: Embeddable Widget
 *** Possible Directions
@@ -322,11 +323,11 @@ These use cases will be made into tutorials in the future.
 - Investment: Low
 - Profit: N/A
 *** Transportation
-**** Make a Living Driving (While You Still Can).
+**** Make a Living Driving.
 - Difficulty: Medium
 - Investment: Medium/Low (provided you own a car)
 - Profit: Medium
-**** Get Your Package Delivered, Fast.
+**** Get Dinner Delivered
 - Difficulty: Easy
 - Investment: Low
 - Profit: N/A
@@ -335,11 +336,6 @@ These use cases will be made into tutorials in the future.
 - Difficulty: Medium
 - Investment: Low/Medium
 - Profit: Medium
-*** Artists/Makers
-**** Find Something You Like While Supporting Local Artists.
-- Difficulty: Low
-- Investment: Low/Medium/High
-- Profit: N/A
 *** Small Business/Entrepreneurs
 **** Add Your Business to the Mesh Market and Reach New Audiences.
 - Difficulty: Easy
