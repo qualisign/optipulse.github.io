@@ -230,6 +230,7 @@ Finally, the funds being held by the contract starting at step 4 are released, a
 **** A. Make an Offer
 [[./offer.png]]
 **** B. Find an Offer
+***** TODO add find form
 **** C. Wallet
 **** D. Protocol: Definining Resource Consumption for the Future
 
@@ -270,15 +271,16 @@ Vetting is simple: those entries that receive more upvotes than downvotes are ad
 
 {"wireless":
   {"upvotes": 15,
-   "downvotes: 5,
+   "downvotes": 5,
    "recommendation": "optical",
    "justification" : "more bandwidth, less RF pollution",
-   "children": ["optical", "WIFI", "wigig", ...]
+   "children": ["optical", "WIFI", "WiGig", ...]
   }
 }
 #+END_SRC
 
 **** E. Results
+***** TODO add results section
 **** F. Map
 
 *** Advanced: API
