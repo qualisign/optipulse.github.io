@@ -346,36 +346,48 @@ These use cases will be made into tutorials in the future.
 *** Suggest Another Use Case!
 Did we miss something?  Submit a pull request!
 
-** Development Timeline
+** Development TODO's
 *** Whitepaper
 *** App
-**** Base-Site
+**** TODO Base-Site
 ***** TODO create base site
-**** Make Offer
+**** TODO Make Offer
 ***** TODO add units
-***** TODO add currency conversions from MMR
+***** TODO add currency conversions from ETH
+***** TODO display date interval in offer preview
 ***** TODO on enter go to next
 ***** TODO add focus to input
 ***** TODO autocomplete tags from protocol object
 ***** TODO display "next" if input entered, skip if none
+***** TODO add multiple locations
 **** TODO Protocol
 ***** TODO add protocol section to base site
 ***** TODO create protocol form
 ***** TODO add transition effects to .pro elements
 ***** TODO update protocol object with wallet tags
-**** Wallet
+**** TODO Wallet
 ***** TODO add address, password to offer model
 ***** TODO
-**** Find Offer
-**** Results
+**** TODO Find Offer
+**** TODO Results
 ***** TODO
-**** Map
+**** TODO Map
 ***** TODO remove zoom
 ***** TODO remove mouse interactivity
-
 * The Mesh Market Foundation
 ** Business Model Canvas
 ** How to Contribute
 *** Submit Code
+If you have a good idea and you're up to implementing it, feel free to submit a pull request.
 *** Work with Us
+OptiPulse is looking for experts in:
+- networking (specifically ad-hoc)
+- Linux, sysadmin
+- Blockchain, Ethereum, Bitcoin
+- functional programming (especially Clojure)
+- web security
+- mobile app development
+
+Interested?  Don't hesitate to get in touch:
+djoseph@optipulse.com
 *** Donate

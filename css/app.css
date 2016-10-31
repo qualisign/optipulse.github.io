@@ -21,7 +21,7 @@
 }
 
 #details {
-    left: 90px;
+    left: 95px;
     bottom: 80px;
     height: 80%;
     width: 80%;
@@ -84,7 +84,7 @@
     justify-content: center;
     padding: 10px;
     background-color: rgba(150, 150, 175, .6);
-    left: 72px;
+    left: 70px;
     bottom: 100px;
     align-items: center;
     border-width: 5px;
