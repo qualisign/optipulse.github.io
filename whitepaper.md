@@ -8,7 +8,7 @@
 <li><a href="#sec-2-1">2.1. Platform Business</a></li>
 <li><a href="#sec-2-2">2.2. Mesh Networking</a>
 <ul>
-<li><a href="#sec-2-2-1">2.2.1. Advantages of Mesh Networks</a></li>
+<li><a href="#sec-2-2-1">2.2.1. Advantages</a></li>
 <li><a href="#sec-2-2-2">2.2.2. Disadvantages, Obstacles</a></li>
 </ul>
 </li>
@@ -49,8 +49,9 @@
 </li>
 <li><a href="#sec-3-3">3.3. Development TODO's</a>
 <ul>
-<li><a href="#sec-3-3-1">3.3.1. Whitepaper</a></li>
-<li><a href="#sec-3-3-2">3.3.2. App</a></li>
+<li><a href="#sec-3-3-1">3.3.1. Like to Contribute?</a></li>
+<li><a href="#sec-3-3-2">3.3.2. Whitepaper</a></li>
+<li><a href="#sec-3-3-3">3.3.3. App</a></li>
 </ul>
 </li>
 </ul>
@@ -58,13 +59,6 @@
 <li><a href="#sec-4">4. The Mesh Market Foundation</a>
 <ul>
 <li><a href="#sec-4-1">4.1. Business Model Canvas</a></li>
-<li><a href="#sec-4-2">4.2. How to Contribute</a>
-<ul>
-<li><a href="#sec-4-2-1">4.2.1. Submit Code</a></li>
-<li><a href="#sec-4-2-2">4.2.2. Work with Us</a></li>
-<li><a href="#sec-4-2-3">4.2.3. Donate</a></li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
@@ -122,7 +116,7 @@ The goal of this app is to develop OptiPulse unique potential for revolutionizin
 userbase is presently miniscule compared to that of conventional, centrally serviced connections (usually provided by one of only a few differnet ISP's), meshes offer many advantages
 over heterogeneous networks, making them the ideal network topology for future networks needing to prioritize scalability.  There are many articles/papers weighing these advantages, so I will only briefly discuss them here.
 
-### Advantages of Mesh Networks<a id="sec-2-2-1" name="sec-2-2-1"></a>
+### Advantages<a id="sec-2-2-1" name="sec-2-2-1"></a>
 
 1.  Scalability:
 
@@ -494,9 +488,29 @@ Did we miss something?  Submit a pull request!
 
 ## Development TODO's<a id="sec-3-3" name="sec-3-3"></a>
 
-### Whitepaper<a id="sec-3-3-1" name="sec-3-3-1"></a>
+### Like to Contribute?<a id="sec-3-3-1" name="sec-3-3-1"></a>
 
-### App<a id="sec-3-3-2" name="sec-3-3-2"></a>
+1.  Submit Code
+
+    If you have a good idea and you're up to implementing it, feel free to submit a pull request.
+
+2.  Work with Us
+
+    Or, if you're looking for work, we're currently looking for experts in:
+    -   mesh networking
+    -   Blockchain, Ethereum, Bitcoin
+    -   Linux, sysadmin
+    -   web security
+    -   mobile app development
+
+    You should also be comfortable with git.
+
+    Interested?  Don't hesitate to get in touch:
+    djoseph@optipulse.com
+
+### Whitepaper<a id="sec-3-3-2" name="sec-3-3-2"></a>
+
+### App<a id="sec-3-3-3" name="sec-3-3-3"></a>
 
 1.  TODO Base-Site
 
@@ -551,24 +565,3 @@ Did we miss something?  Submit a pull request!
 # The Mesh Market Foundation<a id="sec-4" name="sec-4"></a>
 
 ## Business Model Canvas<a id="sec-4-1" name="sec-4-1"></a>
-
-## How to Contribute<a id="sec-4-2" name="sec-4-2"></a>
-
-### Submit Code<a id="sec-4-2-1" name="sec-4-2-1"></a>
-
-If you have a good idea and you're up to implementing it, feel free to submit a pull request.
-
-### Work with Us<a id="sec-4-2-2" name="sec-4-2-2"></a>
-
-OptiPulse is looking for experts in:
--   networking (specifically ad-hoc)
--   Linux, sysadmin
--   Blockchain, Ethereum, Bitcoin
--   functional programming (especially Clojure)
--   web security
--   mobile app development
-
-Interested?  Don't hesitate to get in touch:
-djoseph@optipulse.com
-
-### Donate<a id="sec-4-2-3" name="sec-4-2-3"></a>

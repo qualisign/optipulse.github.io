@@ -45,7 +45,7 @@ The goal of this app is to develop OptiPulse unique potential for revolutionizin
 userbase is presently miniscule compared to that of conventional, centrally serviced connections (usually provided by one of only a few differnet ISP's), meshes offer many advantages
 over heterogeneous networks, making them the ideal network topology for future networks needing to prioritize scalability.  There are many articles/papers weighing these advantages, so I will only briefly discuss them here.
 
-*** Advantages of Mesh Networks
+*** Advantages
 **** Scalability:
 Adding more devices to the network tends to improve mesh connections, in contrast to star topologies.  More devices connected to a mesh network locally means more possible paths from which internet traffic can be routed.
 **** Robustnesss:
@@ -346,6 +346,21 @@ These use cases will be made into tutorials in the future.
 Did we miss something?  Submit a pull request!
 
 ** Development TODO's
+*** Like to Contribute?
+**** Submit Code
+If you have a good idea and you're up to implementing it, feel free to submit a pull request.
+**** Work with Us
+Or, if you're looking for work, we're currently looking for experts in:
+- mesh networking
+- Blockchain, Ethereum, Bitcoin
+- Linux, sysadmin
+- web security
+- mobile app development
+
+You should also be comfortable with git.
+
+Interested?  Don't hesitate to get in touch:
+djoseph@optipulse.com
 *** Whitepaper
 *** App
 **** TODO Base-Site
@@ -373,20 +388,7 @@ Did we miss something?  Submit a pull request!
 **** TODO Map
 ***** TODO remove zoom
 ***** TODO remove mouse interactivity
+
+
 * The Mesh Market Foundation
 ** Business Model Canvas
-** How to Contribute
-*** Submit Code
-If you have a good idea and you're up to implementing it, feel free to submit a pull request.
-*** Work with Us
-OptiPulse is looking for experts in:
-- networking (specifically ad-hoc)
-- Linux, sysadmin
-- Blockchain, Ethereum, Bitcoin
-- functional programming (especially Clojure)
-- web security
-- mobile app development
-
-Interested?  Don't hesitate to get in touch:
-djoseph@optipulse.com
-*** Donate
