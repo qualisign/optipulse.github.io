@@ -47,7 +47,12 @@
 <li><a href="#sec-3-2-8">3.2.8. Suggest Another Use Case!</a></li>
 </ul>
 </li>
-<li><a href="#sec-3-3">3.3. Development Timeline</a></li>
+<li><a href="#sec-3-3">3.3. Development TODO's</a>
+<ul>
+<li><a href="#sec-3-3-1">3.3.1. Whitepaper</a></li>
+<li><a href="#sec-3-3-2">3.3.2. App</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#sec-4">4. The Mesh Market Foundation</a>
@@ -487,7 +492,61 @@ These use cases will be made into tutorials in the future.
 
 Did we miss something?  Submit a pull request!
 
-## Development Timeline<a id="sec-3-3" name="sec-3-3"></a>
+## Development TODO's<a id="sec-3-3" name="sec-3-3"></a>
+
+### Whitepaper<a id="sec-3-3-1" name="sec-3-3-1"></a>
+
+### App<a id="sec-3-3-2" name="sec-3-3-2"></a>
+
+1.  TODO Base-Site
+
+    1.  TODO create base site
+
+2.  TODO Make Offer
+
+    1.  TODO add units
+
+    2.  TODO add currency conversions from ETH
+
+    3.  TODO display date interval in offer preview
+
+    4.  TODO on enter go to next
+
+    5.  TODO add focus to input
+
+    6.  TODO autocomplete tags from protocol object
+
+    7.  TODO display "next" if input entered, skip if none
+
+    8.  TODO add multiple locations
+
+3.  TODO Protocol
+
+    1.  TODO add protocol section to base site
+
+    2.  TODO create protocol form
+
+    3.  TODO add transition effects to .pro elements
+
+    4.  TODO update protocol object with wallet tags
+
+4.  TODO Wallet
+
+    1.  TODO add address, password to offer model
+
+    2.  TODO
+
+5.  TODO Find Offer
+
+6.  TODO Results
+
+    1.  TODO
+
+7.  TODO Map
+
+    1.  TODO remove zoom
+
+    2.  TODO remove mouse interactivity
 
 # The Mesh Market Foundation<a id="sec-4" name="sec-4"></a>
 
@@ -497,6 +556,19 @@ Did we miss something?  Submit a pull request!
 
 ### Submit Code<a id="sec-4-2-1" name="sec-4-2-1"></a>
 
+If you have a good idea and you're up to implementing it, feel free to submit a pull request.
+
 ### Work with Us<a id="sec-4-2-2" name="sec-4-2-2"></a>
+
+OptiPulse is looking for experts in:
+-   networking (specifically ad-hoc)
+-   Linux, sysadmin
+-   Blockchain, Ethereum, Bitcoin
+-   functional programming (especially Clojure)
+-   web security
+-   mobile app development
+
+Interested?  Don't hesitate to get in touch:
+djoseph@optipulse.com
 
 ### Donate<a id="sec-4-2-3" name="sec-4-2-3"></a>
