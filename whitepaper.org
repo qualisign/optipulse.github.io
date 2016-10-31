@@ -1,4 +1,4 @@
-Mesh Market: A Web 3.0 Platform for Decentralizing Resources
+Mesh Market: A Platform for Decentralizing Resources on the Blockchain
 
 With Mesh Market, you can:
 - get cheaper, better internet service
@@ -281,7 +281,6 @@ Vetting is simple: those entries that receive more upvotes than downvotes are ad
 **** E. Results
 ***** TODO add results section
 **** F. Map
-
 *** Advanced: API
 *** Advanced: Embeddable Widget
 *** Possible Directions
