@@ -347,6 +347,32 @@ These use cases will be made into tutorials in the future.
 Did we miss something?  Submit a pull request!
 
 ** Development Timeline
+*** Whitepaper
+*** App
+**** Base-Site
+***** TODO create base site
+**** Make Offer
+***** TODO add units
+***** TODO add currency conversions from MMR
+***** TODO on enter go to next
+***** TODO add focus to input
+***** TODO autocomplete tags from protocol object
+***** TODO display "next" if input entered, skip if none
+**** TODO Protocol
+***** TODO add protocol section to base site
+***** TODO create protocol form
+***** TODO add transition effects to .pro elements
+***** TODO update protocol object with wallet tags
+**** Wallet
+***** TODO add address, password to offer model
+***** TODO
+**** Find Offer
+**** Results
+***** TODO
+**** Map
+***** TODO remove zoom
+***** TODO remove mouse interactivity
+
 * The Mesh Market Foundation
 ** Business Model Canvas
 ** How to Contribute

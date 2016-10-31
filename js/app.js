@@ -1,10 +1,26 @@
+/* 
+Protocol entries take the form:
+
+{"tagName": "",
+ {"recommendation: "",  <----- 
+  "explanation": "",    <----- 
+  "justification": "",  <-----
+  "upvotes": "",        <-----
+  "downvotes": "",      <-----
+  "units": ""           <-----
+  }
+}
+
+*/
+
 var protocol = {"offer" :
                 {"recommendation": "",
                  "explanation": "Make an Offer",
                  "justification": "",
                  "upvotes": "",
                  "downvotes": "",
-                 
+                 "units": "",
+                 "children": [],
                 },
                 "find" :
                 {"recommendation": "",
@@ -12,6 +28,17 @@ var protocol = {"offer" :
                  "justification" : "",
                  "upvotes" : "",
                  "downvotes" : "",
+                 "units": "",
+                 "children": [],
+                },
+                "internet" :
+                {"recommendation": "",
+                 "explanation" : "",
+                 "justification" : "",
+                 "upvotes" : "",
+                 "downvotes" : "",
+                 "units" : "",
+                 "children": [],
                 }
                };
 
@@ -75,7 +102,8 @@ $(document).ready(function() {
             appShow: true,
             apiShow: false,
             protocolShow: false,
-            offerCount: 1
+            offerCount: 1,
+            protocol: protocol
         },             
         methods: {        
             makeOffer(e) {
