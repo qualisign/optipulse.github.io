@@ -68,24 +68,7 @@ var offerPromptList = ["Give your offer a name.",
 
 
 $(document).ready(function() {    
-    // protocol update
-
-    function explain(element){    
-        var tag = element;
-        console.log(tag);
-        var explanation = protocol[tag]["explanation"];
-        $("#explanation").html('<transition name="fade">' + explanation + '</transition>');
-    }
     
-    $(".pro").hover(function(){
-        explain(this.id);
-
-    });
-
-    $(".pro").mouseleave(function(){
-        $("#explanation").text("Mesh Market");
-               
-    });
 
     var vm = new Vue({
         el: '#app-container',
@@ -165,7 +148,8 @@ $(document).ready(function() {
         }
     });
 
-// date interval selector
+    // date interval selector
+    
     $( function() {
         var dateFormat = "mm/dd/yy",
             from = $( "#from" )
@@ -198,6 +182,24 @@ $(document).ready(function() {
         }
     } );
 
+    // update protocol div
+    
+    function explain(element){
+        var tag = element;
+        console.log(tag);
+        var explanation = protocol[tag]["explanation"];
+        $("#explanation").html('<transition name="fade">' + explanation + '</transition>');
+    }
+
+    $(".pro").hover(function(){
+        explain(this.id);
+
+    });
+
+    $(".pro").mouseleave(function(){
+        $("#explanation").text("Mesh Market");
+
+    });
 
     // leaflet
     var map = L.map('map');
@@ -218,15 +220,6 @@ $(document).ready(function() {
 
 
 
-$(".pro").hover(function(){
-    explain(this.id);
-
-});
-
-$(".pro").mouseleave(function(){
-    $("#explanation").text("Mesh Market");
-    
-});
 
 
 
