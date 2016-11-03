@@ -1,3 +1,6 @@
+
+
+
 /* 
 Protocol entries take the form:
 
@@ -63,15 +66,16 @@ var offerPromptList = ["Give your offer a name.",
                        "Look good?"
                   ];
 
-function explain(element){    
-    var tag = element;
-    console.log(tag);
-    var explanation = protocol[tag]["explanation"];
-    $("#explanation").html('<transition name="fade">' + explanation + '</transition>');
-}
 
 $(document).ready(function() {    
     // protocol update
+
+    function explain(element){    
+        var tag = element;
+        console.log(tag);
+        var explanation = protocol[tag]["explanation"];
+        $("#explanation").html('<transition name="fade">' + explanation + '</transition>');
+    }
     
     $(".pro").hover(function(){
         explain(this.id);
@@ -132,84 +136,6 @@ $(document).ready(function() {
         },
         watch: {
             'offer.tags': {
-                handler: function() {
-                    var tagList = this.offer.tags.split(',');
-                    console.log(tagList);
-
-                    for (var i = 0; i < tagList.length; i++) {
-                        console.log(tagList[i]);
-                        var unitsObj = this.protocol[tagList[i]]["units"];
-                        var unitKeys = Object.keys(unitsObj);
-
-                        for (var i = 0; i < unitKeys.length; i++) {
-                            /*
-                              if (!unitsObj[unitKeys[i]]){
-                              console.log("updating units");
-                              // update dict only if it doesn't already contain key
-                              this.offer.units[unitKeys[i]] = unitsObj[unitKeys[i]];
-                              }
-                            */
-                            this.offer.units[unitKeys[i]] = unitsObj[unitKeys[i]];
-                        }
-                    }
-                    console.log(this.offer.units);
-                },
-            }
-        }
-    });
-
-/*
-
-    
-    var vm = new Vue({
-        el: "#app-container",
-        data: {
-            offer: {
-                name: '',
-                value: '',
-                perUnit: '',
-                units: {},
-                tags: '',
-                description: '',
-                currencies: [],
-                location: '',
-                validFrom: '',
-                validTo: '',
-            },
-            offerShow: false,
-            findShow: false,
-            appShow: true,
-            apiShow: false,
-            protocolShow: false,
-            offerCount: 1,
-            findCount: 1,
-            protocol: protocol
-        },             
-        methods: {        
-            makeOffer(e) {
-                e.preventDefault();                
-                console.log(this.offer.currencies);
-                SimpleStorage.set(15);
-                console.log(SimpleStorage.get());
-            },
-            findOffer(e) {
-                e.preventDefault();                           
-            },
-            detailsClose(e) {
-                e.preventDefault();
-                this.offerShow = false;
-                this.findShow = false;                
-            }
-              
-        },
-        computed: {
-            offerPrompt: function(){
-                return offerPromptList[this.offerCount-1];
-            
-            }                                       
-        },
-        watch: {
-            'offer.tags': {
                 handler : function(){
                     var tagList = this.offer.tags.split(',');
                     console.log(tagList);
@@ -238,10 +164,7 @@ $(document).ready(function() {
             }
         }
     });
-    
-  
-*/
-    
+
 // date interval selector
     $( function() {
         var dateFormat = "mm/dd/yy",
@@ -292,6 +215,18 @@ $(document).ready(function() {
     
 });
 
+
+
+
+$(".pro").hover(function(){
+    explain(this.id);
+
+});
+
+$(".pro").mouseleave(function(){
+    $("#explanation").text("Mesh Market");
+    
+});
 
 
 
