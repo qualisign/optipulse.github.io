@@ -12,34 +12,45 @@ Protocol entries take the form:
 }
 
 */
+Vue.config.debug = true;
 
 var protocol = {"offer" :
-                {"recommendation": "",
-                 "explanation": "Make an Offer",
-                 "justification": "",
-                 "upvotes": "",
-                 "downvotes": "",
-                 "units": "",
-                 "children": [],
+                {
+                    "explanation": "Make an Offer",
+                    "recommendations": {},                                  
+                    "upvotes": "",
+                    "downvotes": "",
+                    "units": {},
+                    "children": [],
                 },
                 "find" :
-                {"recommendation": "",
-                 "explanation" : "Find an Offer",
-                 "justification" : "",
-                 "upvotes" : "",
-                 "downvotes" : "",
-                 "units": "",
-                 "children": [],
+                {
+                    "explanation" : "Find an Offer",
+                    "recommendations": {},                                  
+                    "upvotes" : "",
+                    "downvotes" : "",
+                    "units": {},
+                    "children": [],
                 },
-                "internet" :
-                {"recommendation": "",
-                 "explanation" : "",
-                 "justification" : "",
-                 "upvotes" : "",
-                 "downvotes" : "",
-                 "units" : "",
-                 "children": [],
+                "internet":
+                {
+                    "explanation": "",
+                    "recommendations": {},                                
+                    "upvotes": "",
+                    "downvotes": "",
+                    "units": {},
+                    "children": ["wireless", "optical", "cables", "Wi-Fi"],
+                },
+                "wireless":
+                {
+                    "explanation": "communications channel not requiring wires/cables",              
+                    "recommendations": {"optical": "faster, reduce RF polution"},   
+                    "upvotes": "",
+                    "downvotes": "",
+                    "units": {"bandwidth": "bit/s, Mb/s, Gb/s", "distance": "kilometers, miles"},
+                    "children": [],
                 }
+                 
                };
 
 var offerPromptList = ["Give your offer a name.",
@@ -58,20 +69,9 @@ function explain(element){
     var explanation = protocol[tag]["explanation"];
     $("#explanation").html('<transition name="fade">' + explanation + '</transition>');
 }
+
 $(document).ready(function() {    
     // protocol update
-
-
-    function setup() {
-        var myCanvas = createCanvas(600, 400);
-        myCanvas.parent('canvas-container');
-    }
-    function draw() {
-        ellipse(50, 50, 80, 80);
-    }
-
-
-
     
     $(".pro").hover(function(){
         explain(this.id);
@@ -83,13 +83,14 @@ $(document).ready(function() {
                
     });
 
-    
     var vm = new Vue({
-        el: "#app-container",
+        el: '#app-container',
         data: {
             offer: {
                 name: '',
                 value: '',
+                perUnit: '',
+                units: {},
                 tags: '',
                 description: '',
                 currencies: [],
@@ -103,35 +104,143 @@ $(document).ready(function() {
             apiShow: false,
             protocolShow: false,
             offerCount: 1,
+            findCount: 1,
             protocol: protocol
         },             
         methods: {        
             makeOffer(e) {
-                e.preventDefault();
+                e.preventDefault();                
                 console.log(this.offer.currencies);
                 SimpleStorage.set(15);
                 console.log(SimpleStorage.get());
             },
             findOffer(e) {
-                e.preventDefault();
-               
-            
+                e.preventDefault();                           
             },
             detailsClose(e) {
                 e.preventDefault();
                 this.offerShow = false;
                 this.findShow = false;                
             }
+            
         },
         computed: {
             offerPrompt: function(){
                 return offerPromptList[this.offerCount-1];
                 
+            }                                       
+        },
+        watch: {
+            'offer.tags': {
+                handler: function() {
+                    var tagList = this.offer.tags.split(',');
+                    console.log(tagList);
+
+                    for (var i = 0; i < tagList.length; i++) {
+                        console.log(tagList[i]);
+                        var unitsObj = this.protocol[tagList[i]]["units"];
+                        var unitKeys = Object.keys(unitsObj);
+
+                        for (var i = 0; i < unitKeys.length; i++) {
+                            /*
+                              if (!unitsObj[unitKeys[i]]){
+                              console.log("updating units");
+                              // update dict only if it doesn't already contain key
+                              this.offer.units[unitKeys[i]] = unitsObj[unitKeys[i]];
+                              }
+                            */
+                            this.offer.units[unitKeys[i]] = unitsObj[unitKeys[i]];
+                        }
+                    }
+                    console.log(this.offer.units);
+                },
             }
         }
-        
     });
 
+/*
+
+    
+    var vm = new Vue({
+        el: "#app-container",
+        data: {
+            offer: {
+                name: '',
+                value: '',
+                perUnit: '',
+                units: {},
+                tags: '',
+                description: '',
+                currencies: [],
+                location: '',
+                validFrom: '',
+                validTo: '',
+            },
+            offerShow: false,
+            findShow: false,
+            appShow: true,
+            apiShow: false,
+            protocolShow: false,
+            offerCount: 1,
+            findCount: 1,
+            protocol: protocol
+        },             
+        methods: {        
+            makeOffer(e) {
+                e.preventDefault();                
+                console.log(this.offer.currencies);
+                SimpleStorage.set(15);
+                console.log(SimpleStorage.get());
+            },
+            findOffer(e) {
+                e.preventDefault();                           
+            },
+            detailsClose(e) {
+                e.preventDefault();
+                this.offerShow = false;
+                this.findShow = false;                
+            }
+              
+        },
+        computed: {
+            offerPrompt: function(){
+                return offerPromptList[this.offerCount-1];
+            
+            }                                       
+        },
+        watch: {
+            'offer.tags': {
+                handler : function(){
+                    var tagList = this.offer.tags.split(',');
+                    console.log(tagList);
+                        
+                    for(var i=0; i<tagList.length; i++){
+                        console.log(tagList[i]);
+                        try {
+                            var unitsObj = this.protocol[tagList[i]]["units"];                        
+                            var unitKeys = Object.keys(unitsObj);
+                        
+                            for (var i=0; i<unitKeys.length; i++){
+  
+                                  if (!unitsObj[unitKeys[i]]){
+                                  console.log("updating units");
+                                  // update dict only if it doesn't already contain key
+                                  this.offer.units[unitKeys[i]] = unitsObj[unitKeys[i]];
+                                  }
+  
+                                this.offer.units[unitKeys[i]] = unitsObj[unitKeys[i]];
+                            }
+                        console.log(this.offer.units);
+                        }                             
+                        catch(e) {return true}
+                    }                    
+                }    
+            }
+        }
+    });
+    
+  
+*/
     
 // date interval selector
     $( function() {
@@ -178,10 +287,11 @@ $(document).ready(function() {
     map.setView([0, 0], 2);
 
 
+
     $("#offer-location").geocomplete();
-
-
-
-
     
 });
+
+
+
+
