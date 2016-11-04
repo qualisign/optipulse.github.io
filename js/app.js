@@ -148,6 +148,9 @@ $(document).ready(function() {
         }
     });
 
+    // auto-complete for tags
+
+    
     // date interval selector
     
     $( function() {
@@ -219,7 +222,21 @@ $(document).ready(function() {
 
 
 
+$( function() {
+    var availableTags = Object.keys(protocol);
+    $( "#offer-tags" ).autocomplete({
+        source: availableTags,
+        change: function (event, ui) {
+            if(!ui.item){
+                $("#offer-tags").val("");
+            }
 
+        },
+        focus: function (event, ui) {
+            return false;
+        }
+    });
+} );
 
 
 
