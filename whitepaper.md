@@ -67,7 +67,7 @@
 <li><a href="#sec-4-2-6">4.2.6. Small Business/Entrepreneurs</a></li>
 <li><a href="#sec-4-2-7">4.2.7. Government</a></li>
 <li><a href="#sec-4-2-8">4.2.8. City Planners</a></li>
-<li><a href="#sec-4-2-9">4.2.9. Suggest Another Use Case!</a></li>
+<li><a href="#sec-4-2-9">4.2.9. Suggest a Use Case!</a></li>
 </ul>
 </li>
 <li><a href="#sec-4-3">4.3. Development TODO's</a>
@@ -88,9 +88,7 @@
 </div>
 </div>
 
-Mesh Market: A Platform Business for the People, by the People
-
-(being a free marketplace for decentralizing resources on the Blockchain)
+Mesh Market: A Marketplace for Decentralized Resources on the Blockchain
 
 # Introduction<a id="sec-1" name="sec-1"></a>
 
@@ -578,7 +576,7 @@ These use cases will be made into tutorials in the future.
 
 ### City Planners<a id="sec-4-2-8" name="sec-4-2-8"></a>
 
-### Suggest Another Use Case!<a id="sec-4-2-9" name="sec-4-2-9"></a>
+### Suggest a Use Case!<a id="sec-4-2-9" name="sec-4-2-9"></a>
 
 Did we miss something?  Submit a pull request!
 
@@ -592,12 +590,24 @@ Did we miss something?  Submit a pull request!
 
 2.  Work with Us
 
-    Or, if you're looking for a job, we're currently looking for experts in:
+    Or, if you're looking for a more stable position, we're looking for experts in:
     -   mesh networking
-    -   Blockchain, Ethereum, Bitcoin
-    -   Linux, sysadmin
+    -   smart contracts
+    -   sysadmin
+    -   Clojure
+    -   C
     -   web security
+    -   cryptography
     -   mobile app development
+    -   Vue.js (or another reactive framework)
+    -   Node.js
+    -   DevOps
+    -   Ethereum
+    -   BitCoin
+    -   FinTech
+    -   systems engineering
+    -   financial engineering
+    -   legal engineering
 
     Interested?  Don't hesitate to get in touch:
     djoseph@optipulse.com

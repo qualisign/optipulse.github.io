@@ -407,7 +407,7 @@ These use cases will be made into tutorials in the future.
 *** Government
 **** Roll Out Basic Income and Boost Your Economy
 *** City Planners
-*** Suggest Another Use Case!
+*** Suggest a Use Case!
 Did we miss something?  Submit a pull request!
 
 ** Development TODO's
@@ -415,12 +415,25 @@ Did we miss something?  Submit a pull request!
 **** Submit Code
 If you have a good idea and you're up to working it out on your own, feel free to submit a pull request.
 **** Work with Us
-Or, if you're looking for a job, we're currently looking for experts in:
+Or, if you're looking for a more stable position, we're looking for experts in:
 - mesh networking
-- Blockchain, Ethereum, Bitcoin
-- Linux, sysadmin
+- smart contracts
+- sysadmin
+- Clojure
+- C
 - web security
+- cryptography
 - mobile app development
+- Vue.js (or another reactive framework)
+- Node.js
+- DevOps
+- Ethereum
+- BitCoin
+- FinTech
+- systems engineering
+- financial engineering
+- legal engineering
+
 
 Interested?  Don't hesitate to get in touch:
 djoseph@optipulse.com
