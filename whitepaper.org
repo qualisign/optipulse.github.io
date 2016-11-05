@@ -27,9 +27,8 @@ https://optipulse.github.io
 A platform business erases the distinction between producers and consumers of goods and services.  It does this by providing consumers with some form of infrastructure for creating value on their own.  This can be
 something as unassuming as a mobile app, as in the case of Uber.  Such businesses tend to uncover value already existent, but previously unrecognized in the economy - mainly because it resides in the hands of consumers.
 Platform business have shown us that value of this sort actually constitutes the lion's share of the market - when it is effectively utilized.
+As Tech Crunch put it, "Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner, creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest accommodation provider, owns no real estate. Something interesting is happening."
 
-"Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner, creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest accommodation provider, owns no real estate. Something interesting is happening."
-- Tech Crunch
 
 This trend is likely to intensify in the coming years, as the ease of access to information driving it undoubtedly will.  But as we've seen lately with Uber and AirBnB's legal battles, this won't take place unopposed.
 Despite the innocuous tenets of the "sharing economy" with which these companies would like to identify themselves, in many cases this opposition is merited; if you look under the hood, it's business as usual.
