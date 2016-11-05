@@ -29,13 +29,15 @@ something as unassuming as a mobile app, as in the case of Uber.  Such businesse
 Platform business have shown us that value of this sort actually constitutes the lion's share of the market - when it is effectively utilized.
 As Tech Crunch put it,
 #+BEGIN_SRC shell
-"Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner, creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest accommodation provider, owns no real estate. Something interesting is happening."
+"Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner,
+ creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest
+accommodation provider, owns no real estate. Something interesting is happening."
 #+END_SRC
 
 
 
 This trend is likely to intensify in the coming years, as the ease of access to information driving it undoubtedly will.  But as we've seen lately with Uber and AirBnB's legal battles, this won't go unopposed.
-Despite the innocuous tenets of the "sharing economy" with which these companies would like to identify themselves, in many cases this opposition is merited; if you look under the hood, it's business as usual.
+Despite the innocuous tenets of the "sharing economy" with which these companies would like to identify, in many cases this opposition is merited; if you look under the hood, it's business as usual.
 The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a giant pipeline to make altruistic decisions at the expense of profit.  Examples aren't hard to find in current news headlines; in Britain, regulators are taking issue with
 the convenience with which Uber can hire full-time workers without taking on the responsibilities of a full-time employer.  Contractors also complain about the substantial cut it takes from drivers, typically 20%, which
 indeed seems hefty considering the labor involved by the contractors.  As mentioned, platform businesses facing such criticism seek to identify themselves with the larger picture -- they are purveyors of the sharing economy that average-joes are so keen on.
@@ -63,7 +65,7 @@ There is no central point of failure in a mesh network.  Power outages, network 
 Those who were able to get WIFI in the aftermath of Hurricane Sandy know this isn't mere speculation.  http://techpresident.com/news/23127/red-hook-mesh-network-connects-sandy-survivors-still-without-power
 
 **** Democritization:
-It is virtually impossible to "shut down" a mesh network the way dictators have been known to (e.g. in Egypt during Arab Spring, or at the time of writing this in Turkey). Without the imperitave for centrally-connected hubs, disrupting connections becomes very hard to achieve.
+It is virtually impossible to "shut down" a mesh network the way dictators have been known to do in recent years (e.g. in Egypt during Arab Spring). Without the imperitave for centrally-connected hubs, disrupting connections becomes very hard to achieve.
 http://europe.newsweek.com/dictator-proofing-internet-68705?rm=eu
 
 That authorities might cut off the internet is significantly less likely in countries without egregious network collusion with government as we
