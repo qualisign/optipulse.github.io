@@ -50,7 +50,7 @@ var protocol = {"offer" :
                     "recommendations": {"optical": "faster, reduce RF polution"},   
                     "upvotes": "",
                     "downvotes": "",
-                    "units": {"bandwidth": "bit/s, Mb/s, Gb/s", "distance": "kilometers, miles"},
+                    "units": {"bandwidth": "bit/s", "distance": "kilometers"},
                     "children": [],
                 }
                  
@@ -68,10 +68,16 @@ var offerPromptList = ["Give your offer a name.",
 
 
 $(document).ready(function() {    
-    
 
+
+    Vue.component('conversion-row', {
+        props: ['currency', 'val'],
+        template: '<div class="row"><div class="col-xs-4">{{currency}}:</div><div class="col-xs-4"><input type="text" v-model="val" /></div><div class="col-xs-4"></div></div>'
+        
+    });
+    
     var vm = new Vue({
-        el: '#app-container',
+        el: '#site-container',
         data: {
             offer: {
                 name: '',
@@ -84,6 +90,11 @@ $(document).ready(function() {
                 location: '',
                 validFrom: '',
                 validTo: '',
+                values: {
+                    BTC: '',
+                    ETH: '',
+                    USD: ''
+                },
             },
             offerShow: false,
             findShow: false,
@@ -108,14 +119,22 @@ $(document).ready(function() {
                 e.preventDefault();
                 this.offerShow = false;
                 this.findShow = false;                
+            },
+            startApp(){
+                this.appShow = true;
+            },
+            startProtocol(){
+                this.protocolShow = true;
             }
+            
             
         },
         computed: {
             offerPrompt: function(){
                 return offerPromptList[this.offerCount-1];
                 
-            }                                       
+            }
+            
         },
         watch: {
             'offer.tags': {
@@ -148,11 +167,8 @@ $(document).ready(function() {
         }
     });
 
-    // auto-complete for tags
-
-    
     // date interval selector
-    
+
     $( function() {
         var dateFormat = "mm/dd/yy",
             from = $( "#from" )
@@ -185,6 +201,9 @@ $(document).ready(function() {
         }
     } );
 
+
+    
+
     // update protocol div
     
     function explain(element){
@@ -214,29 +233,11 @@ $(document).ready(function() {
     map.addLayer(markers);
     map.setView([0, 0], 2);
 
-
-
     $("#offer-location").geocomplete();
+
     
 });
 
-
-
-$( function() {
-    var availableTags = Object.keys(protocol);
-    $( "#offer-tags" ).autocomplete({
-        source: availableTags,
-        change: function (event, ui) {
-            if(!ui.item){
-                $("#offer-tags").val("");
-            }
-
-        },
-        focus: function (event, ui) {
-            return false;
-        }
-    });
-} );
 
 
 

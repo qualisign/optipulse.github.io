@@ -3,6 +3,39 @@
     
 }
 
+#site-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#base-nav {
+    left: 0px;
+    height: 100%;
+    width: 38%;
+    background-color: grey;
+    position: absolute;
+    font-color: white;
+    padding: 25px;
+}
+
+#choose-app {
+    position: absolute;
+    top: 25%;
+    color: white;
+    font-family: monotype;
+    font-size: 30px;
+}
+
+#choose-protocol {
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-family: monotype;
+    font-size: 30px;
+
+}
+
 #map {
     height: 100%;
     width: 62%;
@@ -19,6 +52,7 @@
 .clickable {
     cursor: pointer;
 }
+
 
 #details {
     left: 95px;
@@ -90,6 +124,20 @@
     border-width: 5px;
     border-radius: 15px;
     border-color: white;
+}
+
+#conversions {
+    position: abolute;
+    padding: 5px;
+}
+
+#per-unit {
+    left: 400px;
+    top: 30px;
+    position: absolute;
+    padding: 25px;
+    height: 200px;
+    width: 200px;
 }
 
 #side-bar{
@@ -206,4 +254,17 @@
     padding-left: 3px;
     padding-right: 3px;
 
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h4 {
+    font-size: 12px;
+    font-family: monospace;
 }

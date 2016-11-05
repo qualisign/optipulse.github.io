@@ -5,24 +5,19 @@
       <title>Mesh Market</title>
 
 
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.4/addons/p5.dom.min.js"></script>
       <script type="text/javascript" src="https://unpkg.com/vue@2.0.3/dist/vue.js"></script>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-      <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
       <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCspgVlNqoa887cssVbYN4KwHfO1m5miyM"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/geocomplete/1.7.0/jquery.geocomplete.js"></script>
-
       <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css"/>
       <script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
-
       <link rel="stylesheet" href="css/app.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
-
-
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     </head>
     <body>
 
@@ -42,11 +37,11 @@
 
                     <form id="offer-form" v-on:submit="makeOffer" v-show="offerShow">
 
-                      <div v-show="offerCount==1"><input class="offer-form" type="text" v-model="offer.name" id="offer-name" autofocus>
+                      <div v-show="offerCount==1"><input class="offer-form" type="text" v-model="offer.name" id="offer-name" >
                       </div>
-                      <div v-show="offerCount==2"><input class="offer-form" v-on:keyup.prevent type="text" v-model="offer.tags" id="offer-tags" autofocus>
+                      <div v-show="offerCount==2"><input class="offer-form" v-on:keyup.prevent type="text" v-model="offer.tags" id="offer-tags" >
                       </div>
-                      <div v-show="offerCount==3"><textarea class="offer-form" rows="4" cols="70" v-model="offer.description" id="offer-description" autofocus></textarea>
+                      <div v-show="offerCount==3"><textarea class="offer-form" rows="4" cols="70" v-model="offer.description" id="offer-description" ></textarea>
                       </div>
 
 
@@ -57,26 +52,27 @@
                       </div>
 
                       <div v-show="offerCount==5" class="row">
-                        <div class="col-xs-4">
-                          <input type="text" class="offer-form" v-model="offer.value" id="offer-value" autofocus>
+                        <div id="conversions" class="col-xs-7">
+                        <li v-for="currency in offer.currencies">
+                          <conversion-row :currency="currency" :val="offer.values[currency]">
+                          </conversion-row>
+                        </li>
                         </div>
-                        <div class="col-xs-4">
-                        </div>
-
-                        <div v-show="offer.units != ''" class="col-xs-4">
+                        <div id="per-unit" v-show="!Object.keys(offer.units).length" class="col-xs-5 well">
+                          <h4><em>per unit</em></h4>
                           <select>
-                            <option  v-for="(key, value) in offer.units" v-bind:value="offer.children">
-                              {{ key }}
+                            <option  v-for="(key, value) in offer.units" v-bind:value="offer.perUnit">
+                              {{ value }}::{{ key }}
                             </option>
 
                           </select>
                         </div>
                       </div>
 
-                      <div v-show="offerCount==6"><input type="text" class="offer-form" v-model="offer.location" id="offer-location" autofocus>
+                      <div v-show="offerCount==6"><input type="text" class="offer-form" v-model="offer.location" id="offer-location" >
                       </div>
                       <div v-show="offerCount==7" class="row">
-                        <div><label for="from">Valid from: <input type="text" id="from" class="offer-form" name="from" v-model="offer.validFrom" autofocus></label></div>
+                        <div><label for="from">Valid from: <input type="text" id="from" class="offer-form" name="from" v-model="offer.validFrom" ></label></div>
                         <div><label for="to">Valid to: <input type="text" id="to" class="offer-form" name="to" v-model="offer.validTo"></label></div>
                       </div>
                       <input v-show="offerCount==8" class="btn btn-primary" type="submit" value="make offer"/>
@@ -89,7 +85,9 @@
               <div v-show="offer.name"> <h4>Name: {{offer.name}}</h4> </div>
               <div v-show="offer.tags"><h4>Tags: {{offer.tags}}</h4> </div>
 
-              <div v-show="offer.currencies[0]"><h4>Currencies: {{offer.currencies}}</h4> </div>
+              <div v-show="offer.currencies[0]">
+                <h4>Currencies: <span v-for="currency in offer.currencies">{{currency}} </span></h4>
+              </div>
               <div v-show="offer.value"> <h4>Value: {{offer.value}} MMR</h4></div>
               <div v-show="offer.location"> <h4>Location(s): {{offer.location}}</h4> </div>
               <div v-show="offer.description"><h4>Description: {{offer.description}}</h4></div>
