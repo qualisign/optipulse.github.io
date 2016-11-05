@@ -1,7 +1,5 @@
-* Mesh Market: A Platform Business for the People, by the People
-(being a free marketplace for decentralizing resources on the blockchain)
-
-* TODO add map depicting local community using decentralized resources like solar, internet, etc
+Mesh Market: A Platform Business for the People, by the People
+(being a free marketplace for decentralizing resources on the Blockchain)
 
 With Mesh Market, you can:
 - get cheaper, better internet service
