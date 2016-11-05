@@ -58,13 +58,12 @@
                           </conversion-row>
                         </li>
                         </div>
-                        <div id="per-unit" v-show="!Object.keys(offer.units).length" class="col-xs-5 well">
+                        <div id="per-unit"  class="col-xs-5 well">
                           <h4><em>per unit</em></h4>
                           <select>
                             <option  v-for="(key, value) in offer.units" v-bind:value="offer.perUnit">
                               {{ value }}::{{ key }}
                             </option>
-
                           </select>
                         </div>
                       </div>
