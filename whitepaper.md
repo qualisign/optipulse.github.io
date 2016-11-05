@@ -8,7 +8,6 @@
 <li><a href="#sec-2-1">2.1. Platform Business</a>
 <ul>
 <li><a href="#sec-2-1-1">2.1.1. Overview</a></li>
-<li><a href="#sec-2-1-2">2.1.2. A Platform to End Platforms</a></li>
 </ul>
 </li>
 <li><a href="#sec-2-2">2.2. Mesh Networking</a>
@@ -25,12 +24,15 @@
 </li>
 </ul>
 </li>
-<li><a href="#sec-3">3. The Mesh Market Platform: DAO, App, Protocol</a>
+<li><a href="#sec-3">3. The Mesh Market Platform</a>
 <ul>
 <li>
 <ul>
-<li><a href="#sec-3-0-1">3.0.1. Case Study: Making Mesh Networks Mass-Market Viable</a></li>
-<li><a href="#sec-3-0-2">3.0.2. Undercutting the Competition</a></li>
+<li><a href="#sec-3-0-1">3.0.1. App</a></li>
+<li><a href="#sec-3-0-2">3.0.2. DAO</a></li>
+<li><a href="#sec-3-0-3">3.0.3. Protocol</a></li>
+<li><a href="#sec-3-0-4">3.0.4. Case Study: OptiPulse - Making Mesh Networks Mass-Market Viable</a></li>
+<li><a href="#sec-3-0-5">3.0.5. Undercutting the Competition (Building a Platform to End Platforms)</a></li>
 </ul>
 </li>
 </ul>
@@ -121,8 +123,6 @@ AirBnb, for instance, is promoting a global consumer movement as a shield to the
 asked often may be pertinent: if so many people are willing to organize to the defense of admittedly imperfect platforms they've come to rely on, why can't these same people
 organize behind a better platform?
 
-### A Platform to End Platforms<a id="sec-2-1-2" name="sec-2-1-2"></a>
-
 ## Mesh Networking<a id="sec-2-2" name="sec-2-2"></a>
 
 Before we discuss how Mesh Market makes it so easy to decentralize resources, we need to explain the role that mesh networking plays.
@@ -203,7 +203,7 @@ account on the blockchain receives a certain amount of funds.
 
 ### Ethereum<a id="sec-2-3-2" name="sec-2-3-2"></a>
 
-# The Mesh Market Platform: DAO, App, Protocol<a id="sec-3" name="sec-3"></a>
+# The Mesh Market Platform<a id="sec-3" name="sec-3"></a>
 
 It may not seem obvious from the above simplistic discussion of smart contracts, but the ability for computers to listen to data and execute transactions on a blockchain enables
 an innumerable array of business solutions heretofore unworkable or impractical to be implemented- particularly those based on the idea of turning a traditionally top-down service into a consumer-to-consumer platform.
@@ -221,7 +221,13 @@ the idea that whatever can be decentralized will be decentralized as the world a
 are inadvertently top-down or fail to prioritize customers' priorities.  This is why we open the design of the Mesh Market platform to feedback and revision via the Protocol.
 The Mesh Market aspires to be the platform to end platforms; to achieve this, there must be built-in mechanisms for self-correction.
 
-### Case Study: Making Mesh Networks Mass-Market Viable<a id="sec-3-0-1" name="sec-3-0-1"></a>
+### App<a id="sec-3-0-1" name="sec-3-0-1"></a>
+
+### DAO<a id="sec-3-0-2" name="sec-3-0-2"></a>
+
+### Protocol<a id="sec-3-0-3" name="sec-3-0-3"></a>
+
+### Case Study: OptiPulse - Making Mesh Networks Mass-Market Viable<a id="sec-3-0-4" name="sec-3-0-4"></a>
 
 Now we'll discuss how these principles can apply to promoting mesh networks, which could enable several exciting use-cases for the Mesh Market.
 
@@ -237,7 +243,7 @@ With the amount of excess bandwidth the Light Grid may be giving customers, they
 analagous to operators of once-widespread internet cafes.  With some added income from selling bandwidth, OptiPulse's users may be able to break even or even make a profit while
 receiving some of the best internet service on the market.
 
-### Undercutting the Competition<a id="sec-3-0-2" name="sec-3-0-2"></a>
+### Undercutting the Competition (Building a Platform to End Platforms)<a id="sec-3-0-5" name="sec-3-0-5"></a>
 
 This implies that OptiPulse, as an ISP, might sell internet that comes with a commercial license (or form thereof) to end-users.  While this would give users the ability to resell
 service and potentially cut into some of OptiPulse's target market, there would be some overwhelmingly positive side-effects:
