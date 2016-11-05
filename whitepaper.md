@@ -80,6 +80,7 @@
 </div>
 
 Mesh Market: A Platform Business for the People, by the People
+
 (being a free marketplace for decentralizing resources on the Blockchain)
 
 With Mesh Market, you can:
