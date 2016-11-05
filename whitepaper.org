@@ -1,4 +1,7 @@
-Mesh Market: A Platform Business for the People, by the People
+* Mesh Market: A Platform Business for the People, by the People
+(being a free marketplace for decentralizing resources on the blockchain)
+
+* TODO add map depicting local community using decentralized resources like solar, internet, etc
 
 With Mesh Market, you can:
 - get cheaper, better internet service
@@ -15,31 +18,27 @@ Mesh Market is a free application aiming to:
 - enable consumers to find friendlier and cheaper local alternatives to centrally-owned, inefficient resources
 - accelerate deployment and improve market viability of beneficial technologies by providing them with a direct-to-consumer platform
 
-Most aspects of this idea haven't achieved finality, though the above seems to be a good starting point.  Open discussion between experts across various fields will be needed to
-design and build this app as well as form a business that can support it.
-
-Check out the prototype (under construction):
+Check out the prototype (under construction -- very early stage, and obviously can't handle transactions yet!):
 https://optipulse.github.io
 
-(Needless to say, this represents an early stage of the front-end and is only for the sake of illustration.  It isn't yet able to handle transactions.)
 
 * Background
 ** Platform Business
 *** Overview
-A platform business erases the distinction between producers and consumers of goods and services.  It does this by providing consumers with a platform for creating their own value.
-This often has the side effect of uncovering value previously unrecognized in the economy, mainly because it is in the hands of consumers.  Uber and AirBnB do not own the means of production typically necessary for transportation and
-real-estate companies, respectively - but they and many more companies (Facebook, YouTube, etc) have experienced unparalleled growth by connecting customers with one another.  As Tech Crunch put it,
-"Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner, creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest accommodation provider, owns no real estate. Something interesting is happening.".
+A platform business erases the distinction between producers and consumers of goods and services.  It does this by providing consumers with some form of infrastructure for creating value on their own.  This can be
+something as unassuming as a mobile app, as in the case of Uber.  Such businesses tend to uncover value already existent, but previously unrecognized in the economy - mainly because it resides in the hands of consumers.
+Platform business have shown us that value of this sort actually constitutes the lion's share of the market - when it is effectively utilized.
 
-This trend is likely to intensify in the coming years, for the ease of access to information that drives it undoubtedly will.  But as we've seen lately with Uber and AirBnB's legal battles, this probably won't happen unopposed - and
-in many cases merited this opposition is merited.  The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a giant pipeline to make even minimally altruistic decisions at the expense of profit.  Examples aren't hard to find in current news headlines; in Britain, regulators are taking issue with
+"Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner, creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest accommodation provider, owns no real estate. Something interesting is happening."
+- Tech Crunch
+
+This trend is likely to intensify in the coming years, as the ease of access to information driving it undoubtedly will.  But as we've seen lately with Uber and AirBnB's legal battles, this won't take place unopposed.
+Despite the innocuous tenets of the "sharing economy" with which these companies would like to identify themselves, in many cases this opposition is merited; if you look under the hood, it's business as usual.
+The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a giant pipeline to make altruistic decisions at the expense of profit.  Examples aren't hard to find in current news headlines; in Britain, regulators are taking issue with
 the convenience with which Uber can hire full-time workers without taking on the responsibilities of a full-time employer.  Contractors also complain about the substantial cut it takes from drivers, typically 20%, which
-indeed seems like a lot for just offering an app.  Of course, platform businesses facing such criticism seek to identify themselves with the larger picture -- the sharing economy that consumers are so keen on.
-AirBnb, for instance, is promoting a global consumer movement as a shield to their their legal woes.  We will see how successful this is in the coming years, but one question that doesn't seem to have been
-asked often may be pertinent: if so many people are willing to organize to the defense of admittedly imperfect platforms they've come to rely on, why can't these same people
-organize behind a better platform?
-
-
+indeed seems hefty considering the labor involved by the contractors.  As mentioned, platform businesses facing such criticism seek to identify themselves with the larger picture -- they are purveyors of the sharing economy that average-joes are so keen on.
+AirBnb, for instance, is promoting a global consumer movement as a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't these same people
+organize behind a better platform?  We believe the demand for this platform exists already, though it is yet to be realized.  Mesh Market strives to become this platform.
 
 ** Mesh Networking
 Before we discuss how Mesh Market makes it so easy to decentralize resources, we need to explain the role that mesh networking plays.
@@ -340,7 +339,7 @@ These use cases will be made into tutorials in the future.
 - Difficulty: Medium/Hard
 - Investment: High
 - Profit: High
-**** Lower Your Electricity Bills.
+**** Lower Your Electricity Bills
 *** Agriculture
 **** Start an Urban Homestead for Profit and Pleasure.
 - Difficulty: Hard
@@ -370,23 +369,20 @@ These use cases will be made into tutorials in the future.
 - Investment: N/A
 - Profit: Low/Medium/High
 *** City Planners
-
 *** Suggest Another Use Case!
 Did we miss something?  Submit a pull request!
 
 ** Development TODO's
-*** Like to Contribute?
+*** Want to Contribute?
 **** Submit Code
-If you have a good idea and you're up to implementing it, feel free to submit a pull request.
+If you have a good idea and you're up to working it out on your own, feel free to submit a pull request.
 **** Work with Us
-Or, if you're looking for work, we're currently looking for experts in:
+Or, if you're looking for a job, we're currently looking for experts in:
 - mesh networking
 - Blockchain, Ethereum, Bitcoin
 - Linux, sysadmin
 - web security
 - mobile app development
-
-You should also be comfortable with git.
 
 Interested?  Don't hesitate to get in touch:
 djoseph@optipulse.com
@@ -423,4 +419,8 @@ djoseph@optipulse.com
 
 
 * The Mesh Market Foundation
+The form the app eventually takes on will determine the type of business that can best support it.  Presently, a non-profit DAO (decentralized autonomous organization)
+seems like the most effective way to channel funds generated by the app can be used to encourage businesses - most likely through grants - to decentralize and liberate their services
+for increased customer participation.
+
 ** Business Model Canvas

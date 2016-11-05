@@ -2,84 +2,90 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. Introduction</a></li>
-<li><a href="#sec-2">2. Background</a>
+<li><a href="#sec-1">1. Mesh Market: A Platform Business for the People, by the People</a></li>
+<li><a href="#sec-2">2. <span class="todo TODO">TODO</span> add map depicting local community using decentralized resources like solar, internet, etc</a></li>
+<li><a href="#sec-3">3. Introduction</a></li>
+<li><a href="#sec-4">4. Background</a>
 <ul>
-<li><a href="#sec-2-1">2.1. Platform Business</a>
+<li><a href="#sec-4-1">4.1. Platform Business</a>
 <ul>
-<li><a href="#sec-2-1-1">2.1.1. Overview</a></li>
+<li><a href="#sec-4-1-1">4.1.1. Overview</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-2">2.2. Mesh Networking</a>
+<li><a href="#sec-4-2">4.2. Mesh Networking</a>
 <ul>
-<li><a href="#sec-2-2-1">2.2.1. Advantages</a></li>
-<li><a href="#sec-2-2-2">2.2.2. Disadvantages, Obstacles</a></li>
+<li><a href="#sec-4-2-1">4.2.1. Advantages</a></li>
+<li><a href="#sec-4-2-2">4.2.2. Disadvantages, Obstacles</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-3">2.3. Blockchain</a>
+<li><a href="#sec-4-3">4.3. Blockchain</a>
 <ul>
-<li><a href="#sec-2-3-1">2.3.1. Smart Contracts</a></li>
-<li><a href="#sec-2-3-2">2.3.2. Ethereum</a></li>
+<li><a href="#sec-4-3-1">4.3.1. Smart Contracts</a></li>
+<li><a href="#sec-4-3-2">4.3.2. Ethereum</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#sec-3">3. The Mesh Market Platform</a>
+<li><a href="#sec-5">5. The Mesh Market Platform</a>
 <ul>
 <li>
 <ul>
-<li><a href="#sec-3-0-1">3.0.1. App</a></li>
-<li><a href="#sec-3-0-2">3.0.2. DAO</a></li>
-<li><a href="#sec-3-0-3">3.0.3. Protocol</a></li>
-<li><a href="#sec-3-0-4">3.0.4. Case Study: OptiPulse - Making Mesh Networks Mass-Market Viable</a></li>
-<li><a href="#sec-3-0-5">3.0.5. Undercutting the Competition (Building a Platform to End Platforms)</a></li>
+<li><a href="#sec-5-0-1">5.0.1. App</a></li>
+<li><a href="#sec-5-0-2">5.0.2. DAO</a></li>
+<li><a href="#sec-5-0-3">5.0.3. Protocol</a></li>
+<li><a href="#sec-5-0-4">5.0.4. Case Study: OptiPulse - Making Mesh Networks Mass-Market Viable</a></li>
+<li><a href="#sec-5-0-5">5.0.5. Undercutting the Competition (Building a Platform to End Platforms)</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#sec-4">4. Application</a>
+<li><a href="#sec-6">6. Application</a>
 <ul>
-<li><a href="#sec-4-1">4.1. Design</a>
+<li><a href="#sec-6-1">6.1. Design</a>
 <ul>
-<li><a href="#sec-4-1-1">4.1.1. Installation</a></li>
-<li><a href="#sec-4-1-2">4.1.2. Core Features</a></li>
-<li><a href="#sec-4-1-3">4.1.3. Basic: GUI</a></li>
-<li><a href="#sec-4-1-4">4.1.4. Advanced: API</a></li>
-<li><a href="#sec-4-1-5">4.1.5. Advanced: Embeddable Widget</a></li>
-<li><a href="#sec-4-1-6">4.1.6. Possible Directions</a></li>
+<li><a href="#sec-6-1-1">6.1.1. Installation</a></li>
+<li><a href="#sec-6-1-2">6.1.2. Core Features</a></li>
+<li><a href="#sec-6-1-3">6.1.3. Basic: GUI</a></li>
+<li><a href="#sec-6-1-4">6.1.4. Advanced: API</a></li>
+<li><a href="#sec-6-1-5">6.1.5. Advanced: Embeddable Widget</a></li>
+<li><a href="#sec-6-1-6">6.1.6. Possible Directions</a></li>
 </ul>
 </li>
-<li><a href="#sec-4-2">4.2. Use Cases</a>
+<li><a href="#sec-6-2">6.2. Use Cases</a>
 <ul>
-<li><a href="#sec-4-2-1">4.2.1. Internet Service</a></li>
-<li><a href="#sec-4-2-2">4.2.2. Energy</a></li>
-<li><a href="#sec-4-2-3">4.2.3. Agriculture</a></li>
-<li><a href="#sec-4-2-4">4.2.4. Transportation</a></li>
-<li><a href="#sec-4-2-5">4.2.5. Real Estate</a></li>
-<li><a href="#sec-4-2-6">4.2.6. Small Business/Entrepreneurs</a></li>
-<li><a href="#sec-4-2-7">4.2.7. City Planners</a></li>
-<li><a href="#sec-4-2-8">4.2.8. Suggest Another Use Case!</a></li>
+<li><a href="#sec-6-2-1">6.2.1. Internet Service</a></li>
+<li><a href="#sec-6-2-2">6.2.2. Energy</a></li>
+<li><a href="#sec-6-2-3">6.2.3. Agriculture</a></li>
+<li><a href="#sec-6-2-4">6.2.4. Transportation</a></li>
+<li><a href="#sec-6-2-5">6.2.5. Real Estate</a></li>
+<li><a href="#sec-6-2-6">6.2.6. Small Business/Entrepreneurs</a></li>
+<li><a href="#sec-6-2-7">6.2.7. City Planners</a></li>
+<li><a href="#sec-6-2-8">6.2.8. Suggest Another Use Case!</a></li>
 </ul>
 </li>
-<li><a href="#sec-4-3">4.3. Development TODO's</a>
+<li><a href="#sec-6-3">6.3. Development TODO's</a>
 <ul>
-<li><a href="#sec-4-3-1">4.3.1. Like to Contribute?</a></li>
-<li><a href="#sec-4-3-2">4.3.2. Whitepaper</a></li>
-<li><a href="#sec-4-3-3">4.3.3. App</a></li>
+<li><a href="#sec-6-3-1">6.3.1. Want to Contribute?</a></li>
+<li><a href="#sec-6-3-2">6.3.2. Whitepaper</a></li>
+<li><a href="#sec-6-3-3">6.3.3. App</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#sec-5">5. The Mesh Market Foundation</a>
+<li><a href="#sec-7">7. The Mesh Market Foundation</a>
 <ul>
-<li><a href="#sec-5-1">5.1. Business Model Canvas</a></li>
+<li><a href="#sec-7-1">7.1. Business Model Canvas</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-Mesh Market: A Platform Business for the People, by the People
+# Mesh Market: A Platform Business for the People, by the People<a id="sec-1" name="sec-1"></a>
+
+(being a free marketplace for decentralizing resources on the blockchain)
+
+# TODO add map depicting local community using decentralized resources like solar, internet, etc<a id="sec-2" name="sec-2"></a>
 
 With Mesh Market, you can:
 -   get cheaper, better internet service
@@ -88,7 +94,7 @@ With Mesh Market, you can:
 -   reduce your electricity bills while supporting renewable energy
 -   do countless other things we haven't thought of, and some we have (check out more use cases)
 
-# Introduction<a id="sec-1" name="sec-1"></a>
+# Introduction<a id="sec-3" name="sec-3"></a>
 
 Mesh Market is a free application aiming to:
 
@@ -96,34 +102,31 @@ Mesh Market is a free application aiming to:
 -   enable consumers to find friendlier and cheaper local alternatives to centrally-owned, inefficient resources
 -   accelerate deployment and improve market viability of beneficial technologies by providing them with a direct-to-consumer platform
 
-Most aspects of this idea haven't achieved finality, though the above seems to be a good starting point.  Open discussion between experts across various fields will be needed to
-design and build this app as well as form a business that can support it.
-
-Check out the prototype (under construction):
+Check out the prototype (under construction &#x2013; very early stage, and obviously can't handle transactions yet!):
 <https://optipulse.github.io>
 
-(Needless to say, this represents an early stage of the front-end and is only for the sake of illustration.  It isn't yet able to handle transactions.)
+# Background<a id="sec-4" name="sec-4"></a>
 
-# Background<a id="sec-2" name="sec-2"></a>
+## Platform Business<a id="sec-4-1" name="sec-4-1"></a>
 
-## Platform Business<a id="sec-2-1" name="sec-2-1"></a>
+### Overview<a id="sec-4-1-1" name="sec-4-1-1"></a>
 
-### Overview<a id="sec-2-1-1" name="sec-2-1-1"></a>
+A platform business erases the distinction between producers and consumers of goods and services.  It does this by providing consumers with some form of infrastructure for creating value on their own.  This can be
+something as unassuming as a mobile app, as in the case of Uber.  Such businesses tend to uncover value already existent, but previously unrecognized in the economy - mainly because it resides in the hands of consumers.
+Platform business have shown us that value of this sort actually constitutes the lion's share of the market - when it is effectively utilized.
 
-A platform business erases the distinction between producers and consumers of goods and services.  It does this by providing consumers with a platform for creating their own value.
-This often has the side effect of uncovering value previously unrecognized in the economy, mainly because it is in the hands of consumers.  Uber and AirBnB do not own the means of production typically necessary for transportation and
-real-estate companies, respectively - but they and many more companies (Facebook, YouTube, etc) have experienced unparalleled growth by connecting customers with one another.  As Tech Crunch put it,
-"Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner, creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest accommodation provider, owns no real estate. Something interesting is happening.".
+"Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner, creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest accommodation provider, owns no real estate. Something interesting is happening."
+-   Tech Crunch
 
-This trend is likely to intensify in the coming years, for the ease of access to information that drives it undoubtedly will.  But as we've seen lately with Uber and AirBnB's legal battles, this probably won't happen unopposed - and
-in many cases merited this opposition is merited.  The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a giant pipeline to make even minimally altruistic decisions at the expense of profit.  Examples aren't hard to find in current news headlines; in Britain, regulators are taking issue with
+This trend is likely to intensify in the coming years, as the ease of access to information driving it undoubtedly will.  But as we've seen lately with Uber and AirBnB's legal battles, this won't take place unopposed.
+Despite the innocuous tenets of the "sharing economy" with which these companies would like to identify themselves, in many cases this opposition is merited; if you look under the hood, it's business as usual.
+The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a giant pipeline to make altruistic decisions at the expense of profit.  Examples aren't hard to find in current news headlines; in Britain, regulators are taking issue with
 the convenience with which Uber can hire full-time workers without taking on the responsibilities of a full-time employer.  Contractors also complain about the substantial cut it takes from drivers, typically 20%, which
-indeed seems like a lot for just offering an app.  Of course, platform businesses facing such criticism seek to identify themselves with the larger picture &#x2013; the sharing economy that consumers are so keen on.
-AirBnb, for instance, is promoting a global consumer movement as a shield to their their legal woes.  We will see how successful this is in the coming years, but one question that doesn't seem to have been
-asked often may be pertinent: if so many people are willing to organize to the defense of admittedly imperfect platforms they've come to rely on, why can't these same people
-organize behind a better platform?
+indeed seems hefty considering the labor involved by the contractors.  As mentioned, platform businesses facing such criticism seek to identify themselves with the larger picture &#x2013; they are purveyors of the sharing economy that average-joes are so keen on.
+AirBnb, for instance, is promoting a global consumer movement as a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't these same people
+organize behind a better platform?  We believe the demand for this platform exists already, though it is yet to be realized.  Mesh Market strives to become this platform.
 
-## Mesh Networking<a id="sec-2-2" name="sec-2-2"></a>
+## Mesh Networking<a id="sec-4-2" name="sec-4-2"></a>
 
 Before we discuss how Mesh Market makes it so easy to decentralize resources, we need to explain the role that mesh networking plays.
 
@@ -137,7 +140,7 @@ The goal of this app is to develop OptiPulse unique potential for revolutionizin
 userbase is presently miniscule compared to that of conventional, centrally serviced connections (usually provided by one of only a few differnet ISP's), meshes offer many advantages
 over heterogeneous networks, making them the ideal network topology for future networks needing to prioritize scalability.  There are many articles/papers weighing these advantages, so I will only briefly discuss them here.
 
-### Advantages<a id="sec-2-2-1" name="sec-2-2-1"></a>
+### Advantages<a id="sec-4-2-1" name="sec-4-2-1"></a>
 
 1.  Scalability:
 
@@ -162,7 +165,7 @@ over heterogeneous networks, making them the ideal network topology for future n
     if the network is a mesh <https://www.schneier.com/blog/archives/2012/12/dictators_shutt.html#c1034991>.  This criticism would not apply to a network using OptiPulse's
     technology, since its point-to-point signals are not broadcast and would be very difficult to intercept.
 
-### Disadvantages, Obstacles<a id="sec-2-2-2" name="sec-2-2-2"></a>
+### Disadvantages, Obstacles<a id="sec-4-2-2" name="sec-4-2-2"></a>
 
 There are also several difficulties associated with meshes that shouldn't be overlooked.  Some of these may be mitigated by the design of an app fulfilling many
 functions normally assigned to the network administrator, while others may be reducable to inadequacies of current physical layer internet technologies that OptiPulse's
@@ -189,21 +192,21 @@ Light Grid may improve on.
     a mesh-networking platform with a chance of succeeding may raise the defenses of ISP's. This possibility should be discussed in more detail.  It seems to me that
     the case against a mesh-networks would be much more difficult to make, and legal challenges are unlikely to pose a sustained threat.
 
-## Blockchain<a id="sec-2-3" name="sec-2-3"></a>
+## Blockchain<a id="sec-4-3" name="sec-4-3"></a>
 
 Blockchain technology is based on the idea of a distributed ledger.  It is meant to provide trust and security through radical transparency rather than limited access.
 Blockchain plays a crucial role in Mesh Market's plan to overcome the inertia keeping local value creation from being released.
 
-### Smart Contracts<a id="sec-2-3-1" name="sec-2-3-1"></a>
+### Smart Contracts<a id="sec-4-3-1" name="sec-4-3-1"></a>
 
 The concept of a smart contract was first formulated in the 90's, but required blockchain technology to achieve practical implementability.  Basically a smart contract is
 a contract that can execute itself.  This means that terms and conditions are defined programatically, such that a computer can know how they should be interpreted.
 Of course, this limits the contents of the contract what is computationally tractable.  For example, a smart contract may define certain operations being executed when an
 account on the blockchain receives a certain amount of funds.
 
-### Ethereum<a id="sec-2-3-2" name="sec-2-3-2"></a>
+### Ethereum<a id="sec-4-3-2" name="sec-4-3-2"></a>
 
-# The Mesh Market Platform<a id="sec-3" name="sec-3"></a>
+# The Mesh Market Platform<a id="sec-5" name="sec-5"></a>
 
 It may not seem obvious from the above simplistic discussion of smart contracts, but the ability for computers to listen to data and execute transactions on a blockchain enables
 an innumerable array of business solutions heretofore unworkable or impractical to be implemented- particularly those based on the idea of turning a traditionally top-down service into a consumer-to-consumer platform.
@@ -221,13 +224,13 @@ the idea that whatever can be decentralized will be decentralized as the world a
 are inadvertently top-down or fail to prioritize customers' priorities.  This is why we open the design of the Mesh Market platform to feedback and revision via the Protocol.
 The Mesh Market aspires to be the platform to end platforms; to achieve this, there must be built-in mechanisms for self-correction.
 
-### App<a id="sec-3-0-1" name="sec-3-0-1"></a>
+### App<a id="sec-5-0-1" name="sec-5-0-1"></a>
 
-### DAO<a id="sec-3-0-2" name="sec-3-0-2"></a>
+### DAO<a id="sec-5-0-2" name="sec-5-0-2"></a>
 
-### Protocol<a id="sec-3-0-3" name="sec-3-0-3"></a>
+### Protocol<a id="sec-5-0-3" name="sec-5-0-3"></a>
 
-### Case Study: OptiPulse - Making Mesh Networks Mass-Market Viable<a id="sec-3-0-4" name="sec-3-0-4"></a>
+### Case Study: OptiPulse - Making Mesh Networks Mass-Market Viable<a id="sec-5-0-4" name="sec-5-0-4"></a>
 
 Now we'll discuss how these principles can apply to promoting mesh networks, which could enable several exciting use-cases for the Mesh Market.
 
@@ -243,7 +246,7 @@ With the amount of excess bandwidth the Light Grid may be giving customers, they
 analagous to operators of once-widespread internet cafes.  With some added income from selling bandwidth, OptiPulse's users may be able to break even or even make a profit while
 receiving some of the best internet service on the market.
 
-### Undercutting the Competition (Building a Platform to End Platforms)<a id="sec-3-0-5" name="sec-3-0-5"></a>
+### Undercutting the Competition (Building a Platform to End Platforms)<a id="sec-5-0-5" name="sec-5-0-5"></a>
 
 This implies that OptiPulse, as an ISP, might sell internet that comes with a commercial license (or form thereof) to end-users.  While this would give users the ability to resell
 service and potentially cut into some of OptiPulse's target market, there would be some overwhelmingly positive side-effects:
@@ -261,9 +264,9 @@ of these companies are the driving force behind Mesh Market's various use-cases.
 between the platform and pipelines philosophies.  Minimizing the demand Mesh-Market places on users &#x2013; be they large companies or first-time DIY'ers &#x2013; ensures that the platform
 remains agnostic towards content and inviting to any type of endeavor.
 
-# Application<a id="sec-4" name="sec-4"></a>
+# Application<a id="sec-6" name="sec-6"></a>
 
-## Design<a id="sec-4-1" name="sec-4-1"></a>
+## Design<a id="sec-6-1" name="sec-6-1"></a>
 
 One design decision built into Mesh Market is to view users, whether they be they businesses or end consumers, as basically having the same requirements for using the Mesh Market platform. -This creates the possibility of an amorphous market where choices tend to multiply and services improve.  OptiPulse as an ISP that wishes to sell internet service without restrictions on how it does so, and customers as (perhaps equally)
 non-restricted entitites that may act as "mini ISP's" in their own right.  Therefore, the most effective design is one that meets the business requirements of the "producers", while making no distinction between them
@@ -276,7 +279,7 @@ sub-par goods and services can be discovered.  This is how "free markets" are su
 Incidentally, this is why there is no paid advertising on the Mesh Market platform.  It is an intentional design decision that the only information users see when looking for offers is
 what they decide is relevant to making a good choice.
 
-### Installation<a id="sec-4-1-1" name="sec-4-1-1"></a>
+### Installation<a id="sec-6-1-1" name="sec-6-1-1"></a>
 
 1.  Requirements:
 
@@ -302,7 +305,7 @@ what they decide is relevant to making a good choice.
     The Mesh Market Foundation plans to sell minimalist computers in the future specifically for use with Mesh Market.  These will have the software pre-installed,
     and come in packaged bundles for specific use-cases (e.g. solar starter kit, ISP starter kit, etc.)
 
-### Core Features<a id="sec-4-1-2" name="sec-4-1-2"></a>
+### Core Features<a id="sec-6-1-2" name="sec-6-1-2"></a>
 
 1.  Transaction Sequence Diagram
 
@@ -373,7 +376,7 @@ what they decide is relevant to making a good choice.
 
     Finally, the funds being held by the contract starting at step 4 are released, and the transaction is complete.
 
-### Basic: GUI<a id="sec-4-1-3" name="sec-4-1-3"></a>
+### Basic: GUI<a id="sec-6-1-3" name="sec-6-1-3"></a>
 
 ![img](./mesh-market-gui.png)
 
@@ -434,11 +437,11 @@ what they decide is relevant to making a good choice.
 
 6.  F. Map
 
-### Advanced: API<a id="sec-4-1-4" name="sec-4-1-4"></a>
+### Advanced: API<a id="sec-6-1-4" name="sec-6-1-4"></a>
 
-### Advanced: Embeddable Widget<a id="sec-4-1-5" name="sec-4-1-5"></a>
+### Advanced: Embeddable Widget<a id="sec-6-1-5" name="sec-6-1-5"></a>
 
-### Possible Directions<a id="sec-4-1-6" name="sec-4-1-6"></a>
+### Possible Directions<a id="sec-6-1-6" name="sec-6-1-6"></a>
 
 1.  Transactions
 
@@ -454,11 +457,11 @@ what they decide is relevant to making a good choice.
 
         One possibility that should be discussed is the minting of a new crypto-currency to serve as store credit.  As such, it would be bound to the growth of decentralized resources.
 
-## Use Cases<a id="sec-4-2" name="sec-4-2"></a>
+## Use Cases<a id="sec-6-2" name="sec-6-2"></a>
 
 These use cases will be made into tutorials in the future.
 
-### Internet Service<a id="sec-4-2-1" name="sec-4-2-1"></a>
+### Internet Service<a id="sec-6-2-1" name="sec-6-2-1"></a>
 
 1.  Start an ISP (That Customers Will Actually Like).
 
@@ -472,7 +475,7 @@ These use cases will be made into tutorials in the future.
     -   Investment: Low
     -   Profit: N/A
 
-### Energy<a id="sec-4-2-2" name="sec-4-2-2"></a>
+### Energy<a id="sec-6-2-2" name="sec-6-2-2"></a>
 
 1.  Make a Profit on Solar.
 
@@ -480,9 +483,9 @@ These use cases will be made into tutorials in the future.
     -   Investment: High
     -   Profit: High
 
-2.  Lower Your Electricity Bills.
+2.  Lower Your Electricity Bills
 
-### Agriculture<a id="sec-4-2-3" name="sec-4-2-3"></a>
+### Agriculture<a id="sec-6-2-3" name="sec-6-2-3"></a>
 
 1.  Start an Urban Homestead for Profit and Pleasure.
 
@@ -496,7 +499,7 @@ These use cases will be made into tutorials in the future.
     -   Investment: Low
     -   Profit: N/A
 
-### Transportation<a id="sec-4-2-4" name="sec-4-2-4"></a>
+### Transportation<a id="sec-6-2-4" name="sec-6-2-4"></a>
 
 1.  Make a Living Driving.
 
@@ -510,7 +513,7 @@ These use cases will be made into tutorials in the future.
     -   Investment: Low
     -   Profit: N/A
 
-### Real Estate<a id="sec-4-2-5" name="sec-4-2-5"></a>
+### Real Estate<a id="sec-6-2-5" name="sec-6-2-5"></a>
 
 1.  Lease a Spare Room in Your House.
 
@@ -518,7 +521,7 @@ These use cases will be made into tutorials in the future.
     -   Investment: Low/Medium
     -   Profit: Medium
 
-### Small Business/Entrepreneurs<a id="sec-4-2-6" name="sec-4-2-6"></a>
+### Small Business/Entrepreneurs<a id="sec-6-2-6" name="sec-6-2-6"></a>
 
 1.  Add Your Business to the Mesh Market and Reach New Audiences.
 
@@ -526,37 +529,35 @@ These use cases will be made into tutorials in the future.
     -   Investment: N/A
     -   Profit: Low/Medium/High
 
-### City Planners<a id="sec-4-2-7" name="sec-4-2-7"></a>
+### City Planners<a id="sec-6-2-7" name="sec-6-2-7"></a>
 
-### Suggest Another Use Case!<a id="sec-4-2-8" name="sec-4-2-8"></a>
+### Suggest Another Use Case!<a id="sec-6-2-8" name="sec-6-2-8"></a>
 
 Did we miss something?  Submit a pull request!
 
-## Development TODO's<a id="sec-4-3" name="sec-4-3"></a>
+## Development TODO's<a id="sec-6-3" name="sec-6-3"></a>
 
-### Like to Contribute?<a id="sec-4-3-1" name="sec-4-3-1"></a>
+### Want to Contribute?<a id="sec-6-3-1" name="sec-6-3-1"></a>
 
 1.  Submit Code
 
-    If you have a good idea and you're up to implementing it, feel free to submit a pull request.
+    If you have a good idea and you're up to working it out on your own, feel free to submit a pull request.
 
 2.  Work with Us
 
-    Or, if you're looking for work, we're currently looking for experts in:
+    Or, if you're looking for a job, we're currently looking for experts in:
     -   mesh networking
     -   Blockchain, Ethereum, Bitcoin
     -   Linux, sysadmin
     -   web security
     -   mobile app development
 
-    You should also be comfortable with git.
-
     Interested?  Don't hesitate to get in touch:
     djoseph@optipulse.com
 
-### Whitepaper<a id="sec-4-3-2" name="sec-4-3-2"></a>
+### Whitepaper<a id="sec-6-3-2" name="sec-6-3-2"></a>
 
-### App<a id="sec-4-3-3" name="sec-4-3-3"></a>
+### App<a id="sec-6-3-3" name="sec-6-3-3"></a>
 
 1.  TODO Base-Site
 
@@ -612,6 +613,10 @@ Did we miss something?  Submit a pull request!
 
     2.  TODO remove mouse interactivity
 
-# The Mesh Market Foundation<a id="sec-5" name="sec-5"></a>
+# The Mesh Market Foundation<a id="sec-7" name="sec-7"></a>
 
-## Business Model Canvas<a id="sec-5-1" name="sec-5-1"></a>
+The form the app eventually takes on will determine the type of business that can best support it.  Presently, a non-profit DAO (decentralized autonomous organization)
+seems like the most effective way to channel funds generated by the app can be used to encourage businesses - most likely through grants - to decentralize and liberate their services
+for increased customer participation.
+
+## Business Model Canvas<a id="sec-7-1" name="sec-7-1"></a>
