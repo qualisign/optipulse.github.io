@@ -31,8 +31,8 @@
 <li><a href="#sec-3-0-1">3.0.1. App</a></li>
 <li><a href="#sec-3-0-2">3.0.2. DAO</a></li>
 <li><a href="#sec-3-0-3">3.0.3. Protocol</a></li>
-<li><a href="#sec-3-0-4">3.0.4. Case Study: OptiPulse - Making Mesh Networks Mass-Market Viable</a></li>
-<li><a href="#sec-3-0-5">3.0.5. Undercutting the Competition (Building a Platform to End Platforms)</a></li>
+<li><a href="#sec-3-0-4">3.0.4. Case Study: OptiPulse &#x2013; Making Mesh Networks Mass-Market Viable</a></li>
+<li><a href="#sec-3-0-5">3.0.5. Building the Platform to End Platforms</a></li>
 </ul>
 </li>
 </ul>
@@ -108,11 +108,13 @@ Check out the prototype (under construction &#x2013; very early stage, and obvio
 ### Overview<a id="sec-2-1-1" name="sec-2-1-1"></a>
 
 A platform business erases the distinction between producers and consumers of goods and services.  It does this by providing consumers with some form of infrastructure for creating value on their own.  This can be
-something as unassuming as a mobile app, as in the case of Uber.  Such businesses tend to uncover value already existent, but previously unrecognized in the economy - mainly because it resides in the hands of consumers.
+something as unassuming as a mobile app, as in the case of Uber.  Such businesses tend to uncover value already existent, but previously unrecognized - mainly because it resides in the hands of consumers.
 Platform business have shown us that value of this sort actually constitutes the lion's share of the market - when it is effectively utilized.
-As Tech Crunch put it, "Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner, creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest accommodation provider, owns no real estate. Something interesting is happening."
+As Tech Crunch put it,
 
-This trend is likely to intensify in the coming years, as the ease of access to information driving it undoubtedly will.  But as we've seen lately with Uber and AirBnB's legal battles, this won't take place unopposed.
+    "Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner, creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest accommodation provider, owns no real estate. Something interesting is happening."
+
+This trend is likely to intensify in the coming years, as the ease of access to information driving it undoubtedly will.  But as we've seen lately with Uber and AirBnB's legal battles, this won't go unopposed.
 Despite the innocuous tenets of the "sharing economy" with which these companies would like to identify themselves, in many cases this opposition is merited; if you look under the hood, it's business as usual.
 The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a giant pipeline to make altruistic decisions at the expense of profit.  Examples aren't hard to find in current news headlines; in Britain, regulators are taking issue with
 the convenience with which Uber can hire full-time workers without taking on the responsibilities of a full-time employer.  Contractors also complain about the substantial cut it takes from drivers, typically 20%, which
@@ -130,30 +132,29 @@ In other words, mesh networks get rid of centralized computing resources in favo
 
 Mesh Market takes this concept to the next level and seeks to decentralize all resources (insofar as that's possible).
 
-The goal of this app is to develop OptiPulse unique potential for revolutionizing the mesh/ad-hoc networking market with its Light Grid technology.  While the mesh-networking
+The original goal of this app was to develop OptiPulse unique potential for revolutionizing the mesh/ad-hoc networking market with its Light Grid technology.  While the mesh-networking
 userbase is presently miniscule compared to that of conventional, centrally serviced connections (usually provided by one of only a few differnet ISP's), meshes offer many advantages
-over heterogeneous networks, making them the ideal network topology for future networks needing to prioritize scalability.  There are many articles/papers weighing these advantages, so I will only briefly discuss them here.
+over heterogeneous networks, making them the ideal network topology for future networks needing to prioritize scalability.  There are many articles/papers weighing these advantages, so the discussion here will be brief:
 
 ### Advantages<a id="sec-2-2-1" name="sec-2-2-1"></a>
 
 1.  Scalability:
 
-    Adding more devices to the network tends to improve mesh connections, in contrast to star topologies.  More devices connected to a mesh network locally means more possible paths from which internet traffic can be routed.
+    Adding more devices to the network tends to improve mesh connections, in contrast to star topologies.  More devices connected to a mesh network locally means more possible paths through which internet traffic can be routed.
 
 2.  Robustnesss:
 
-    There is no central point of failure in a mesh network.  Power outages, network attacks, and threats to single nodes have no way of circulating and infecting the entire network, as in a star topology.
+    There is no central point of failure in a mesh network.  Power outages, network attacks, and threats to individual nodes circulate and infect the entire network, as in a star topology.
     Those who were able to get WIFI in the aftermath of Hurricane Sandy know this isn't mere speculation.  <http://techpresident.com/news/23127/red-hook-mesh-network-connects-sandy-survivors-still-without-power>
 
-3.  Decentralization/Democritization:
+3.  Democritization:
 
-    It is also virtually impossible to "shut down" a distributed network as happened during the popular uprising in Egypt during the Arab Spring in 2011. Without the imperitave for centrally-
-    connected hubs, disrupting connections becomes very hard to achieve.
+    It is virtually impossible to "shut down" a mesh network the way dictators have been known to (e.g. in Egypt during Arab Spring, or at the time of writing this in Turkey). Without the imperitave for centrally-connected hubs, disrupting connections becomes very hard to achieve.
     <http://europe.newsweek.com/dictator-proofing-internet-68705?rm=eu>
 
-    That authorities might cut off the internet is significantly less likely in countries without the egregious network collusion with government that we
-    see in many developing countries <http://fortune.com/2015/12/08/donald-trump-bill-gates-internet/>.  Such countries may turn out to be some of the
-    best candidate for demonstrating the power of decentralized markets for effecting positive social change.
+    That authorities might cut off the internet is significantly less likely in countries without egregious network collusion with government as we
+    see in many developing countries (Sorry Donald Trump <http://fortune.com/2015/12/08/donald-trump-bill-gates-internet/>.)  Such countries may turn out to be some of the
+    best stages on which to demonstrate the power of decentralized markets for effecting positive social change.
 
     One criticism of the idea that mesh networks could make the internet impervious to control by dictators is that WIFI signals can be traced and individuals can be targeted even
     if the network is a mesh <https://www.schneier.com/blog/archives/2012/12/dictators_shutt.html#c1034991>.  This criticism would not apply to a network using OptiPulse's
@@ -162,12 +163,13 @@ over heterogeneous networks, making them the ideal network topology for future n
 ### Disadvantages, Obstacles<a id="sec-2-2-2" name="sec-2-2-2"></a>
 
 There are also several difficulties associated with meshes that shouldn't be overlooked.  Some of these may be mitigated by the design of an app fulfilling many
-functions normally assigned to the network administrator, while others may be reducable to inadequacies of current physical layer internet technologies that OptiPulse's
+functions normally assigned to the network administrator, while others may be reducable to inadequacies of current physical layer internet technologies that OptiPulse's (a key partner)
 Light Grid may improve on.
 
 1.  Power Consumption
 
-    This is listed as a disadvantage, but OptiPulse's Light Grid requires very low power consumption, which may make it an enabling technology for mesh networks.
+    From link-labs: "Because each node in a mesh has to act as an endpoint and a router, it has to draw more power to operate. Thus, if you have battery-powered, low-power nodes, a mesh may be difficult to deploy without a lot of network planning."
+    This is listed as a disadvantage, but OptiPulse's Light Grid requires very little power consumption, which may make it an enabling technology for mesh networks.
 
 2.  Latency
 
@@ -224,7 +226,7 @@ The Mesh Market aspires to be the platform to end platforms; to achieve this, th
 
 ### Protocol<a id="sec-3-0-3" name="sec-3-0-3"></a>
 
-### Case Study: OptiPulse - Making Mesh Networks Mass-Market Viable<a id="sec-3-0-4" name="sec-3-0-4"></a>
+### Case Study: OptiPulse &#x2013; Making Mesh Networks Mass-Market Viable<a id="sec-3-0-4" name="sec-3-0-4"></a>
 
 Now we'll discuss how these principles can apply to promoting mesh networks, which could enable several exciting use-cases for the Mesh Market.
 
@@ -240,7 +242,7 @@ With the amount of excess bandwidth the Light Grid may be giving customers, they
 analagous to operators of once-widespread internet cafes.  With some added income from selling bandwidth, OptiPulse's users may be able to break even or even make a profit while
 receiving some of the best internet service on the market.
 
-### Undercutting the Competition (Building a Platform to End Platforms)<a id="sec-3-0-5" name="sec-3-0-5"></a>
+### Building the Platform to End Platforms<a id="sec-3-0-5" name="sec-3-0-5"></a>
 
 This implies that OptiPulse, as an ISP, might sell internet that comes with a commercial license (or form thereof) to end-users.  While this would give users the ability to resell
 service and potentially cut into some of OptiPulse's target market, there would be some overwhelmingly positive side-effects:
@@ -280,10 +282,14 @@ what they decide is relevant to making a good choice.
     -   1. git
     -   2. a running Ethereum client
     -   3. CJDNS, for ad-hoc routing
-    -   4. Clojure, for interfacing with device OS (using Trickle <https://github.com/mariusae/trickle>)
+    -   4. Clojure, for interfacing with device OS (using Trickle <https://github.com/mariusae/trickle> or similar command line tools)
     -   5. a modern web browser
 
-2.  Instructions:
+2.  Simplification, for Non-Nerds:
+
+    The Mesh Market Foundation plans to sell minimalist computers in the future shipping with pre-installed Mesh Market plus its dependencies.  These will be available in packaged bundles for specific use-cases (e.g. a solar starter kit, ISP starter kit, etc.)
+
+3.  Instructions:
 
     -   1. clone the Mesh Market repo:
 
@@ -295,9 +301,6 @@ what they decide is relevant to making a good choice.
 
         $ cd mesh-market
         $ mesh-market run
-
-    The Mesh Market Foundation plans to sell minimalist computers in the future specifically for use with Mesh Market.  These will have the software pre-installed,
-    and come in packaged bundles for specific use-cases (e.g. solar starter kit, ISP starter kit, etc.)
 
 ### Core Features<a id="sec-4-1-2" name="sec-4-1-2"></a>
 
