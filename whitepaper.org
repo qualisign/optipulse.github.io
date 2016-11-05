@@ -2,13 +2,6 @@ Mesh Market: A Platform Business for the People, by the People
 
 (being a free marketplace for decentralizing resources on the Blockchain)
 
-With Mesh Market, you can:
-- get cheaper, better internet service
-- start a do-it-yourself ISP
-- start a profitable energy business from your own home
-- reduce your electricity bills while supporting renewable energy
-- do countless other things we haven't thought of, and some we have (check out more use cases)
-
 * Introduction
 
 Mesh Market is a free application aiming to:
@@ -17,11 +10,40 @@ Mesh Market is a free application aiming to:
 - enable consumers to find friendlier and cheaper local alternatives to centrally-owned, inefficient resources
 - accelerate deployment and improve market viability of beneficial technologies by providing them with a direct-to-consumer platform
 
+With Mesh Market, you can:
+- get cheaper, better internet service
+- start a do-it-yourself ISP
+- start a profitable energy business from your own home
+- reduce your electricity bills while supporting renewable energy
+- do countless other things we haven't thought of, and some we have (check out more use cases, or read on for an overview of how it works)
+
 Check out the prototype (under construction -- very early stage, and obviously can't handle transactions yet!):
 https://optipulse.github.io
 
 
 * Background
+The Mesh Market app was originally conceived by developers at OptiPulse who were envisioning a direct-to-consumer platform for getting its internet technology
+into the market.  Eventually it was realized that the same infrastructure could be used to decentralize resources besides bandwidth, and the Mesh Market Foundation was
+created to promote the full potential of the app.
+** The Light Grid
+We believe that OptiPulse's Light Grid will come to dominate future internet infrastructure.  It is a revolutionary physical-layer technology based on a novel invention in electro-optics.  Like other elite photonic transmitters, it is capable of 5G bit-rates; unlike fiber-optics, however, it is wireless and easy to deploy.
+This makes it very cheap in comparison to the standard alternatives.  Besides being competitive with some of the best fiber-optics, it comes with a range of other benefits:
+*** Distance
+Early tests and estimates have projected that the Light Grid's transmission range may be over 10 km.  This is significantly far for optical wireless technologies.
+*** Deployability
+Unlike fiber-optics, there is no digging up of long stretches of earth to connect two end-points.  This is typically the brunt of the cost associate with FO.  As you can imagine,
+this also avoids legal difficulties like zoning laws.
+*** Unlicensed Spectrum
+The Light Grid uses a part of the RF spectrum that isn't licensed.  Not only is signal interference negligible compared to typical broadcast connections like WiFi, but contending with competitors
+over spectrum licensing is also a non-issue.
+*** Ecological Friendliness
+Taking load off the typical spectrum range also has huge benefits to living organisms, which many believe are harmed by the proliferation of microwaves in the atmosphere used for
+communication.
+*** Low Size, Weight
+Did we mention how small the Light Grid is?
+[[picture]]
+*** Low Power-Consumption
+
 ** Platform Business
 *** Overview
 A platform business erases the distinction between producers and consumers of goods and services.  It does this by providing consumers with some form of infrastructure for creating value on their own.  This can be
@@ -44,25 +66,6 @@ indeed seems hefty considering the labor involved by the contractors.  As mentio
 AirBnb, for instance, is promoting a global consumer movement as a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't these same people
 organize behind a better platform?  We believe the demand for this platform exists already, though it is yet to be realized.  Mesh Market strives to become this platform.
 
-** The Light Grid
-The Mesh Market Foundation has already secured a key partnership with OptiPulse, a startup producing a technology that we believe will come to dominate future internet infrastructure.
-OptiPulse's Light Grid is a revolutionary physical-layer technology based on a novel invention in electro-optics.  Like other elite photonic transmitters, it is capable of 5G bit-rates; unlike fiber-optics, however, it is wireless and easy to deploy.
-This makes it very cheap in comparison to the standard alternatives.  Besides being competitive with some of the best fiber-optics, it comes with a range of other benefits:
-*** Distance
-Early tests and estimates have projected that the Light Grid's transmission range may be over 10 km.  This is significantly far for optical wireless technologies.
-*** Deployability/Non-Invasiveness
-Unlike fiber-optics, there is no digging up of long stretches of earth to connect two end-points.  This is typically the brunt of the cost associate with FO.  As you can imagine,
-this also avoids legal trouble like zoning laws.
-*** Unlicensed Spectrum
-The Light Grid uses a part of the RF spectrum that isn't licensed.  Not only is signal interference negligible compared to typical broadcast connections like WiFi, but contending with competitors
-over spectrum licensing is also a non-issue.
-*** Ecologically Friendly
-Taking load off the typical spectrum range also has huge benefits to living organisms, which many believe are harmed by the proliferation of microwaves in the atmosphere used for
-communication.
-*** Low Size, Weight
-Did we mention how small the Light Grid is?
-[[picture]]
-*** Low Power-Consumption
 
 
 ** Mesh Networking
@@ -132,19 +135,15 @@ Decentralized platforms based on blockchain/smart contracts are already being de
 for average consumers to have noticeably benefited.  The platform business phenomenon and the sharing economy at large, on the other hand, have had a huge impact on what customers expect from the services they use,
 and demonstrated the substantial demand for useful peer-to-peer services.
 
-There already exist many ideas and technologies that might do the world good - if only there were a way to get people to adopt them.  We made the case for mesh networking above;
-others are making it for renewable energy, vegetarianism, a basic income, and so on.  There is no shortage of good ideas - it's just collective will that stagnates.  The ultimate goal of Mesh
-Market is to create a way to incentivize collective behavior that is manifestly positive.  The purpose of the Mesh Market Protocol is to define this behavior.  Finally, the Mesh Market Foundation channels funds into
-businesses that seek to implement these solutions, and incentivizes businesses (and people) to use the platform.  Mesh Market the DApp should be thought of as part of this eco-system.
+Of course, there is no shortage of useful ideas and technologies that would have a positive impact, if they were only adopted - if is collective will to do so that stagnates.  We made the case for beneficial communication technologies above;
+others are making it for renewable energy, vegetarianism, a basic income, and so on.  The ultimate goal of Mesh Market is to create a way to incentivize collective behavior that is manifestly positive.  The purpose of the Mesh Market Protocol is to define this behavior.  Finally, the Mesh Market Foundation channels funds into
+businesses that seek to implement these solutions, and incentivizes businesses (and people) to use the platform.  Mesh Market the DApp should be thought of as one part of this eco-system.
 
 It would be unwise for any business developing in the post-smart contract world to implement an overtly top-down approach to customer relations.  We take very seriously
 the idea that whatever can be decentralized will be decentralized as the world awakens to the utility of the Blockchain.  Of course, this includes any aspects of the Mesh Market platform that
 are inadvertently top-down or fail to prioritize customers' priorities.  This is why we open the design of the Mesh Market platform to feedback and revision via the Protocol.
 The Mesh Market aspires to be the platform to end platforms; to achieve this, there must be built-in mechanisms for self-correction.
 
-*** App
-*** DAO
-*** Protocol
 *** Case Study: OptiPulse -- Making Mesh Networks Mass-Market Viable
 Now we'll discuss how these principles can apply to promoting mesh networks, which could enable several exciting use-cases for the Mesh Market.
 
@@ -198,96 +197,34 @@ what they decide is relevant to making a good choice.
 - 3. CJDNS, for ad-hoc routing
 - 4. Clojure, for interfacing with device OS (using Trickle https://github.com/mariusae/trickle or similar command line tools)
 - 5. a modern web browser
-**** Simplification, for Non-Nerds:
+**** Simplification (for Non-Nerds)
 The Mesh Market Foundation plans to sell minimalist computers in the future shipping with pre-installed Mesh Market plus its dependencies.  These will be available in packaged bundles for specific use-cases (e.g. a solar starter kit, ISP starter kit, etc.)
 **** Instructions:
 - 1. clone the Mesh Market repo:
-
 #+BEGIN_SRC shell
 git clone https://github.com/optipulse/mesh-market.git
 #+END_SRC
-
 - 2. connect to an Ethereum client locally
 - 3. connect to CJDNS
-- 4.
+- 4. run the Mesh Market server
 #+BEGIN_SRC shell
 $ cd mesh-market
 $ mesh-market run
 #+END_SRC
 
 *** Core Features
-**** Transaction Sequence Diagram
-[[./optipulse-app-transaction.png]]
-- 1) Make Offer
-Before users have the ability to find internet service near them, other users need to be able to advertise that they have available connections.  The interaction
-shown in the above diagram revolves around these two core functions; methods peripheral to these are meant to provide a system of trust to ensure that all parties are satisfied with the transaction.
-
-Making an offer is as simple as filling out a form, which may look something like this:
-
-The submitted data is then made public on the blockchain.  Unlike conventional apps, a decentralized app (DApp) does not require a "back-end" that can be pinned geographically to one server or another.  Instead, all relevant data is saved to the
-blockchain and bound to public keys.  These keys may represent a simple account balance, as in the case of Bitcoin, or a complete smart contract.  Data can include important details about offers like names, descriptions, time-restrictions, etc.
-
-- 2) Find Offer
-This step involves another class of user, the offer taker, submitting a form to query data on the blockchain.  This is somewhat tricky compared to fetching data from a server where one knows which tables to read data from.  Data stored in the Ethereum blockchain
-is included in a smart contract, which is invoked using a public key.  But how can a user find a suitable offer among the multitude living on the blockchain?  Obviously it won't work to query each available offer for satisfactory properties like bandwidth,
-price, etc -- this would be very ineffecient, because many of these might be in different cities or countries.  The best solution may be to create a smart contract bound to a geographical area that will
-limit queries to only local options, or options within a certain range defined by the user.
-
-This introduces some complications.  Blockchain data is immutable, but offers available to users will be constantly changing.  The most clever way around this is to have the smart contract bound to a geographical area simply
-point to the latest version of the area's blockchain, so that queries will be made on up-to-date data.  This creates the illusion that the data users are querying is dynamic, though it is actually immutable.
-
-The latest version of Ethereum has native support for this capability.  Here's an example smart contract meant to relay queries to another that is updateable (borrowed from a Stackoverflow answer http://ethereum.stackexchange.com/questions/2404/upgradeable-contracts):
-
-
- #+BEGIN_SRC javascript
-contract Relay {
-    address public currentVersion;
-    address public owner;
-
-    function Relay(address initAddr){
-        currentVersion = initAddr;
-        owner = msg.sender;
-    }
-
-    function update(address newAddress){
-        if(msg.sender != owner) throw;
-        currentVersion = newAddress;
-    }
-
-    function(){
-        if(!currentVersion.delegatecall(msg.data)) throw;
-    }
- #+END_SRC
-
-
-- 3) Show Results
-Displaying the results to the user is completely straightforward; data retrieved from the blockchain can subsequently be passed to the front-end and may be represented on
-a map and/or table that the user can interact with.
-- 4) Take Offer
-The most important way a user can interact with the offers they find is to take (accept) one of them.  This involves transfering funds to the smart contract the offer represents,
-which then tells the offer maker's device to proceed with releasing the consideration.
-- 5) Trigger Consideration
-With this step, the blockchain informs the offer maker's device that the offer has been accepted and it should now fulfill its part of the contract.
-- 6) Trigger Side Effects
-Now that the maker's device has received the go-ahead to give consideration, computation may be performed to decide how to go about doing this.  This could hypothetically be as simple
-as converting one currency into another, or may be an involved shell script for allocating bandwidth based on the requirements of the contract.
-- 7) Send Resources
-Once the requisite computation has been performed to send a resource, it may be sent.  This is the only step taking place on the physical layer -- be it a laser sending
-messages or a solar panel plus cabel sending power.
-- 8) Send Confirmation
-The offer taker's device is then triggered to inform the blockchain that consideration was met, and that funds should be released.
-- 9) Transfer Funds
-Finally, the funds being held by the contract starting at step 4 are released, and the transaction is complete.
 
 *** Basic: GUI
 [[./mesh-market-gui.png]]
 **** A. Make an Offer
-[[./offer.png]]
 **** B. Find an Offer
 ***** TODO add find form
 **** C. Wallet
+***** Create Wallet
+To create a new wallet, you just need to come up with a good password (your private key.)  Careful!  If you lose/forget this, it can never be retrieved.
+***** Open Wallet
+In order to add offers to Mesh Market, you will need your address (the public key you were given when you created your wallet) and your password.
 **** D. Protocol: Definining Resource Consumption for the Future
-
 The Mesh Market protocol provides dynamically updated in-app documentation for:
 - the features of the app itself
 - the contents of offers available in the app
@@ -295,10 +232,13 @@ The Mesh Market protocol provides dynamically updated in-app documentation for:
 The Mesh Market Foundation will release an initial protocol specification.  Further development of the protocol may be determined democratically by user-submitted
 entries, which is handled in a section of the website separate from the app.
 
-A protocol entry is composed of:
+A protocol entry includes:
 - a tag
 - a recommendation
 - a justification
+
+The Mesh Market protocol specifies which technologies are conducive to the overall goals of the Mesh Market Foundation.  Businesses (and individuals acting as businesses)
+may apply for grants to help them develop
 
 Each user-submitted protocol entry undergoes vetting before it is added to the Protocol Object, which is a JSON object referenced for dynamic updating of in-app documentation.
 Vetting is simple: those entries that receive more upvotes than downvotes are added to the Protocol Object.
