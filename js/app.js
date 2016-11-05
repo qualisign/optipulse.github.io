@@ -224,7 +224,7 @@ $(document).ready(function() {
     });
 
     // leaflet
-    var map = L.map('map');
+    var map = L.map('map', { zoomControl:false });
     L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
     }).addTo(map);
@@ -235,6 +235,10 @@ $(document).ready(function() {
 
     $("#offer-location").geocomplete();
 
+    map._handlers.forEach(function(handler) {
+        handler.disable();
+
+    });
     
 });
 
