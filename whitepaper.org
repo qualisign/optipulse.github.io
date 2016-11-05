@@ -1,4 +1,4 @@
-<strong>Mesh Market: A Marketplace for Decentralized Resources on the Blockchain</strong>
+Mesh Market: A Marketplace for Decentralized Resources on the Blockchain
 
 * Introduction
 
