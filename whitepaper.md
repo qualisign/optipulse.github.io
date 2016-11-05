@@ -420,7 +420,7 @@ what they decide is relevant to making a good choice.
 
 ![img](./optipulse-app-transaction.png)
 
-1.  Make Offer
+-   1) Make Offer
 
 Before users have the ability to find internet service near them, other users need to be able to advertise that they have available connections. The interaction shown in the above diagram revolves around these two core functions; methods peripheral to these are meant to provide a system of trust to ensure that all parties are satisfied with the transaction.
 
@@ -428,7 +428,7 @@ Making an offer is as simple as filling out a form, which may look something lik
 
 The submitted data is then made public on the blockchain. Unlike conventional apps, a decentralized app (DApp) does not require a “back-end” that can be pinned geographically to one server or another. Instead, all relevant data is saved to the blockchain and bound to public keys. These keys may represent a simple account balance, as in the case of Bitcoin, or a complete smart contract. Data can include important details about offers like names, descriptions, time-restrictions, etc.
 
-1.  Find Offer
+-   2) Find Offer
 
 This step involves another class of user, the offer taker, submitting a form to query data on the blockchain. This is somewhat tricky compared to fetching data from a server where one knows which tables to read data from. Data stored in the Ethereum blockchain is included in a smart contract, which is invoked using a public key. But how can a user find a suitable offer among the multitude living on the blockchain? Obviously it won’t work to query each available offer for satisfactory properties like bandwidth, price, etc – this would be very ineffecient, because many of these might be in different cities or countries. The best solution may be to create a smart contract bound to a geographical area that will limit queries to only local options, or options within a certain range defined by the user.
 
@@ -454,31 +454,31 @@ The latest version of Ethereum has native support for this capability. Here’s 
             if(!currentVersion.delegatecall(msg.data)) throw;
         }
 
-1.  Show Results
+-   3) Show Results
 
 Displaying the results to the user is completely straightforward; data retrieved from the blockchain can subsequently be passed to the front-end and may be represented on a map and/or table that the user can interact with.
 
-1.  Take Offer
+-   4) Take Offer
 
 The most important way a user can interact with the offers they find is to take (accept) one of them. This involves transfering funds to the smart contract the offer represents, which then tells the offer maker’s device to proceed with releasing the consideration.
 
-1.  Trigger Consideration
+-   5) Trigger Consideration
 
 With this step, the blockchain informs the offer maker’s device that the offer has been accepted and it should now fulfill its part of the contract.
 
-1.  Trigger Side Effects
+-   6) Trigger Side Effects
 
 Now that the maker’s device has received the go-ahead to give consideration, computation may be performed to decide how to go about doing this. This could hypothetically be as simple as converting one currency into another, or may be an involved shell script for allocating bandwidth based on the requirements of the contract.
 
-1.  Send Resources
+-   7) Send Resources
 
 Once the requisite computation has been performed to send a resource, it may be sent. This is the only step taking place on the physical layer – be it a laser sending messages or a solar panel plus cabel sending power.
 
-1.  Send Confirmation
+-   8) Send Confirmation
 
 The offer taker’s device is then triggered to inform the blockchain that consideration was met, and that funds should be released.
 
-1.  Transfer Funds
+-   9) Transfer Funds
 
 Finally, the funds being held by the contract starting at step 4 are released, and the transaction is complete.
 
