@@ -44,15 +44,15 @@
 </li>
 </ul>
 </li>
-<li><a href="#sec-4">4. Application-</a>
+<li><a href="#sec-4">4. Application</a>
 <ul>
 <li><a href="#sec-4-1">4.1. Design</a>
 <ul>
 <li><a href="#sec-4-1-1">4.1.1. Installation</a></li>
 <li><a href="#sec-4-1-2">4.1.2. Core Features</a></li>
 <li><a href="#sec-4-1-3">4.1.3. Basic: GUI</a></li>
-<li><a href="#sec-4-1-4">4.1.4. Advanced: API</a></li>
-<li><a href="#sec-4-1-5">4.1.5. Advanced: Embeddable Widget</a></li>
+<li><a href="#sec-4-1-4">4.1.4. API</a></li>
+<li><a href="#sec-4-1-5">4.1.5. Embeddable Widget</a></li>
 <li><a href="#sec-4-1-6">4.1.6. Transaction Sequence Diagram</a></li>
 <li><a href="#sec-4-1-7">4.1.7. Possible Directions</a></li>
 </ul>
@@ -297,7 +297,7 @@ of these companies are the driving force behind Mesh Market's various use-cases.
 between the platform and pipelines philosophies.  Minimizing the demand Mesh-Market places on users &#x2013; be they large companies or first-time DIY'ers &#x2013; ensures that the platform
 remains agnostic towards content and inviting to any type of endeavor.
 
-# Application-<a id="sec-4" name="sec-4"></a>
+# Application<a id="sec-4" name="sec-4"></a>
 
 ## Design<a id="sec-4-1" name="sec-4-1"></a>
 
@@ -314,19 +314,20 @@ what they decide is relevant to making a good choice.
 
 ### Installation<a id="sec-4-1-1" name="sec-4-1-1"></a>
 
-1.  Requirements:
+1.  Dependencies:
 
     -   1. git
-    -   2. a running Ethereum client
-    -   3. CJDNS, for ad-hoc routing
-    -   4. Clojure, for interfacing with device OS (using Trickle <https://github.com/mariusae/trickle> or similar command line tools)
-    -   5. a modern web browser
+    -   2. geth, plus a running Ethereum client
+    -   3. Node.js
+    -   4. web3.js
+    -   5. web3<sub>extended</sub>.js
+    -   6. CJDNS, for ad-hoc routing
+    -   7. Clojure, for interfacing with device OS (using Trickle <https://github.com/mariusae/trickle> or similar command line tools)
+    -   8. a modern web browser
 
-2.  Simplification (for Non-Nerds)
+2.  Instructions:
 
-    The Mesh Market Foundation plans to sell minimalist computers in the future shipping with pre-installed Mesh Market plus dependencies.  These will be available in packaged bundles for specific use-cases (e.g. a solar starter kit, ISP starter kit, etc.)
-
-3.  Instructions:
+    Now to get Mesh Market:
 
     -   1. clone the Mesh Market repo:
 
@@ -338,6 +339,23 @@ what they decide is relevant to making a good choice.
 
         $ cd mesh-market
         $ mesh-market run
+
+    Mesh Market is now available in your browser at:
+    localhost:8545
+
+    To change the port number, <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">\_</span></span></span></span></span>.
+
+3.  Simplification (for Non-Nerds)
+
+    We know, that's a lot of installation.  Bear with us until we get something simpler working.
+
+    The Mesh Market Foundation plans to sell minimalist computers in the future shipping with Mesh Market pre-installed plus dependencies.  These will be available in packaged bundles for specific use-cases, such as:
+
+    -   solar starter kit
+    -   ISP starter kit
+    -   aeroponic starter kit
+
+    and more to come.
 
 ### Core Features<a id="sec-4-1-2" name="sec-4-1-2"></a>
 
@@ -355,7 +373,7 @@ what they decide is relevant to making a good choice.
 
     1.  Create Wallet
 
-        To create a new wallet, you just need to come up with a good password (your private key.)  Careful!  If you lose/forget this, it can never be retrieved.
+        To create a new wallet, you just need to come up with a good password (your private key.)  Be careful!  If you lose/forget this, it can never be retrieved.
 
     2.  Open Wallet
 
@@ -381,7 +399,7 @@ what they decide is relevant to making a good choice.
     Each user-submitted protocol entry undergoes vetting before it is added to the Protocol Object, which is a JSON object referenced for dynamic updating of in-app documentation.
     Vetting is simple: those entries that receive more upvotes than downvotes are added to the Protocol Object.
 
-    1.  example protocol entry:
+    1.  protocol entry syntax:
 
             {"tag1":
               {"upvotes": "",
@@ -394,7 +412,7 @@ what they decide is relevant to making a good choice.
               {...}
             }
 
-    2.  a possible protocol object:
+    2.  a sample protocol entry:
 
             {"wireless":
               {"upvotes": 15,
@@ -411,9 +429,9 @@ what they decide is relevant to making a good choice.
 
 6.  F. Map
 
-### Advanced: API<a id="sec-4-1-4" name="sec-4-1-4"></a>
+### API<a id="sec-4-1-4" name="sec-4-1-4"></a>
 
-### Advanced: Embeddable Widget<a id="sec-4-1-5" name="sec-4-1-5"></a>
+### Embeddable Widget<a id="sec-4-1-5" name="sec-4-1-5"></a>
 
 ### Transaction Sequence Diagram<a id="sec-4-1-6" name="sec-4-1-6"></a>
 
@@ -599,12 +617,12 @@ Did we miss something?  Submit a pull request!
     -   FinTech developers
     -   networking (especially mesh) experts
     -   sysadmin, Linux experts
-    -   C, Clojure, ClojureScript, JavaScript programmers
+    -   C, Clojure, ClojureScript programmers
     -   web security, cryptography experts
-    -   mobile app developers (esepecially w/ knowledge of Android, FB, iOS)
+    -   mobile app developers (especially w/ knowledge of Android, FB, iOS)
     -   user experience experts
     -   DevOps engineers
-    -   legal engineers
+    -   legal engineers (especially those specializing in internet, business, non-profit, international law)
     -   systems engineers
 
     Interested?  Don't hesitate to get in touch (please include summary of relevant experience and work samples):
