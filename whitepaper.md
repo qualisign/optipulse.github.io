@@ -72,9 +72,10 @@
 </li>
 <li><a href="#sec-4-3">4.3. Development TODO's</a>
 <ul>
-<li><a href="#sec-4-3-1">4.3.1. Want to Contribute?</a></li>
+<li><a href="#sec-4-3-1">4.3.1. How to Contribute</a></li>
 <li><a href="#sec-4-3-2">4.3.2. Whitepaper</a></li>
 <li><a href="#sec-4-3-3">4.3.3. App</a></li>
+<li><a href="#sec-4-3-4">4.3.4. Donate</a></li>
 </ul>
 </li>
 </ul>
@@ -192,7 +193,7 @@ over heterogeneous networks, making them the ideal network topology for future n
 
 3.  Democritization:
 
-    It is virtually impossible to "shut down" a mesh network the way dictators have been known to do in recent years (e.g. in Egypt during Arab Spring). Without the imperitave for centrally-connected hubs, disrupting connections becomes very hard to achieve.
+    Dictators have been known to cut off internet service during popular uprisings (e.g. Arab Spring).  It is virtually impossible to "shut down" a mesh-based internet. Without the imperitave for centrally-connected hubs, disrupting connections becomes very hard to achieve.
     <http://europe.newsweek.com/dictator-proofing-internet-68705?rm=eu>
 
     That authorities might cut off the internet is significantly less likely in countries without egregious network collusion with government as we
@@ -582,7 +583,7 @@ Did we miss something?  Submit a pull request!
 
 ## Development TODO's<a id="sec-4-3" name="sec-4-3"></a>
 
-### Want to Contribute?<a id="sec-4-3-1" name="sec-4-3-1"></a>
+### How to Contribute<a id="sec-4-3-1" name="sec-4-3-1"></a>
 
 1.  Submit Code
 
@@ -668,6 +669,8 @@ Did we miss something?  Submit a pull request!
     1.  TODO remove zoom
 
     2.  TODO remove mouse interactivity
+
+### Donate<a id="sec-4-3-4" name="sec-4-3-4"></a>
 
 # The Mesh Market Foundation<a id="sec-5" name="sec-5"></a>
 
