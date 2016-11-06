@@ -73,7 +73,7 @@ According to Wikipedia, "A mesh network is a network topology in which each node
 
 In other words, mesh networks get rid of centralized computing resources in favor of distributed networks.
 
-Mesh Market takes this concept to the next level and seeks to decentralize all resources (insofar as that's possible).
+Mesh Market takes this concept to the next level and seeks to decentralize all resources - insofar as that's possible.
 
 The original goal of this app was to develop OptiPulse unique potential for revolutionizing the mesh/ad-hoc networking market with its Light Grid technology.  Bandwidth, via mesh-networking, is the first resource
 that Mesh Market aims to decentralize - though by no means the last.While the mesh-networking userbase is presently miniscule compared to that of conventional, centrally serviced connections (usually provided by one of only a few differnet ISP's), meshes offer many advantages
@@ -133,8 +133,8 @@ Decentralized platforms based on blockchain/smart contracts are already being de
 for average consumers to have noticeably benefited.  The platform business phenomenon and the sharing economy at large, on the other hand, have had a huge impact on what customers expect from the services they use,
 and demonstrated the substantial demand for useful peer-to-peer services.
 
-Why do we need blockchain?  There is no shortage of useful ideas and technologies that would have a positive impact on the world, if only they could be widely adopted - if is collective will to do so that stagnates.  We made the case for beneficial communication technologies above;
-others are making it for renewable energy, a service-based economy, vegetarianism, a basic income, and so on.  The ultimate goal of Mesh Market is to create a way to incentivize collective behavior that is manifestly positive.  The purpose of the Mesh Market Protocol is to define what this behavior is.  Finally, the Mesh Market Foundation channels funds into
+Why do we need blockchain?  There is no shortage of useful ideas and technologies that would have a positive impact on the world, if only they could be widely adopted.  It is collective will to do so that stagnates.  We've made the case for certain technologies above;
+others are making it for renewable energy, a service-based economy, vegetarianism, a basic income, and so on.  The ultimate goal of Mesh Market is to create a way to incentivize collective behavior that is manifestly beneficial to everyone.  The purpose of the Mesh Market Protocol is to define what this behavior is.  Finally, the Mesh Market Foundation channels funds into
 businesses that seek to implement these solutions, and to incentivize businesses (and people) to use the platform.  Mesh Market the DApp should be thought of as one part of this eco-system.
 
 It would be unwise for any business developing in the post-smart contract world to implement an overtly top-down approach to customer relations.  We take very seriously
@@ -177,11 +177,11 @@ remains agnostic towards content and inviting to any type of endeavor.
 * Application
 ** Design
 One design decision built into Mesh Market is to treat users, whether they be businesses or end consumers in the conventional sense, as basically having the same requirements for using the Mesh Market platform.  This creates an amorphous market which, while inscrutable to classical economists, will tend to multiply
-choices and improve services, thereby fulfilling the basic functions of healthy economy.  An ISP may use the Mesh Market platform to sell internet service without restrictions on how it does so, treating customers as (perhaps equally)
+choices and improve services, thereby fulfilling the basic functions of healthy economy.  As we've shown above, An ISP may use the Mesh Market platform to sell internet service without restrictions on how it does so, treating customers as (perhaps equally)
 non-restricted entitites that may act as "mini ISP's" in their own right.  Therefore, the most effective design is the one most capable of meeting the business requirements of the "producers", while making little or no distinction between them
 and consumers.  The core features of the app, described below, are an attempt to create such an environment.
 
-Mesh networks are inherently friendly to businesses embracing the platform model.  With a decentralized and free communications medium, viable local alternatives to inefficient,
+Mesh networks are inherently friendly to businesses embracing the platform model.  With a decentralized and free communications medium, preferable local alternatives to inefficient,
 sub-par goods and services can be discovered.  This is how "free markets" are supposed to work; they only free and efficient insofar as information flow is.
 
 Incidentally, this is why there is no paid advertising on the Mesh Market platform.  It is an intentional design decision that the only information users see when looking for offers is
@@ -195,7 +195,7 @@ what they decide is relevant to making a good choice.
 - 4. Clojure, for interfacing with device OS (using Trickle https://github.com/mariusae/trickle or similar command line tools)
 - 5. a modern web browser
 **** Simplification (for Non-Nerds)
-The Mesh Market Foundation plans to sell minimalist computers in the future shipping with pre-installed Mesh Market plus its dependencies.  These will be available in packaged bundles for specific use-cases (e.g. a solar starter kit, ISP starter kit, etc.)
+The Mesh Market Foundation plans to sell minimalist computers in the future shipping with pre-installed Mesh Market plus dependencies.  These will be available in packaged bundles for specific use-cases (e.g. a solar starter kit, ISP starter kit, etc.)
 **** Instructions:
 - 1. clone the Mesh Market repo:
 #+BEGIN_SRC shell
@@ -416,26 +416,26 @@ Did we miss something?  Submit a pull request!
 If you have a good idea and you're up to working it out on your own, feel free to submit a pull request.
 **** Work with Us
 Or, if you're looking for a more stable position, we're looking for experts in:
-- mesh networking
 - smart contracts
+- Ethereum
+- BitCoin
+- FinTech
+- mesh networking protocols
 - sysadmin
+- Linux
 - Clojure
 - C
 - web security
 - cryptography
 - mobile app development
-- Vue.js (or another reactive framework)
-- Node.js
+- reactive frameworks (preferably Vue.js)
 - DevOps
-- Ethereum
-- BitCoin
-- FinTech
-- systems engineering
 - legal engineering
+- systems engineering
 
-
-Interested?  Don't hesitate to get in touch:
+Interested?  Don't hesitate to get in touch (please include relevant experience and work samples):
 djoseph@optipulse.com
+
 *** Whitepaper
 *** App
 **** TODO Base-Site
