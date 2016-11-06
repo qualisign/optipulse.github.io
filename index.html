@@ -75,7 +75,7 @@
                         <div><label for="to">Valid to: <input type="text" id="to" class="offer-form" name="to" v-model="offer.validTo"></label></div>
                       </div>
                       <button v-show="offerCount==8" class="btn btn-primary" type="submit">make offer <i class="fa fa-legal"></i></button>
-                      <button v-show="offerCount==8" class="btn btn-primary">start over <i class="fa fa-eraser"></i></button>
+                      <button v-show="offerCount==8" v-on:click="startOver" class="btn btn-primary">start over <i class="fa fa-eraser"></i></button>
                     </form>
                   </div>
                 </div>
