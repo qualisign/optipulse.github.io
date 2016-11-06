@@ -41,7 +41,6 @@
     width: 62%;
     position: absolute;
     right: 0px;
-    
 }
 
 .row {
@@ -67,7 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 15px;   
 }
 
 #details-close {
@@ -128,7 +127,7 @@
 
 #conversions {
     position: abolute;
-    padding: 5px;
+    padding: 2px;
 }
 
 #per-unit {
@@ -187,7 +186,7 @@
     width: 60%;
     position: absolute;
     border-style: solid;
-    border-width: 3px;
+    border-width: 4px;
     top: 0px;
     left: 0px;
 }
