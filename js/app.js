@@ -60,7 +60,43 @@ var protocol = {"offer" :
                     "downvotes": "",
                     "units": {"distance": "kilometers", "time": "minutes"},
                     "children": ["delivery"]
-                }
+                },
+                "address":
+                {
+                    "explanation": "Your Public Key",
+                    "recommendations": "",
+                    "upvotes": "",
+                    "downvotes": "",
+                    "units": {},
+                    "children": []
+                },
+                "password":
+                {
+                    "explanation": "Your Private Key -- Only Given Once!!",
+                    "recommendations": "",
+                    "upvotes": "",
+                    "downvotes": "",
+                    "units": {},
+                    "children": []
+                },
+                "open-wallet":
+                {
+                    "explanation": "Unlock an Existing Wallet",
+                    "recommendations": "",
+                    "upvotes": "",
+                    "downvotes": "",
+                    "units": {},
+                    "children": []
+                },
+                "create-wallet":
+                {
+                    "explanation": "Generate a New Wallet",
+                    "recommendations": "",
+                    "upvotes": "",
+                    "downvotes": "",
+                    "units": {},
+                    "children": []
+                }                                
                };
 
 var offerPromptList = ["Give your offer a name:",
