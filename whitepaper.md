@@ -44,7 +44,7 @@
 </li>
 </ul>
 </li>
-<li><a href="#sec-4">4. Application</a>
+<li><a href="#sec-4">4. Application-</a>
 <ul>
 <li><a href="#sec-4-1">4.1. Design</a>
 <ul>
@@ -99,21 +99,21 @@ Mesh Market is a free application aiming to:
 -   enable consumers to find friendlier and cheaper local alternatives to centrally-owned, inefficient resources
 -   accelerate deployment and improve market viability of beneficial technologies by providing them with a direct-to-consumer platform
 
+Check out the prototype (under construction &#x2013; very early stage, and obviously can't handle transactions yet):
+<https://optipulse.github.io>
+
 With Mesh Market, you can:
 -   get cheaper, better internet service
 -   start a do-it-yourself ISP
 -   start a profitable energy business from your own home
 -   reduce your electricity bills while supporting renewable energy
--   do countless other things we haven't thought of, and some we have (check out more use cases, or read on for an overview of how it works)
-
-Check out the prototype (under construction &#x2013; very early stage, and obviously can't handle transactions yet!):
-<https://optipulse.github.io>
+-   do countless other things we haven't thought of, and some we have (see more use cases, or read on for an overview of how it works)
 
 # Background<a id="sec-2" name="sec-2"></a>
 
 The Mesh Market app was originally conceived by developers at OptiPulse who were envisioning a direct-to-consumer platform for getting OptiPulse's internet technology
 to the market.  Eventually it was realized that the same infrastructure could be used to decentralize resources besides bandwidth, and the Mesh Market Foundation was
-created to promote the full potential of the app.
+created to develop the app to its full potential.
 
 ## The Light Grid<a id="sec-2-1" name="sec-2-1"></a>
 
@@ -149,7 +149,7 @@ Did we mention how small the Light Grid is?
 
 ### Overview<a id="sec-2-2-1" name="sec-2-2-1"></a>
 
-A platform business erases the distinction between producers and consumers of goods and services.  It does this by providing consumers with some form of infrastructure for creating value on their own.  This can be
+A platform business erases the distinction between producers and consumers of goods and services.  It does this by providing consumers with some form of infrastructure for creating value on their own.  This infrastructure can be
 something as unassuming as a mobile app, as in the case of Uber.  Such businesses tend to uncover value already existent, but previously unrecognized - mainly because it resides in the hands of consumers.
 Platform business have shown us that value of this sort actually constitutes the lion's share of the market - when it is effectively utilized.
 As Tech Crunch put it,
@@ -159,9 +159,9 @@ As Tech Crunch put it,
     accommodation provider, owns no real estate. Something interesting is happening."
 
 This trend is likely to intensify in the coming years, as the ease of access to information driving it undoubtedly will.  But as we've seen lately with Uber and AirBnB's legal battles, this won't go unopposed.
-Despite the innocuous tenets of the "sharing economy" &#x2013; with which these companies would like to identify &#x2013; this opposition is merited in many cases; if you look under the hood, it's business as usual.
-The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a giant pipeline to make altruistic decisions at the expense of profit.  Examples aren't hard to find in current news headlines; in Britain, regulators are taking issue with
-the convenience with which Uber can hire full-time workers without taking on the responsibilities of a full-time employer.  Contractors also complain about the substantial cut it takes from drivers, typically 20%, which
+Despite the innocuous tenets of the "sharing economy" these companies would like to identify themselves with, this opposition is merited in many cases; if you look under the hood of the biggest platforms, it's business as usual.
+The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a giant pipeline to put people over profits.  Examples aren't hard to find in current news headlines; in Britain, regulators are taking issue with
+the convenience with which Uber can hire full-time workers without taking on the responsibilities of a full-time employer, like providing health insurance.  Furthermore, contractors have complained about the substantial cut it takes from drivers, typically 20%, which
 indeed seems hefty considering the labor involved by the contractors.  As mentioned, platform businesses facing such criticism seek to identify themselves with the larger picture &#x2013; they are purveyors of the sharing economy that average-joes are so keen on.
 AirBnb, for instance, is promoting a global consumer movement as a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't some of these people
 offer an alternative?  We believe the demand for this platform exists already, though it is yet to be realized.  Mesh Market strives to become this platform.
@@ -297,11 +297,11 @@ of these companies are the driving force behind Mesh Market's various use-cases.
 between the platform and pipelines philosophies.  Minimizing the demand Mesh-Market places on users &#x2013; be they large companies or first-time DIY'ers &#x2013; ensures that the platform
 remains agnostic towards content and inviting to any type of endeavor.
 
-# Application<a id="sec-4" name="sec-4"></a>
+# Application-<a id="sec-4" name="sec-4"></a>
 
 ## Design<a id="sec-4-1" name="sec-4-1"></a>
 
-One design decision built into Mesh Market is to treat users, whether they be businesses or end consumers in the conventional sense, as basically having the same requirements for using the Mesh Market platform.  This creates an amorphous market which, while inscrutable to classical economists, will tend to multiply
+One design decision built into Mesh Market is to treat users, whether they be businesses or end-consumers in the conventional sense, as basically having the same requirements for using the Mesh Market platform.  This creates an amorphous market which, while inscrutable to classical economists, will tend to multiply
 choices and improve services, thereby fulfilling the basic functions of healthy economy.  As we've shown above, An ISP may use the Mesh Market platform to sell internet service without restrictions on how it does so, treating customers as (perhaps equally)
 non-restricted entitites that may act as "mini ISP's" in their own right.  Therefore, the most effective design is the one most capable of meeting the business requirements of the "producers", while making little or no distinction between them
 and consumers.  The core features of the app, described below, are an attempt to create such an environment.
@@ -429,7 +429,7 @@ The submitted data is then made public on the blockchain. Unlike conventional ap
 
 -   2) Find Offer
 
-This step involves another class of user, the offer taker, submitting a form to query data on the blockchain. This is somewhat tricky compared to fetching data from a server where one knows which tables to read data from. Data stored in the Ethereum blockchain is included in a smart contract, which is invoked using a public key. But how can a user find a suitable offer among the multitude living on the blockchain? Obviously it won’t work to query each available offer for satisfactory properties like bandwidth, price, etc – this would be very ineffecient, because many of these might be in different cities or countries. The best solution may be to create a smart contract bound to a geographical area that will limit queries to only local options, or options within a certain range defined by the user.
+This step involves another class of user, the offer taker, submitting a form to query data on the blockchain. This is somewhat tricky compared to fetching data from a server where one knows which tables to read data from. Data stored in the Ethereum blockchain is included in a smart contract, which is invoked using a public key. But how can a user find a suitable offer among the multitude of contracts living on the blockchain? Obviously it won’t work to query each available offer for satisfactory properties like bandwidth, price, etc – this would be very inefficient, because many of these might be in different cities or countries. The best solution may be to create a smart contract bound to a geographical area that will limit queries to only local options, or options within a certain range defined by the user.
 
 This introduces some complications. Blockchain data is immutable, but offers available to users will be constantly changing. The most clever way around this is to have the smart contract bound to a geographical area simply point to the latest version of the area’s blockchain, so that queries will be made on up-to-date data. This creates the illusion that the data users are querying is dynamic, though it is actually immutable.
 
@@ -575,6 +575,8 @@ These use cases will be made into tutorials in the future.
 
 1.  Roll Out Basic Income and Boost Your Economy
 
+2.  Give Citizens Access to the Best Possible Insurance
+
 ### City Planners<a id="sec-4-2-8" name="sec-4-2-8"></a>
 
 ### Suggest a Use Case!<a id="sec-4-2-9" name="sec-4-2-9"></a>
@@ -585,31 +587,27 @@ Did we miss something?  Submit a pull request!
 
 ### How to Contribute<a id="sec-4-3-1" name="sec-4-3-1"></a>
 
-1.  Submit Code
+1.  Submit on GitHub
 
-    If you have a good idea and you're up to working it out on your own, feel free to submit a pull request.
+    If you have a good idea and you're up to working it out on your own, feel free to submit a pull request.  This isn't limited to code!  Designers, artists, writers, philosophers, - all are encouraged to contribute.
 
 2.  Work with Us
 
-    Or, if you're looking for a more stable position, we're looking for experts in:
-    -   smart contracts
-    -   Ethereum
-    -   BitCoin
-    -   FinTech
-    -   mesh networking protocols
-    -   sysadmin
-    -   Linux
-    -   Clojure
-    -   C
-    -   web security
-    -   cryptography
-    -   mobile app development
-    -   reactive frameworks (preferably Vue.js)
-    -   DevOps
-    -   legal engineering
-    -   systems engineering
+    Or, if you're looking for a more stable position, we're looking for:
+    -   smart contract writers (using Solidity)
+    -   BitCoin developers
+    -   FinTech developers
+    -   networking (especially mesh) experts
+    -   sysadmin, Linux experts
+    -   C, Clojure, ClojureScript, JavaScript programmers
+    -   web security, cryptography experts
+    -   mobile app developers (esepecially w/ knowledge of Android, FB, iOS)
+    -   user experience experts
+    -   DevOps engineers
+    -   legal engineers
+    -   systems engineers
 
-    Interested?  Don't hesitate to get in touch (please include relevant experience and work samples):
+    Interested?  Don't hesitate to get in touch (please include summary of relevant experience and work samples):
     djoseph@optipulse.com
 
 ### Whitepaper<a id="sec-4-3-2" name="sec-4-3-2"></a>
