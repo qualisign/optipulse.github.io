@@ -606,7 +606,6 @@ Did we miss something?  Submit a pull request!
     -   BitCoin
     -   FinTech
     -   systems engineering
-    -   financial engineering
     -   legal engineering
 
     Interested?  Don't hesitate to get in touch:

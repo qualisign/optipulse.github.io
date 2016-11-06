@@ -431,7 +431,6 @@ Or, if you're looking for a more stable position, we're looking for experts in:
 - BitCoin
 - FinTech
 - systems engineering
-- financial engineering
 - legal engineering
 
 
