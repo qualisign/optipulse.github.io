@@ -72,7 +72,7 @@ var protocol = {"offer" :
                 },
                 "password":
                 {
-                    "explanation": "Your Private Key -- Only Given Once!!",
+                    "explanation": "Your Private Key -- Don't Forget It!!",
                     "recommendations": "",
                     "upvotes": "",
                     "downvotes": "",
