@@ -593,7 +593,7 @@ These use cases will be made into tutorials in the future.
 
 1.  Roll Out Basic Income and Boost Your Economy
 
-2.  Give Citizens Access to the Best Possible Insurance
+2.  Help Citizens Get Insured
 
 ### City Planners<a id="sec-4-2-8" name="sec-4-2-8"></a>
 

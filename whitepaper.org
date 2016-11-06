@@ -425,7 +425,7 @@ These use cases will be made into tutorials in the future.
 **** Open Your Product for Pre-Sale and Sponsor Your Business Development
 *** Government
 **** Roll Out Basic Income and Boost Your Economy
-**** Give Citizens Access to the Best Possible Insurance
+**** Help Citizens Get Insured
 *** City Planners
 *** Suggest a Use Case!
 Did we miss something?  Submit a pull request!
