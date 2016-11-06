@@ -1,6 +1,4 @@
 
-
-
 /* 
 Protocol entries take the form:
 
@@ -15,6 +13,7 @@ Protocol entries take the form:
 }
 
 */
+
 Vue.config.debug = true;
 
 var protocol = {"offer" :
@@ -50,18 +49,26 @@ var protocol = {"offer" :
                     "recommendations": {"optical": "faster, reduce RF polution"},   
                     "upvotes": "",
                     "downvotes": "",
-                    "units": {"bandwidth": "bit/s", "distance": "kilometers"},
+                    "units": {"bandwidth": "bit/s", "distance": "kilometers", "information": "bits"},
                     "children": [],
+                },
+                "transportation":
+                {
+                    "explanation": "",
+                    "recommendations": "",
+                    "upvotes": "",
+                    "downvotes": "",
+                    "units": {"distance": "kilometers", "time": "minutes"},
+                    "children": ["delivery"]
                 }
-                 
                };
 
-var offerPromptList = ["Give your offer a name.",
-                       "Add tags to your offer to make it easier to find.",
+var offerPromptList = ["Give your offer a name:",
+                       "Add tags to your offer to make it easier to find:",
                        "How would you describe your offer?",
                        "Which currencies will you accept for your offer?",
-                       "Give your offer a value.",                               
-                       "Choose location(s) for your offer.",                     
+                       "Give your offer a value:",                               
+                       "Offer location(s):",                     
                        "When should your offer be valid?",
                        "Look good?"
                   ];
@@ -96,14 +103,26 @@ $(document).ready(function() {
                     USD: ''
                 },
             },
+            user: {
+                nickname: '',
+                funds: {
+                    BTC: '',
+                    ETH: '',
+                    USD: ''                    
+                },
+                location: ''               
+                
+            },
             offerShow: false,
             findShow: false,
             appShow: true,
             apiShow: false,
             protocolShow: false,
+            walletShow: false,
             offerCount: 1,
             findCount: 1,
             protocol: protocol
+            
         },             
         methods: {        
             makeOffer(e) {
@@ -139,8 +158,15 @@ $(document).ready(function() {
                 this.offer.values.BTC = '',
                 this.offer.values.USD = '',
                 this.offer.values.ETH = '',
-                this.offerCount = 1;              
-                }                                  
+                this.offerCount = 1;
+                this.offer.currencies = []
+            },
+            openWallet(){
+                
+            },
+            createWallet(){
+                
+            }
         },
         computed: {
             offerPrompt: function(){

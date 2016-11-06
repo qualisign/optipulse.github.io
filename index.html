@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <title>Mesh Market</title>
 
-
+      <script src="https://raw.githubusercontent.com/ethereum/web3.js/develop/dist/web3.min.js"></script>
       <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
       <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.4/addons/p5.dom.min.js"></script>
@@ -59,7 +59,7 @@
                         </li>
                         </div>
                         <div id="per-unit"  class="col-xs-5 well">
-                          <h4><em>per unit</em></h4>
+                          <h4><strong>per unit:</strong></h4>
                           <select>
                             <option  v-for="(key, value) in offer.units" v-bind:value="offer.perUnit">
                               {{ value }}::{{ key }}
@@ -68,8 +68,20 @@
                         </div>
                       </div>
 
-                      <div v-show="offerCount==6"><input type="text" class="offer-form" v-model="offer.location" id="offer-location" >
+
+
+
+
+                      <div v-show="offerCount==6">
+                        <input type="text" class="offer-form" v-model="offer.location" id="offer-location" >
+                        <!--
+                        <location-input></location-input>
+                        <button id="add-location"
+                        -->
                       </div>
+
+
+
                       <div v-show="offerCount==7" class="row">
                         <div><label for="from">Valid from: <input type="text" id="from" class="offer-form" name="from" v-model="offer.validFrom" ></label></div>
                         <div><label for="to">Valid to: <input type="text" id="to" class="offer-form" name="to" v-model="offer.validTo"></label></div>
@@ -82,17 +94,30 @@
               </div>
 
             <div id="offer-preview" v-show="offer.name || offer.tags || offer.currencies[0] || offer.value || offer.location || offer.description">
-              <div v-show="offer.name"> <h4>Name: {{offer.name}}</h4> </div>
-              <div v-show="offer.tags"><h4>Tags: {{offer.tags}}</h4> </div>
+              <div v-show="offer.name"> <h4><strong>Name:</strong> {{offer.name}}</h4> </div>
+              <div v-show="offer.tags"><h4><strong>Tags:</strong> {{offer.tags}}</h4> </div>
 
               <div v-show="offer.currencies[0]">
-                <h4>Currencies: <span v-for="currency in offer.currencies">{{currency}} </span></h4>
+                <h4><strong>Currencies:</strong> <span v-for="currency in offer.currencies">{{currency}} </span></h4>
               </div>
-              <div v-show="offer.value"> <h4>Value: {{offer.value}} MMR</h4></div>
-              <div v-show="offer.location"> <h4>Location(s): {{offer.location}}</h4> </div>
-              <div v-show="offer.description"><h4>Description: {{offer.description}}</h4></div>
+              <div v-show="offer.value"> <h4><strong>Value:</strong> {{offer.value}} MMR</h4></div>
+              <div v-show="offer.location"> <h4><strong>Location(s):</strong> {{offer.location}}</h4> </div>
+              <div v-show="offer.description"><h4><strong>Description:</strong> {{offer.description}}</h4></div>
 
             </div>
+
+            <div id="wallet-config" v-show="walletShow">
+              <div id="nickname">
+              </div>
+              <div id="">
+              </div>
+              <div id="user-location">
+              </div>
+              <button id="save">save <i class="fa fa-save"></i></button>
+            </div>
+
+
+
             <nav id="details-nav">
               <div id="details-back" v-show="offerCount>1" v-on:click="offerCount-=1">
                 <i class="fa fa-arrow-left fa-2x clickable"></i>
@@ -123,8 +148,8 @@
                       <label>password:<input class="pro" id="password"/></label>
                     </div>
                     <div>
-                      <button class="col-xs-6 btn btn-primary">open <i class="fa fa-key"></i></button>
-                      <button class="col-xs-6 btn btn-primary">create <i class="fa fa-plus"></i></button>
+                      <button class="col-xs-6 btn btn-primary">open <i class="fa fa-key" v-on:click="openWallet"></i></button>
+                      <button class="col-xs-6 btn btn-primary" v-on:click="createWallet">create <i class="fa fa-plus"></i></button>
                     </div>
                   </form>
                   <div id="profile"></div>
