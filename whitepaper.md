@@ -10,9 +10,9 @@
 <li><a href="#sec-2-1-1">2.1.1. Overview</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-2">2.2. The Light Grid</a>
+<li><a href="#sec-2-2">2.2. OptiPulse's Light Grid: Communications Revolution</a>
 <ul>
-<li><a href="#sec-2-2-1">2.2.1. A Communications Revolution</a></li>
+<li><a href="#sec-2-2-1">2.2.1. Specs</a></li>
 </ul>
 </li>
 <li><a href="#sec-2-3">2.3. Mesh Networking</a>
@@ -54,7 +54,7 @@
 </li>
 <li><a href="#sec-4-2">4.2. Use Cases</a>
 <ul>
-<li><a href="#sec-4-2-1">4.2.1. Internet Service</a></li>
+<li><a href="#sec-4-2-1">4.2.1. Internet</a></li>
 <li><a href="#sec-4-2-2">4.2.2. Energy</a></li>
 <li><a href="#sec-4-2-3">4.2.3. Agriculture</a></li>
 <li><a href="#sec-4-2-4">4.2.4. Transportation</a></li>
@@ -73,12 +73,8 @@
 </li>
 </ul>
 </li>
-<li><a href="#sec-5">5. How to Contribute</a></li>
-<li><a href="#sec-6">6. The Mesh Market Foundation</a>
-<ul>
-<li><a href="#sec-6-1">6.1. Business Model Canvas</a></li>
-</ul>
-</li>
+<li><a href="#sec-5">5. The Mesh Market Foundation</a></li>
+<li><a href="#sec-6">6. How to Contribute</a></li>
 </ul>
 </div>
 </div>
@@ -130,12 +126,12 @@ indeed seems hefty considering the labor involved by the contractors.  As mentio
 AirBnb, for instance, is promoting a global consumer movementas a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't some of these people
 offer an alternative?  We believe the demand for this platform exists already, though it is yet to be realized.  Mesh Market strives to become this platform.
 
-## The Light Grid<a id="sec-2-2" name="sec-2-2"></a>
+## OptiPulse's Light Grid: Communications Revolution<a id="sec-2-2" name="sec-2-2"></a>
 
 We believe that OptiPulse's Light Grid will come to dominate future internet infrastructure.  It is a revolutionary physical-layer technology based on a novel invention in electro-optics.  Like other elite photonic transmitters, it is capable of 5G bit-rates; unlike fiber-optics, however, it is wireless and easy to deploy.
 This makes it very cheap in comparison to the standard alternatives.  Besides being competitive with some of the best fiber-optics, it comes with a range of other benefits:
 
-### A Communications Revolution<a id="sec-2-2-1" name="sec-2-2-1"></a>
+### Specs<a id="sec-2-2-1" name="sec-2-2-1"></a>
 
 1.  Distance
 
@@ -516,9 +512,9 @@ Finally, the funds being held by the contract starting at step 4 are released, a
 
 These use cases will be made into tutorials in the future.
 
-### Internet Service<a id="sec-4-2-1" name="sec-4-2-1"></a>
+### Internet<a id="sec-4-2-1" name="sec-4-2-1"></a>
 
-1.  Start an ISP .
+1.  Start a DIY ISP .
 
     -   Difficulty: Medium
     -   Investment:
@@ -532,7 +528,7 @@ These use cases will be made into tutorials in the future.
 
 ### Energy<a id="sec-4-2-2" name="sec-4-2-2"></a>
 
-1.  Make a Profit on Solar.
+1.  Make a Profit on Solar
 
     -   Difficulty: Medium/Hard
     -   Investment: High
@@ -542,13 +538,13 @@ These use cases will be made into tutorials in the future.
 
 ### Agriculture<a id="sec-4-2-3" name="sec-4-2-3"></a>
 
-1.  Start an Urban Homestead for Profit and Pleasure.
+1.  Start an Urban Homestead for Profit and Pleasure
 
     -   Difficulty: Hard
     -   Investment: High
     -   Profit: Medium
 
-2.  Buy Organic Produce Without Paying out the Wazoo.
+2.  Buy Organic Produce Without Paying out the Wazoo
 
     -   Difficulty: Easy
     -   Investment: Low
@@ -556,13 +552,13 @@ These use cases will be made into tutorials in the future.
 
 ### Transportation<a id="sec-4-2-4" name="sec-4-2-4"></a>
 
-1.  Make a Living Driving.
+1.  Make a Living Wage Driving
 
     -   Difficulty: Medium
     -   Investment: Medium/Low (provided you own a car)
     -   Profit: Medium
 
-2.  Get Dinner Delivered
+2.  Get Your Next Meal Delivered
 
     -   Difficulty: Easy
     -   Investment: Low
@@ -570,7 +566,7 @@ These use cases will be made into tutorials in the future.
 
 ### Real Estate<a id="sec-4-2-5" name="sec-4-2-5"></a>
 
-1.  Lease a Spare Room in Your House.
+1.  Lease a Spare Room in Your House
 
     -   Difficulty: Medium
     -   Investment: Low/Medium
@@ -578,7 +574,7 @@ These use cases will be made into tutorials in the future.
 
 ### Small Business/Entrepreneurs<a id="sec-4-2-6" name="sec-4-2-6"></a>
 
-1.  Add Your Business to the Mesh Market and Reach New Audiences.
+1.  Add Your Business to the Mesh Market and Reach New Audiences
 
     -   Difficulty: Easy
     -   Investment: N/A
@@ -601,6 +597,10 @@ Did we miss something?  Submit a pull request!
 ## Development TODO's<a id="sec-4-3" name="sec-4-3"></a>
 
 ### Whitepaper<a id="sec-4-3-1" name="sec-4-3-1"></a>
+
+1.  TODO add banner w/ logo showing community using decentralized resources
+
+2.  TODO export to HTML
 
 ### App<a id="sec-4-3-2" name="sec-4-3-2"></a>
 
@@ -664,7 +664,9 @@ Did we miss something?  Submit a pull request!
 
     2.  TODO remove mouse interactivity
 
-# How to Contribute<a id="sec-5" name="sec-5"></a>
+# The Mesh Market Foundation<a id="sec-5" name="sec-5"></a>
+
+# How to Contribute<a id="sec-6" name="sec-6"></a>
 
 1.  Submit on GitHub
 
@@ -689,14 +691,6 @@ Did we miss something?  Submit a pull request!
     djoseph@optipulse.com
 
 3.  Donate
-
-# The Mesh Market Foundation<a id="sec-6" name="sec-6"></a>
-
-The form the app eventually takes on will determine the type of business that can best support it.  Presently, a non-profit DAO (decentralized autonomous organization)
-seems like the most effective way to channel funds generated by the app can be used to encourage businesses - most likely through grants - to decentralize and liberate their services
-for increased customer participation.
-
-## Business Model Canvas<a id="sec-6-1" name="sec-6-1"></a>
 
 <div id="footnotes">
 <h2 class="footnotes">Footnotes: </h2>
