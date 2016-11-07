@@ -18,6 +18,10 @@
       <link rel="stylesheet" href="css/app.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
       <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/magicsuggest/2.1.4/magicsuggest-min.css" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/magicsuggest/2.1.4/magicsuggest-min.js"></script>
+
+
     </head>
     <body>
 
@@ -26,7 +30,7 @@
           <div id="map">
             <div id="details" v-show="(offerShow || findShow)">
               <div id="details-close">
-                <i class="fa fa-times-circle-o fa-2x clickable" v-on:click="detailsClose"></i>
+                <i class="fa fa-times-circle-o fa-3x clickable" v-on:click="detailsClose"></i>
               </div>
               <div class="row">
                 <div class="col-x-6">
@@ -39,7 +43,8 @@
 
                       <div v-show="offerCount==1"><input class="offer-form" type="text" v-model="offer.name" id="offer-name" >
                       </div>
-                      <div v-show="offerCount==2"><input class="offer-form" v-on:keyup.prevent type="text" v-model="offer.tags" id="offer-tags" >
+                      <div v-show="offerCount==2"><input class="offer-form" type="text" v-model.lazy="offer.tags" id="offer-tags" >
+
                       </div>
                       <div v-show="offerCount==3"><textarea class="offer-form" rows="4" cols="70" v-model="offer.description" id="offer-description" ></textarea>
                       </div>
@@ -50,7 +55,6 @@
                         <div class="col-xs-3"><label>BTC<input class="offer-form" type="checkbox" value="BTC" v-model="offer.currencies" name="currency"/></label></div>
                         <div class="col-xs-3"><label>ETH<input class="offer-form" type="checkbox" value="ETH" v-model="offer.currencies" name="currency"/></label></div>
                       </div>
-
                       <div v-show="offerCount==5" class="row">
                         <div id="conversions" class="col-xs-7">
                         <li v-for="currency in offer.currencies">
@@ -67,21 +71,31 @@
                           </select>
                         </div>
                       </div>
-
-
-
-
-
                       <div v-show="offerCount==6">
-                        <input type="text" class="offer-form" v-model="offer.location" id="offer-location" >
-                        <!--
-                        <location-input></location-input>
-                        <button id="add-location"
-                        -->
+                        <div id="location-inputs" class="col-sm-4">
+                          <div class="row">
+                            <span v-show="offer.destination"><strong>start: </strong></span><input type="text" name="offer-location-start" id="offer-location-start" v-model="offer.locationStart" />
+                          </div>
+                          <div class="row">
+                            <span v-show="offer.destination"><strong>end: </strong></span><input type="text" v-show="offer.destination" id="offer-location-end" v-model="offer.locationEnd" />
+                          </div>
+                        </div>
+                        <div id="add-locations" class="col-sm-4">
+                          <button v-on:click="toggleDestination"><div v-show="!offer.destination"><i class="fa fa-map" ></i></div><div v-show="offer.destination"><i class="fa fa-minus-circle"></i></div></button>
+                        </div>
+                        <div id="distances" class="col-sm-4">
+                          <div v-show="offer.destination" class="distance">
+                            <div class="col-xs-6" id="driving-distance">
+                              <strong>{{ drivingDistance }}</strong>
+                              <i class="fa fa-car"></i>
+                            </div>
+                            <div class="col-xs-6" id="flying-distance">
+                              <strong>{{ flyingDistance }}</strong>
+                              <i class="fa fa-plane"></i>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-
-
-
                       <div v-show="offerCount==7" class="row">
                         <div><label for="from">Valid from: <input type="text" id="from" class="offer-form" name="from" v-model="offer.validFrom" ></label></div>
                         <div><label for="to">Valid to: <input type="text" id="to" class="offer-form" name="to" v-model="offer.validTo"></label></div>
@@ -120,10 +134,10 @@
 
             <nav id="details-nav">
               <div id="details-back" v-show="offerCount>1" v-on:click="offerCount-=1">
-                <i class="fa fa-arrow-left fa-2x clickable"></i>
+                <i class="fa fa-arrow-left fa-3x clickable"></i>
               </div>
               <div id="details-next" v-show="offerCount<8" v-on:click="offerCount+=1">
-                <i class="fa fa-arrow-right fa-2x clickable"></i>
+                <i class="fa fa-arrow-right fa-3x clickable"></i>
               </div>
             </nav>
             </div>

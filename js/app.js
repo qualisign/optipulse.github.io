@@ -115,9 +115,10 @@ $(document).ready(function() {
 
     Vue.component('conversion-row', {
         props: ['currency', 'val'],
-        template: '<div class="row"><div class="col-xs-4">{{currency}}:</div><div class="col-xs-4"><input type="text" v-model="val" /></div><div class="col-xs-4"></div></div>'
+        template: '<div class="row"><div class="col-xs-4">{{currency}}:</div><div class="col-xs-4"><input v-bind:id="currency" v-model="val" /></div><div class="col-xs-4"></div></div>'
         
     });
+
     
     var vm = new Vue({
         el: '#site-container',
@@ -130,7 +131,8 @@ $(document).ready(function() {
                 tags: '',
                 description: '',
                 currencies: [],
-                location: '',
+                locationStart: '',
+                locationEnd: '',
                 validFrom: '',
                 validTo: '',
                 values: {
@@ -138,6 +140,7 @@ $(document).ready(function() {
                     ETH: '',
                     USD: ''
                 },
+                destination: false,
             },
             user: {
                 nickname: '',
@@ -202,14 +205,22 @@ $(document).ready(function() {
             },
             createWallet(){
                 
-            }
+            },
+            toggleDestination(){
+                this.offer.destination = !this.offer.destination;
+                
+            },
         },
         computed: {
             offerPrompt: function(){
                 return offerPromptList[this.offerCount-1];
                 
+            },
+            flyingDistance: function(){
+                
+            },
+            drivingDistance: function(){
             }
-            
         },
         watch: {
             'offer.tags': {
@@ -242,8 +253,26 @@ $(document).ready(function() {
                 }    
             }
         }
+        
     });
 
+    // magicsuggest tags input
+
+    
+    var ms = $('#offer-tags').magicSuggest({
+        placeholder: '',
+        allowFreeEntries: false,
+        resultAsString: true,
+        data: Object.keys(protocol),
+        valueField: 'name'
+    });
+
+    $(ms).on(
+        'selectionchange', function(e, cb, s){
+            vm.offer.tags = cb.getValue().toString();            
+        }
+    );
+    
     // date interval selector
 
     $( function() {
@@ -277,10 +306,7 @@ $(document).ready(function() {
             return date;
         }
     } );
-
-
-    
-
+   
     // update protocol div
     
     function explain(element){
@@ -310,7 +336,8 @@ $(document).ready(function() {
     map.addLayer(markers);
     map.setView([0, 0], 2);
 
-    $("#offer-location").geocomplete();
+    $("#offer-location-start").geocomplete();
+    $("#offer-location-end").geocomplete();
 
     map._handlers.forEach(function(handler) {
         handler.disable();
