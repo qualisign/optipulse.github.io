@@ -128,7 +128,7 @@ As Tech Crunch put it,
      creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest
     accommodation provider, owns no real estate. Something interesting is happening."
 
-As ease of access to information increases, this trend will intensify.  But as we've seen lately with Uber and AirBnB's legal battles, this isn't welcomed by all.
+As ease of access to information continues to increase, this trend will intensify.  But as we've seen lately with Uber and AirBnB's legal battles, this isn't welcomed by all.
 Despite the innocuous tenets of the "sharing economy" these companies would like to be identified with, opposition to their practices is merited in many cases; if you look under the hood of the biggest platforms, it's business as usual.
 The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a giant pipeline to put people over profits.  Examples aren't hard to find in current news headlines; in Britain, regulators are taking issue with
 the convenience with which Uber can hire full-time workers without taking on the responsibilities of a full-time employer, like providing health insurance.  Furthermore, contractors have complained about the substantial cut it takes from drivers, typically 20%, which
