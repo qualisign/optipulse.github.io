@@ -5,19 +5,19 @@
 <li><a href="#sec-1">1. Introduction</a></li>
 <li><a href="#sec-2">2. Background</a>
 <ul>
-<li><a href="#sec-2-1">2.1. The Light Grid</a>
+<li><a href="#sec-2-1">2.1. Platform Business</a>
 <ul>
-<li><a href="#sec-2-1-1">2.1.1. Distance</a></li>
-<li><a href="#sec-2-1-2">2.1.2. Deployability</a></li>
-<li><a href="#sec-2-1-3">2.1.3. Unlicensed Spectrum</a></li>
-<li><a href="#sec-2-1-4">2.1.4. Ecological Friendliness</a></li>
-<li><a href="#sec-2-1-5">2.1.5. Low Size, Weight</a></li>
-<li><a href="#sec-2-1-6">2.1.6. Low Power-Consumption</a></li>
+<li><a href="#sec-2-1-1">2.1.1. Overview</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-2">2.2. Platform Business</a>
+<li><a href="#sec-2-2">2.2. The Light Grid</a>
 <ul>
-<li><a href="#sec-2-2-1">2.2.1. Overview</a></li>
+<li><a href="#sec-2-2-1">2.2.1. Distance</a></li>
+<li><a href="#sec-2-2-2">2.2.2. Deployability</a></li>
+<li><a href="#sec-2-2-3">2.2.3. Unlicensed Spectrum</a></li>
+<li><a href="#sec-2-2-4">2.2.4. Ecological Friendliness</a></li>
+<li><a href="#sec-2-2-5">2.2.5. Low Size, Weight</a></li>
+<li><a href="#sec-2-2-6">2.2.6. Low Power-Consumption</a></li>
 </ul>
 </li>
 <li><a href="#sec-2-3">2.3. Mesh Networking</a>
@@ -50,7 +50,7 @@
 <ul>
 <li><a href="#sec-4-1-1">4.1.1. Installation</a></li>
 <li><a href="#sec-4-1-2">4.1.2. Core Features</a></li>
-<li><a href="#sec-4-1-3">4.1.3. Basic: GUI</a></li>
+<li><a href="#sec-4-1-3">4.1.3. GUI</a></li>
 <li><a href="#sec-4-1-4">4.1.4. API</a></li>
 <li><a href="#sec-4-1-5">4.1.5. Embeddable Widget</a></li>
 <li><a href="#sec-4-1-6">4.1.6. Transaction Sequence Diagram</a></li>
@@ -99,7 +99,7 @@ Mesh Market is a free application aiming to:
 -   enable consumers to find friendlier and cheaper local alternatives to centrally-owned, inefficient resources
 -   accelerate deployment and improve market viability of beneficial technologies by providing them with a direct-to-consumer platform
 
-Check out the prototype (under construction &#x2013; very early stage, and obviously can't handle transactions yet):
+Check out the prototype (under construction &#x2013; very early stage, can't handle transactions yet):
 <https://optipulse.github.io>
 
 With Mesh Market, you can:
@@ -112,42 +112,12 @@ With Mesh Market, you can:
 # Background<a id="sec-2" name="sec-2"></a>
 
 The Mesh Market app was originally conceived by developers at OptiPulse who were envisioning a direct-to-consumer platform for getting OptiPulse's internet technology
-to the market.  Eventually it was realized that the same infrastructure could be used to decentralize resources besides bandwidth, and the Mesh Market Foundation was
+to the market.  Eventually it was realized that the same infrastructure for doing this could also be used to decentralize resources besides bandwidth, and the Mesh Market Foundation was
 created to develop the app to its full potential.
 
-## The Light Grid<a id="sec-2-1" name="sec-2-1"></a>
+## Platform Business<a id="sec-2-1" name="sec-2-1"></a>
 
-We believe that OptiPulse's Light Grid will come to dominate future internet infrastructure.  It is a revolutionary physical-layer technology based on a novel invention in electro-optics.  Like other elite photonic transmitters, it is capable of 5G bit-rates; unlike fiber-optics, however, it is wireless and easy to deploy.
-This makes it very cheap in comparison to the standard alternatives.  Besides being competitive with some of the best fiber-optics, it comes with a range of other benefits:
-
-### Distance<a id="sec-2-1-1" name="sec-2-1-1"></a>
-
-Early tests and estimates have projected that the Light Grid's transmission range may be over 10 km.  This is significantly far for optical wireless technologies.
-
-### Deployability<a id="sec-2-1-2" name="sec-2-1-2"></a>
-
-Unlike fiber-optics, there is no digging up of long stretches of earth to connect two end-points.  This is typically the brunt of the cost associate with FO.  As you can imagine,
-this also avoids legal difficulties like zoning laws.
-
-### Unlicensed Spectrum<a id="sec-2-1-3" name="sec-2-1-3"></a>
-
-The Light Grid uses a part of the RF spectrum that isn't licensed.  Not only is signal interference negligible compared to typical broadcast connections like WiFi, but contending with competitors
-over spectrum licensing is also a non-issue.
-
-### Ecological Friendliness<a id="sec-2-1-4" name="sec-2-1-4"></a>
-
-Taking load off the typical spectrum range also has huge benefits to living organisms, which many believe are harmed by the proliferation of microwaves in the atmosphere used for
-communication.
-
-### Low Size, Weight<a id="sec-2-1-5" name="sec-2-1-5"></a>
-
-Did we mention how small the Light Grid is?
-
-### Low Power-Consumption<a id="sec-2-1-6" name="sec-2-1-6"></a>
-
-## Platform Business<a id="sec-2-2" name="sec-2-2"></a>
-
-### Overview<a id="sec-2-2-1" name="sec-2-2-1"></a>
+### Overview<a id="sec-2-1-1" name="sec-2-1-1"></a>
 
 A platform business erases the distinction between producers and consumers of goods and services.  It does this by providing consumers with some form of infrastructure for creating value on their own.  This infrastructure can be
 something as unassuming as a mobile app, as in the case of Uber.  Such businesses tend to uncover value already existent, but previously unrecognized - mainly because it resides in the hands of consumers.
@@ -158,13 +128,43 @@ As Tech Crunch put it,
      creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest
     accommodation provider, owns no real estate. Something interesting is happening."
 
-This trend is likely to intensify in the coming years, as the ease of access to information driving it undoubtedly will.  But as we've seen lately with Uber and AirBnB's legal battles, this won't go unopposed.
-Despite the innocuous tenets of the "sharing economy" these companies would like to identify themselves with, this opposition is merited in many cases; if you look under the hood of the biggest platforms, it's business as usual.
+As ease of access to information increases, this trend will intensify.  But as we've seen lately with Uber and AirBnB's legal battles, this isn't welcomed by all.
+Despite the innocuous tenets of the "sharing economy" these companies would like to be identified with, opposition to their practices is merited in many cases; if you look under the hood of the biggest platforms, it's business as usual.
 The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a giant pipeline to put people over profits.  Examples aren't hard to find in current news headlines; in Britain, regulators are taking issue with
 the convenience with which Uber can hire full-time workers without taking on the responsibilities of a full-time employer, like providing health insurance.  Furthermore, contractors have complained about the substantial cut it takes from drivers, typically 20%, which
 indeed seems hefty considering the labor involved by the contractors.  As mentioned, platform businesses facing such criticism seek to identify themselves with the larger picture &#x2013; they are purveyors of the sharing economy that average-joes are so keen on.
 AirBnb, for instance, is promoting a global consumer movement as a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't some of these people
 offer an alternative?  We believe the demand for this platform exists already, though it is yet to be realized.  Mesh Market strives to become this platform.
+
+## The Light Grid<a id="sec-2-2" name="sec-2-2"></a>
+
+We believe that OptiPulse's Light Grid will come to dominate future internet infrastructure.  It is a revolutionary physical-layer technology based on a novel invention in electro-optics.  Like other elite photonic transmitters, it is capable of 5G bit-rates; unlike fiber-optics, however, it is wireless and easy to deploy.
+This makes it very cheap in comparison to the standard alternatives.  Besides being competitive with some of the best fiber-optics, it comes with a range of other benefits:
+
+### Distance<a id="sec-2-2-1" name="sec-2-2-1"></a>
+
+Early tests and estimates have projected that the Light Grid's transmission range may be over 10 km.  This is significantly far for optical wireless technologies.
+
+### Deployability<a id="sec-2-2-2" name="sec-2-2-2"></a>
+
+Unlike fiber-optics, there is no digging up of long stretches of earth to connect two end-points.  This is typically the brunt of the cost associate with FO.  As you can imagine,
+this also avoids legal difficulties like zoning laws.
+
+### Unlicensed Spectrum<a id="sec-2-2-3" name="sec-2-2-3"></a>
+
+The Light Grid uses a part of the RF spectrum that isn't licensed.  Not only is signal interference negligible compared to typical broadcast connections like WiFi, but contending with competitors
+over spectrum licensing is also a non-issue.
+
+### Ecological Friendliness<a id="sec-2-2-4" name="sec-2-2-4"></a>
+
+Taking load off the typical spectrum range also has huge benefits to living organisms, which many believe are harmed by the proliferation of microwaves in the atmosphere used for
+communication.
+
+### Low Size, Weight<a id="sec-2-2-5" name="sec-2-2-5"></a>
+
+Did we mention how small the Light Grid is?
+
+### Low Power-Consumption<a id="sec-2-2-6" name="sec-2-2-6"></a>
 
 ## Mesh Networking<a id="sec-2-3" name="sec-2-3"></a>
 
@@ -359,7 +359,7 @@ what they decide is relevant to making a good choice.
 
 ### Core Features<a id="sec-4-1-2" name="sec-4-1-2"></a>
 
-### Basic: GUI<a id="sec-4-1-3" name="sec-4-1-3"></a>
+### GUI<a id="sec-4-1-3" name="sec-4-1-3"></a>
 
 ![img](./mesh-market-gui.png)
 
