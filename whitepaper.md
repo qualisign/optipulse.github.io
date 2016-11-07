@@ -34,7 +34,7 @@
 </li>
 </ul>
 </li>
-<li><a href="#sec-3">3. The Mesh Market Platform</a>
+<li><a href="#sec-3">3. The Mesh Market Platformo</a>
 <ul>
 <li>
 <ul>
@@ -72,17 +72,17 @@
 </li>
 <li><a href="#sec-4-3">4.3. Development TODO's</a>
 <ul>
-<li><a href="#sec-4-3-1">4.3.1. How to Contribute</a></li>
-<li><a href="#sec-4-3-2">4.3.2. Whitepaper</a></li>
-<li><a href="#sec-4-3-3">4.3.3. App</a></li>
-<li><a href="#sec-4-3-4">4.3.4. Donate</a></li>
+<li><a href="#sec-4-3-1">4.3.1. Whitepaper</a></li>
+<li><a href="#sec-4-3-2">4.3.2. App</a></li>
+<li><a href="#sec-4-3-3">4.3.3. Donate</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#sec-5">5. The Mesh Market Foundation</a>
+<li><a href="#sec-5">5. How to Contribute</a></li>
+<li><a href="#sec-6">6. The Mesh Market Foundation</a>
 <ul>
-<li><a href="#sec-5-1">5.1. Business Model Canvas</a></li>
+<li><a href="#sec-6-1">6.1. Business Model Canvas</a></li>
 </ul>
 </li>
 </ul>
@@ -245,7 +245,7 @@ account on the blockchain receives a certain amount of funds.
 
 ### Ethereum<a id="sec-2-4-2" name="sec-2-4-2"></a>
 
-# The Mesh Market Platform<a id="sec-3" name="sec-3"></a>
+# The Mesh Market Platformo<a id="sec-3" name="sec-3"></a>
 
 It may not seem obvious from the simplistic discussion of smart contracts above, but the ability for computers to listen to data and execute transactions on a blockchain enables the implementing of
 an innumerable array of business solutions heretofore unworkable or impractical - particularly those based on the idea of turning a traditionally top-down service into a consumer-to-consumer platform.
@@ -602,34 +602,9 @@ Did we miss something?  Submit a pull request!
 
 ## Development TODO's<a id="sec-4-3" name="sec-4-3"></a>
 
-### How to Contribute<a id="sec-4-3-1" name="sec-4-3-1"></a>
+### Whitepaper<a id="sec-4-3-1" name="sec-4-3-1"></a>
 
-1.  Submit on GitHub
-
-    If you have a good idea and you're up to working it out on your own, feel free to submit a pull request.  This isn't limited to code!  Designers, artists, writers, philosophers, - all are encouraged to contribute.
-
-2.  Work with Us
-
-    Or, if you're looking for a more stable position, we're looking for:
-    -   smart contract writers (using Solidity)
-    -   BitCoin developers
-    -   FinTech developers
-    -   networking (especially mesh) experts
-    -   sysadmin, Linux experts
-    -   C, Clojure, ClojureScript programmers
-    -   web security, cryptography experts
-    -   mobile app developers (especially w/ knowledge of Android, FB, iOS)
-    -   user experience experts
-    -   DevOps engineers
-    -   legal engineers (especially those specializing in internet, business, non-profit, international law)
-    -   systems engineers
-
-    Interested?  Don't hesitate to get in touch (please include summary of relevant experience and work samples):
-    djoseph@optipulse.com
-
-### Whitepaper<a id="sec-4-3-2" name="sec-4-3-2"></a>
-
-### App<a id="sec-4-3-3" name="sec-4-3-3"></a>
+### App<a id="sec-4-3-2" name="sec-4-3-2"></a>
 
 1.  TODO Base-Site
 
@@ -639,23 +614,29 @@ Did we miss something?  Submit a pull request!
 
     1.  DONE add units
 
-    2.  DONE autocomplete tags from protocol object - jquery
+    2.  DONE autocomplete tags w/ magic suggest
 
     3.  TODO autocomplete tags w/ vue component
 
     4.  TODO add currency conversions with vue component
 
-    5.  TODO display date interval in offer preview
+    5.  TODO add countupJS component for currency conversion
 
-    6.  TODO on enter go to next
+    6.  TODO calculate distance for locations
 
-    7.  TODO add focus to input
+    7.  TODO add countupJS component for distance calculation
 
-    8.  TODO display "next" if input entered, skip if none
+    8.  TODO display date interval in offer preview
 
-    9.  TODO add multiple locations with component
+    9.  TODO on enter go to next
 
-    10. TODO convert offer-preview to view component
+    10. TODO add focus to input
+
+    11. TODO display "next" if input entered, skip if none
+
+    12. TODO add multiple locations with component
+
+    13. TODO convert offer-preview to view component
 
 3.  TODO Protocol
 
@@ -685,15 +666,48 @@ Did we miss something?  Submit a pull request!
 
     2.  TODO remove mouse interactivity
 
-### Donate<a id="sec-4-3-4" name="sec-4-3-4"></a>
+### Donate<a id="sec-4-3-3" name="sec-4-3-3"></a>
 
-# The Mesh Market Foundation<a id="sec-5" name="sec-5"></a>
+# How to Contribute<a id="sec-5" name="sec-5"></a>
+
+1.  Submit on GitHub
+
+    If you have a good idea and you're up to working it out on your own, feel free to submit a pull request.  This isn't limited to code!  Designers, artists, writers, philosophers, - all are encouraged to contribute.
+
+2.  Work with Us
+
+    Or, if you're looking for a more stable position, we're looking for:
+    -   Ethereum developers
+    -   BitCoin developers
+    -   mesh networking experts
+    -   sysadmin, Linux experts
+    -   web security, cryptography experts
+    -   C, Clojure, ClojureScript programmers
+    -   mobile app developers (especially w/ Android, FB, iOS experience)
+    -   UX experts
+    -   DevOps engineers
+    -   legal engineers
+    -   systems engineers
+
+    Interested?  Don't hesitate to get in touch (please include summary of relevant experience and work samples):
+    djoseph@optipulse.com
+
+# The Mesh Market Foundation<a id="sec-6" name="sec-6"></a>
 
 The form the app eventually takes on will determine the type of business that can best support it.  Presently, a non-profit DAO (decentralized autonomous organization)
 seems like the most effective way to channel funds generated by the app can be used to encourage businesses - most likely through grants - to decentralize and liberate their services
 for increased customer participation.
 
-## Business Model Canvas<a id="sec-5-1" name="sec-5-1"></a>
+## Business Model Canvas<a id="sec-6-1" name="sec-6-1"></a>
+
+@startuml
+
+(First usecase)
+(Another usecase) as (UC2)
+usecase UC3
+usecase (Last\nusecase) as UC4
+
+@enduml
 
 <div id="footnotes">
 <h2 class="footnotes">Footnotes: </h2>
