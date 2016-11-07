@@ -69,7 +69,6 @@
 <ul>
 <li><a href="#sec-4-3-1">4.3.1. Whitepaper</a></li>
 <li><a href="#sec-4-3-2">4.3.2. App</a></li>
-<li><a href="#sec-4-3-3">4.3.3. Donate</a></li>
 </ul>
 </li>
 </ul>
@@ -663,8 +662,6 @@ Did we miss something?  Submit a pull request!
 
     2.  TODO remove mouse interactivity
 
-### Donate<a id="sec-4-3-3" name="sec-4-3-3"></a>
-
 # How to Contribute<a id="sec-5" name="sec-5"></a>
 
 1.  Submit on GitHub
@@ -688,6 +685,8 @@ Did we miss something?  Submit a pull request!
 
     Interested?  Don't hesitate to get in touch (please include summary of relevant experience and work samples):
     djoseph@optipulse.com
+
+3.  Donate
 
 # The Mesh Market Foundation<a id="sec-6" name="sec-6"></a>
 

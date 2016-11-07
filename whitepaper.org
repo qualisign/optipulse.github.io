@@ -464,7 +464,7 @@ Did we miss something?  Submit a pull request!
 ***** TODO remove zoom
 ***** TODO remove mouse interactivity
 
-*** Donate
+
 * How to Contribute
 **** Submit on GitHub
 If you have a good idea and you're up to working it out on your own, feel free to submit a pull request.  This isn't limited to code!  Designers, artists, writers, philosophers, - all are encouraged to contribute.
@@ -484,6 +484,8 @@ Or, if you're looking for a more stable position, we're looking for:
 
 Interested?  Don't hesitate to get in touch (please include summary of relevant experience and work samples):
 djoseph@optipulse.com
+
+**** Donate
 
 * The Mesh Market Foundation
 The form the app eventually takes on will determine the type of business that can best support it.  Presently, a non-profit DAO (decentralized autonomous organization)
