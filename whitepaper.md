@@ -310,13 +310,10 @@ what they decide is relevant to making a good choice.
 1.  Dependencies:
 
     -   1. git
-    -   2. geth, plus a running Ethereum client
-    -   3. Node.js
-    -   4. web3.js
-    -   5. web3<sub>extended</sub>.js
-    -   6. CJDNS, for ad-hoc routing
-    -   7. Clojure, for interfacing with device OS (using Trickle )
-    -   8. a modern web browser
+    -   2. Metamask (and Chrome browser)
+    -   3. CJDNS, for ad-hoc routing
+    -   4. Clojure, for interfacing with device OS (using Trickle )
+    -   5. the Mesh Market repository&#x2026;
 
 2.  Instructions:
 

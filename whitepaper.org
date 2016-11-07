@@ -189,13 +189,10 @@ what they decide is relevant to making a good choice.
 *** Installation
 **** Dependencies:
 - 1. git
-- 2. geth, plus a running Ethereum client
-- 3. Node.js
-- 4. web3.js
-- 5. web3_extended.js
-- 6. CJDNS, for ad-hoc routing
-- 7. Clojure, for interfacing with device OS (using Trickle [fn::https://github.com/mariusae/trickle or similar command line tools])
-- 8. a modern web browser
+- 2. Metamask (and Chrome browser)
+- 3. CJDNS, for ad-hoc routing
+- 4. Clojure, for interfacing with device OS (using Trickle [fn::https://github.com/mariusae/trickle or similar command line tools])
+- 5. the Mesh Market repository...
 
 **** Instructions:
 Now to get Mesh Market:
