@@ -247,7 +247,7 @@ Decentralized platforms based on blockchain/smart contracts are already being de
 for average consumers to have noticeably benefited.  The platform business phenomenon and the sharing economy at large, on the other hand, have had a huge impact on what customers expect from the services they use,
 and demonstrated the substantial demand for useful peer-to-peer services.
 
-Where does Blockchain fit in?  There is no shortage of useful ideas and technologies that would have a positive impact on the world were they adopted; blind inertia often prevents this (see Tragedy of the Commons).
+Where does Blockchain fit in?  There is no shortage of good ideas and technologies that would have a positive impact on the world, if they were only adopted.  Inertia prevents change, even when it is necessary (see Tragedy of the Commons).
 We've made the case for certain technologies above; others are making it for renewable energy, a service-based economy, reducing meat consumption, a basic income, and so on.  The ultimate goal of Mesh Market is to create a way to incentivize collective behavior that is manifestly beneficial to everyone.  The purpose of the Mesh Market Protocol is to define what this behavior is.  Finally, the Mesh Market Foundation channels funds into
 businesses that seek to implement these solutions, and to incentivize businesses (and people) to use the platform.  Mesh Market the DApp should be thought of as one part of this eco-system.
 
