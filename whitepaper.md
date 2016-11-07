@@ -122,7 +122,7 @@ created to develop the app to its full potential.
 A platform business erases the distinction between producers and consumers of goods and services by providing consumers with some form of infrastructure for creating value on their own.  This infrastructure is
 often an unassuming means of facilitating customer match-making, such as Uber's mobile app.  Such businesses tend to uncover value already existent, but previously unrecognized - mainly because it resides in the hands of consumers.
 Platform business have shown us that this sort of value actually constitutes the lion's share of the market - when it is effectively utilized.
-As Tech Crunch put it,
+As Tech Crunch put it
 
     "Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner,
      creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest
@@ -131,9 +131,9 @@ As Tech Crunch put it,
 As internet access becomes more ubiquitous, this trend will intensify.  But as we've seen lately with Uber and AirBnB's legal battles, this isn't a welcome change for all.
 Despite the innocuous tenets of the "sharing economy" with which some platforms hope to be identified, opposition to their practices isn't without merit; if you look under the hood of the biggest platforms, it's business as usual.
 The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a giant pipeline to put people over profits.  Examples aren't hard to find in current news headlines; in Britain, regulators are taking issue with
-the convenience with which Uber can hire full-time workers without taking on the responsibilities of a full-time employer, like providing health insurance.  Furthermore, contractors have complained about the substantial cut it takes from drivers, typically 20%, which
+the convenience with which Uber can hire full-time workers without taking on the responsibilities of a full-time employer, like providing health insurance .  Furthermore, contractors have complained about the substantial cut it takes from drivers, typically 20%, which
 indeed seems hefty considering the labor involved by the contractors.  As mentioned, platform businesses facing such criticism seek to identify themselves with the bigger picture &#x2013; they are purveyors of this "sharing economy" average-joes are so keen on.
-AirBnb, for instance, is promoting a global consumer movement as a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't some of these people
+AirBnb, for instance, is promoting a global consumer movementas a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't some of these people
 offer an alternative?  We believe the demand for this platform exists already, though it is yet to be realized.  Mesh Market strives to become this platform.
 
 ## The Light Grid<a id="sec-2-2" name="sec-2-2"></a>
@@ -194,14 +194,13 @@ over heterogeneous networks, making them the ideal network topology for future n
 3.  Democritization:
 
     Dictators have been known to cut off internet service during popular uprisings (e.g. Arab Spring).  It is virtually impossible to "shut down" a mesh-based internet. Without the imperitave for centrally-connected hubs, disrupting connections becomes very hard to achieve.
-    <http://europe.newsweek.com/dictator-proofing-internet-68705?rm=eu>
+    (Sorry Donald Trump).
 
     That authorities might cut off the internet is significantly less likely in countries without egregious network collusion with government as we
-    see in many developing countries (Sorry Donald Trump <http://fortune.com/2015/12/08/donald-trump-bill-gates-internet/>.)  Such countries may turn out to be some of the
-    best stages on which to demonstrate the power of decentralized markets for effecting positive social change.
+    see in many developing countries.  Such countries may turn out to be some of the best stages on which to demonstrate the power of decentralized markets for effecting positive social change.
 
     One criticism of the idea that mesh networks could make the internet impervious to control by dictators is that WIFI signals can be traced and individuals can be targeted even
-    if the network is a mesh <https://www.schneier.com/blog/archives/2012/12/dictators_shutt.html#c1034991>.  This criticism would not apply to a network using OptiPulse's
+    if the network is a mesh .  This criticism would not apply to a network using OptiPulse's
     technology, since its point-to-point signals are not broadcast and would be very difficult to intercept.
 
 ### Disadvantages, Obstacles<a id="sec-2-3-2" name="sec-2-3-2"></a>
@@ -228,7 +227,7 @@ Light Grid may improve on.
 
     Analagous to the situation faced by Tesla due to their direct-to-consumer market, those who normally take a large share of the profits by acting as middle-men
     between the consumer and the product/service stand to lose much in a decentralized consumer-to-consumer market.  This means that, just as Tesla sales have been
-    blocked in certain states due to the threat it poses to the established car-dealership model (<https://electrek.co/2016/05/01/tesla-gm-direct-sales-connecticut/>),
+    blocked in certain states due to the threat it poses to the established car-dealership model,
     a mesh-networking platform with a chance of succeeding may raise the defenses of ISP's. This possibility should be discussed in more detail.  It seems to me that
     the case against a mesh-networks would be much more difficult to make, and legal challenges are unlikely to pose a sustained threat.
 
@@ -322,7 +321,7 @@ what they decide is relevant to making a good choice.
     -   4. web3.js
     -   5. web3<sub>extended</sub>.js
     -   6. CJDNS, for ad-hoc routing
-    -   7. Clojure, for interfacing with device OS (using Trickle <https://github.com/mariusae/trickle> or similar command line tools)
+    -   7. Clojure, for interfacing with device OS (using Trickle )
     -   8. a modern web browser
 
 2.  Instructions:
@@ -451,7 +450,7 @@ This step involves another class of user, the offer taker, submitting a form to 
 
 This introduces some complications. Blockchain data is immutable, but offers available to users will be constantly changing. The most clever way around this is to have the smart contract bound to a geographical area simply point to the latest version of the area’s blockchain, so that queries will be made on up-to-date data. This creates the illusion that the data users are querying is dynamic, though it is actually immutable.
 
-The latest version of Ethereum has native support for this capability. Here’s an example smart contract meant to relay queries to another that is updateable (borrowed from a Stackoverflow answer <http://ethereum.stackexchange.com/questions/2404/upgradeable-contracts>):
+The latest version of Ethereum has native support for this capability. Here’s an example smart contract meant to relay queries to another that is updateable (borrowed from a Stackoverflow answer :
 
     contract Relay {
         address public currentVersion;
@@ -701,6 +700,20 @@ for increased customer participation.
 <div id="text-footnotes">
 
 <div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> <p><https://techcrunch.com/2015/03/03/in-the-age-of-disintermediation-the-battle-is-all-for-the-customer-interface/></p></div>
+
+<div class="footdef"><sup><a id="fn.2" name="fn.2" class="footnum" href="#fnr.2">2</a></sup> <p><https://www.theguardian.com/technology/2016/jul/19/uber-drivers-court-tribunal-self-employed-uk-employment-law></p></div>
+
+<div class="footdef"><sup><a id="fn.3" name="fn.3" class="footnum" href="#fnr.3">3</a></sup> <p><https://www.theguardian.com/technology/2016/oct/29/airbnb-backlash-customers-fight-back-london></p></div>
+
+<div class="footdef"><sup><a id="fn.4" name="fn.4" class="footnum" href="#fnr.4">4</a></sup> <p><http://europe.newsweek.com/dictator-proofing-internet-68705?rm=eu></p></div>
+
+<div class="footdef"><sup><a id="fn.5" name="fn.5" class="footnum" href="#fnr.5">5</a></sup> <p><https://www.schneier.com/blog/archives/2012/12/dictators_shutt.html#c1034991></p></div>
+
+<div class="footdef"><sup><a id="fn.6" name="fn.6" class="footnum" href="#fnr.6">6</a></sup> <p><https://electrek.co/2016/05/01/tesla-gm-direct-sales-connecticut/></p></div>
+
+<div class="footdef"><sup><a id="fn.7" name="fn.7" class="footnum" href="#fnr.7">7</a></sup> <p><https://github.com/mariusae/trickle> or similar command line tools</p></div>
+
+<div class="footdef"><sup><a id="fn.8" name="fn.8" class="footnum" href="#fnr.8">8</a></sup> <p><http://ethereum.stackexchange.com/questions/2404/upgradeable-contracts></p></div>
 
 
 </div>
