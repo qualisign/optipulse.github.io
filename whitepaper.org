@@ -124,6 +124,8 @@ account on the blockchain receives a certain amount of funds.
 *** Ethereum
 
 * The Mesh Market Platform
+[[./mesh-market-ecosystem.png]]
+
 It may not seem obvious from the simplistic discussion of smart contracts above, but the ability for computers to listen to data and execute transactions on a blockchain enables the implementing of
 an innumerable array of business solutions heretofore unworkable or impractical - particularly those based on the idea of turning a traditionally top-down service into a consumer-to-consumer platform.
 Decentralized platforms based on blockchain/smart contracts are already being developed across a range of industries (even entire governemnts!), though it is still too early
