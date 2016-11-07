@@ -323,8 +323,8 @@ what they decide is relevant to making a good choice.
 
         git clone https://github.com/optipulse/mesh-market.git
 
-    -   2. connect to an Ethereum client locally
-    -   3. connect to CJDNS
+    -   2. connect to CJDNS
+    -   3. sign in to your MetaMask wallet
     -   4. run the Mesh Market server
 
         $ cd mesh-market
