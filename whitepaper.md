@@ -119,20 +119,20 @@ created to develop the app to its full potential.
 
 ### Overview<a id="sec-2-1-1" name="sec-2-1-1"></a>
 
-A platform business erases the distinction between producers and consumers of goods and services.  It does this by providing consumers with some form of infrastructure for creating value on their own.  This infrastructure can be
-something as unassuming as a mobile app, as in the case of Uber.  Such businesses tend to uncover value already existent, but previously unrecognized - mainly because it resides in the hands of consumers.
-Platform business have shown us that value of this sort actually constitutes the lion's share of the market - when it is effectively utilized.
+A platform business erases the distinction between producers and consumers of goods and services by providing consumers with some form of infrastructure for creating value on their own.  This infrastructure is
+often an unassuming means of facilitating customer match-making, such as Uber's mobile app.  Such businesses tend to uncover value already existent, but previously unrecognized - mainly because it resides in the hands of consumers.
+Platform business have shown us that this sort of value actually constitutes the lion's share of the market - when it is effectively utilized.
 As Tech Crunch put it,
 
     "Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner,
      creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest
     accommodation provider, owns no real estate. Something interesting is happening."
 
-As ease of access to information continues to increase, this trend will intensify.  But as we've seen lately with Uber and AirBnB's legal battles, this isn't welcomed by all.
-Despite the innocuous tenets of the "sharing economy" these companies would like to be identified with, opposition to their practices is merited in many cases; if you look under the hood of the biggest platforms, it's business as usual.
+As internet access becomes more ubiquitous, this trend will intensify.  But as we've seen lately with Uber and AirBnB's legal battles, this isn't a welcome change for all.
+Despite the innocuous tenets of the "sharing economy" with which some platforms hope to be identified, opposition to their practices isn't without merit; if you look under the hood of the biggest platforms, it's business as usual.
 The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a giant pipeline to put people over profits.  Examples aren't hard to find in current news headlines; in Britain, regulators are taking issue with
 the convenience with which Uber can hire full-time workers without taking on the responsibilities of a full-time employer, like providing health insurance.  Furthermore, contractors have complained about the substantial cut it takes from drivers, typically 20%, which
-indeed seems hefty considering the labor involved by the contractors.  As mentioned, platform businesses facing such criticism seek to identify themselves with the larger picture &#x2013; they are purveyors of the sharing economy that average-joes are so keen on.
+indeed seems hefty considering the labor involved by the contractors.  As mentioned, platform businesses facing such criticism seek to identify themselves with the bigger picture &#x2013; they are purveyors of this "sharing economy" average-joes are so keen on.
 AirBnb, for instance, is promoting a global consumer movement as a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't some of these people
 offer an alternative?  We believe the demand for this platform exists already, though it is yet to be realized.  Mesh Market strives to become this platform.
 
@@ -254,8 +254,8 @@ Decentralized platforms based on blockchain/smart contracts are already being de
 for average consumers to have noticeably benefited.  The platform business phenomenon and the sharing economy at large, on the other hand, have had a huge impact on what customers expect from the services they use,
 and demonstrated the substantial demand for useful peer-to-peer services.
 
-Why do we need blockchain?  There is no shortage of useful ideas and technologies that would have a positive impact on the world, if only they became widely adopted.  It is the collective will to do so that stagnates.  We've made the case for certain technologies above;
-others are making it for renewable energy, a service-based economy, reducing meat consumption, a basic income, and so on.  The ultimate goal of Mesh Market is to create a way to incentivize collective behavior that is manifestly beneficial to everyone.  The purpose of the Mesh Market Protocol is to define what this behavior is.  Finally, the Mesh Market Foundation channels funds into
+Where does Blockchain fit in?  There is no shortage of useful ideas and technologies that would have a positive impact on the world were they adopted; blind inertia often prevents this (see Tragedy of the Commons).
+We've made the case for certain technologies above; others are making it for renewable energy, a service-based economy, reducing meat consumption, a basic income, and so on.  The ultimate goal of Mesh Market is to create a way to incentivize collective behavior that is manifestly beneficial to everyone.  The purpose of the Mesh Market Protocol is to define what this behavior is.  Finally, the Mesh Market Foundation channels funds into
 businesses that seek to implement these solutions, and to incentivize businesses (and people) to use the platform.  Mesh Market the DApp should be thought of as one part of this eco-system.
 
 It would be unwise for any business developing in the post-smart contract world to implement an overtly top-down approach to customer relations.  We take very seriously
@@ -695,3 +695,13 @@ seems like the most effective way to channel funds generated by the app can be u
 for increased customer participation.
 
 ## Business Model Canvas<a id="sec-5-1" name="sec-5-1"></a>
+
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> <p><https://techcrunch.com/2015/03/03/in-the-age-of-disintermediation-the-battle-is-all-for-the-customer-interface/></p></div>
+
+
+</div>
+</div>
