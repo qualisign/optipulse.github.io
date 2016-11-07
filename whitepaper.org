@@ -46,21 +46,23 @@ offer an alternative?  We believe the demand for this platform exists already, t
 
 We believe that OptiPulse's Light Grid will come to dominate future internet infrastructure.  It is a revolutionary physical-layer technology based on a novel invention in electro-optics.  Like other elite photonic transmitters, it is capable of 5G bit-rates; unlike fiber-optics, however, it is wireless and easy to deploy.
 This makes it very cheap in comparison to the standard alternatives.  Besides being competitive with some of the best fiber-optics, it comes with a range of other benefits:
-*** Distance
+
+*** A Communications Revolution
+**** Distance
 Early tests and estimates have projected that the Light Grid's transmission range may be over 10 km.  This is significantly far for optical wireless technologies.
-*** Deployability
+**** Deployability
 Unlike fiber-optics, there is no digging up of long stretches of earth to connect two end-points.  This is typically the brunt of the cost associate with FO.  As you can imagine,
 this also avoids legal difficulties like zoning laws.
-*** Unlicensed Spectrum
+**** Unlicensed Spectrum
 The Light Grid uses a part of the RF spectrum that isn't licensed.  Not only is signal interference negligible compared to typical broadcast connections like WiFi, but contending with competitors
 over spectrum licensing is also a non-issue.
-*** Ecological Friendliness
+**** Ecological Friendliness
 Taking load off the typical spectrum range also has huge benefits to living organisms, which many believe are harmed by the proliferation of microwaves in the atmosphere used for
 communication.
-*** Low Size, Weight
+**** Low Size, Weight
 Did we mention how small the Light Grid is?
 [[picture]]
-*** Low Power-Consumption
+**** Low Power-Consumption
 
 ** Mesh Networking
 Before we discuss how Mesh Market makes it so easy to decentralize resources, we need to explain the role that mesh networking plays.
