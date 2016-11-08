@@ -237,7 +237,7 @@ $(document).ready(function() {
                         for(var i=0; i<tagList.length; i++){
                             console.log(tagList[i]);
                             try {
-                                var unitsObj = this.protocol[tagList[i]]["units"];                        
+                                var unitsObj = this.protocol["pro"][tagList[i]]["units"];                        
                                 var unitKeys = Object.keys(unitsObj);
                         
                                 for (var i=0; i<unitKeys.length; i++){
