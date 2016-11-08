@@ -10,15 +10,12 @@
 <li><a href="#sec-2-1-1">2.1.1. Overview</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-2">2.2. OptiPulse's Light Grid: Communications Revolution</a>
+<li><a href="#sec-2-2">2.2. Mesh Networking</a></li>
+<li><a href="#sec-2-3">2.3. OptiPulse's Light Grid</a>
 <ul>
-<li><a href="#sec-2-2-1">2.2.1. Specs</a></li>
-</ul>
-</li>
-<li><a href="#sec-2-3">2.3. Mesh Networking</a>
-<ul>
-<li><a href="#sec-2-3-1">2.3.1. Advantages</a></li>
-<li><a href="#sec-2-3-2">2.3.2. Disadvantages, Obstacles</a></li>
+<li><a href="#sec-2-3-1">2.3.1. Specs</a></li>
+<li><a href="#sec-2-3-2">2.3.2. Advantages</a></li>
+<li><a href="#sec-2-3-3">2.3.3. Disadvantages, Obstacles</a></li>
 </ul>
 </li>
 <li><a href="#sec-2-4">2.4. Blockchain</a>
@@ -109,8 +106,7 @@ With Mesh Market, you can:
 # Background<a id="sec-2" name="sec-2"></a>
 
 The Mesh Market app was originally conceived by developers at OptiPulse who were envisioning a direct-to-consumer platform for getting OptiPulse's internet technology
-to the market.  Eventually it was realized that the same infrastructure for doing this could also be used to decentralize resources besides bandwidth, and the Mesh Market Foundation was
-created to develop the app to its full potential.
+to the market.  Eventually it was realized that the same infrastructure for doing this could also be used to decentralize resources besides bandwidth, and the Mesh Market Foundation was created to develop the app to its full potential.
 
 ## Platform Business<a id="sec-2-1" name="sec-2-1"></a>
 
@@ -133,12 +129,31 @@ indeed seems hefty considering the labor involved by the contractors.  As mentio
 AirBnb, for instance, is promoting a global consumer movementas a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't some of these people
 offer an alternative?  We believe the demand for this platform exists already, though it is yet to be realized.  Mesh Market strives to become this platform.
 
-## OptiPulse's Light Grid: Communications Revolution<a id="sec-2-2" name="sec-2-2"></a>
+Mesh Market is like a black-box into which one can put ideas that are good, but challenging to implement, and expect positive developments to come out.
+![img](./incentive-creation-diagram.png)
+
+To see how this works, let's start with a good idea:
+
+## Mesh Networking<a id="sec-2-2" name="sec-2-2"></a>
+
+Before we discuss how Mesh Market makes it so easy to decentralize resources, we need to explain the role that mesh networking plays.
+
+According to Wikipedia, "A mesh network is a network topology in which each node relays data for the network. All mesh nodes cooperate in the distribution of data in the network."
+
+In other words, mesh networks get rid of centralized computing resources in favor of distributed networks.
+
+Mesh Market takes this concept to the next level and seeks to decentralize all resources - insofar as that's possible.
+
+The original goal of this app was to develop OptiPulse unique potential for revolutionizing the mesh/ad-hoc networking market with its Light Grid technology.  Bandwidth, via mesh-networking, is the first resource
+that Mesh Market aims to decentralize - though by no means the last.While the mesh-networking userbase is presently miniscule compared to that of conventional, centrally serviced connections (usually provided by one of only a few differnet ISP's), meshes offer many advantages
+over heterogeneous networks, making them the ideal network topology for future networks needing to prioritize scalability.  There are many articles/papers weighing these advantages, so the discussion here will be brief:
+
+## OptiPulse's Light Grid<a id="sec-2-3" name="sec-2-3"></a>
 
 We believe that OptiPulse's Light Grid will come to dominate future internet infrastructure.  It is a revolutionary physical-layer technology based on a novel invention in electro-optics.  Like other elite photonic transmitters, it is capable of 5G bit-rates; unlike fiber-optics, however, it is wireless and easy to deploy.
 This makes it very cheap in comparison to the standard alternatives.  Besides being competitive with some of the best fiber-optics, it comes with a range of other benefits:
 
-### Specs<a id="sec-2-2-1" name="sec-2-2-1"></a>
+### Specs<a id="sec-2-3-1" name="sec-2-3-1"></a>
 
 1.  Distance
 
@@ -169,21 +184,7 @@ This makes it very cheap in comparison to the standard alternatives.  Besides be
 
     Perhaps most importantly, an infrastructure built on Light Grid technology would be a fraction of the cost of using (comparably fast) fiber.
 
-## Mesh Networking<a id="sec-2-3" name="sec-2-3"></a>
-
-Before we discuss how Mesh Market makes it so easy to decentralize resources, we need to explain the role that mesh networking plays.
-
-According to Wikipedia, "A mesh network is a network topology in which each node relays data for the network. All mesh nodes cooperate in the distribution of data in the network."
-
-In other words, mesh networks get rid of centralized computing resources in favor of distributed networks.
-
-Mesh Market takes this concept to the next level and seeks to decentralize all resources - insofar as that's possible.
-
-The original goal of this app was to develop OptiPulse unique potential for revolutionizing the mesh/ad-hoc networking market with its Light Grid technology.  Bandwidth, via mesh-networking, is the first resource
-that Mesh Market aims to decentralize - though by no means the last.While the mesh-networking userbase is presently miniscule compared to that of conventional, centrally serviced connections (usually provided by one of only a few differnet ISP's), meshes offer many advantages
-over heterogeneous networks, making them the ideal network topology for future networks needing to prioritize scalability.  There are many articles/papers weighing these advantages, so the discussion here will be brief:
-
-### Advantages<a id="sec-2-3-1" name="sec-2-3-1"></a>
+### Advantages<a id="sec-2-3-2" name="sec-2-3-2"></a>
 
 1.  Scalability:
 
@@ -206,7 +207,7 @@ over heterogeneous networks, making them the ideal network topology for future n
     if the network is a mesh .  This criticism would not apply to a network using OptiPulse's
     technology, since its point-to-point signals are not broadcast and would be very difficult to intercept.
 
-### Disadvantages, Obstacles<a id="sec-2-3-2" name="sec-2-3-2"></a>
+### Disadvantages, Obstacles<a id="sec-2-3-3" name="sec-2-3-3"></a>
 
 There are also several difficulties associated with meshes that shouldn't be overlooked.  Some of these may be mitigated by the design of an app fulfilling many
 functions normally assigned to the network administrator, while others may be reducable to inadequacies of current physical layer internet technologies that OptiPulse's (a key partner)
@@ -243,7 +244,7 @@ Blockchain plays a crucial role in Mesh Market's plan to overcome the inertia ke
 
 The concept of a smart contract was first formulated in the 90's, but required blockchain technology to achieve practical implementability.  Basically a smart contract is
 a contract that can execute itself.  This means that terms and conditions are defined programatically, such that a computer can know how they should be interpreted.
-Of course, this limits the contents of the contract what is computationally tractable.  For example, a smart contract may define certain operations being executed when an
+Of course, this limits the contents of the contract to what is computationally tractable.  For example, a smart contract may define certain operations being executed when an
 account on the blockchain receives a certain amount of funds.
 
 ### Ethereum<a id="sec-2-4-2" name="sec-2-4-2"></a>
@@ -269,8 +270,13 @@ The Mesh Market aspires to be the platform to end platforms; to achieve this, th
 
 ### Case Study: OptiPulse &#x2013; Making Mesh Networks Mass-Market Viable<a id="sec-3-0-1" name="sec-3-0-1"></a>
 
-Now we'll discuss how these principles can apply to promoting mesh networks, which could enable several exciting use-cases for the Mesh Market.
+Remember that black-box for good ideas?
+![img](./mesh-network-incentivization.png)
 
+Now it should be clear how this platform might actually help good ideas gain momentum.  As we've made the case for above, OptiPulse's Light Grid enabling mesh networks is one potential
+application.
+
+The logic works like this:
 Since the benefits of mesh networks are not immediately apparent to anyone not versed in computer networking, getting people to switch may prove a difficult task unless some
 incentive is provided.
 
@@ -705,6 +711,8 @@ Did we miss something?  Submit a pull request!
     djoseph@optipulse.com
 
 3.  Donate
+
+    David is a full-stack web developer with extensive experience in building apps for getting cutting-edge technologies into the marketplaces.  He is the lead architect of the Light Grid's application to mesh networks, and is working on solutions for connecting customers through P2P technologies to build robust and scalable networks.
 
 <div id="footnotes">
 <h2 class="footnotes">Footnotes: </h2>
