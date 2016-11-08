@@ -165,6 +165,10 @@ This makes it very cheap in comparison to the standard alternatives.  Besides be
 
 6.  Low Power-Consumption
 
+7.  Low Cost
+
+    Perhaps most importantly, an infrastructure built on Light Grid technology would be a fraction of the cost of using (comparably fast) fiber.
+
 ## Mesh Networking<a id="sec-2-3" name="sec-2-3"></a>
 
 Before we discuss how Mesh Market makes it so easy to decentralize resources, we need to explain the role that mesh networking plays.
@@ -605,6 +609,12 @@ Did we miss something?  Submit a pull request!
 1.  TODO add banner w/ logo showing community using decentralized resources
 
 2.  TODO export to HTML
+
+3.  TODO write pre-sale use case
+
+4.  TODO write transportation use cases
+
+5.  TODO write real estate use cases
 
 ### App<a id="sec-4-3-2" name="sec-4-3-2"></a>
 

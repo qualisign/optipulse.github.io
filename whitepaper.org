@@ -54,6 +54,7 @@ indeed seems hefty considering the labor involved by the contractors.  As mentio
 AirBnb, for instance, is promoting a global consumer movement[fn::https://www.theguardian.com/technology/2016/oct/29/airbnb-backlash-customers-fight-back-london] as a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't some of these people
 offer an alternative?  We believe the demand for this platform exists already, though it is yet to be realized.  Mesh Market strives to become this platform.
 
+
 ** OptiPulse's Light Grid: Communications Revolution
 
 We believe that OptiPulse's Light Grid will come to dominate future internet infrastructure.  It is a revolutionary physical-layer technology based on a novel invention in electro-optics.  Like other elite photonic transmitters, it is capable of 5G bit-rates; unlike fiber-optics, however, it is wireless and easy to deploy.
@@ -73,8 +74,9 @@ Taking load off the typical spectrum range also has huge benefits to living orga
 communication.
 **** Low Size, Weight
 Did we mention how small the Light Grid is?
-[[picture]]
 **** Low Power-Consumption
+**** Low Cost
+Perhaps most importantly, an infrastructure built on Light Grid technology would be a fraction of the cost of using (comparably fast) fiber.  
 
 ** Mesh Networking
 Before we discuss how Mesh Market makes it so easy to decentralize resources, we need to explain the role that mesh networking plays.
