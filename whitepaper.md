@@ -177,17 +177,13 @@ over heterogeneous networks, making them the ideal network topology for future n
 ### Disadvantages, Obstacles<a id="sec-2-2-2" name="sec-2-2-2"></a>
 
 There are also several difficulties associated with meshes that shouldn't be overlooked.  Some of these may be mitigated by the design of an app fulfilling many
-functions normally assigned to the network administrator, while others may be reducable to inadequacies of current physical layer internet technologies that OptiPulse's (a key partner)
-Light Grid may improve on.
+functions normally assigned to the network administrator, while others may be reducable to inadequacies of present physical layer technologies.
 
 1.  Power Consumption
 
     From link-labs: "Because each node in a mesh has to act as an endpoint and a router, it has to draw more power to operate. Thus, if you have battery-powered, low-power nodes, a mesh may be difficult to deploy without a lot of network planning."
-    This is listed as a disadvantage, but OptiPulse's Light Grid requires very little power consumption, which may make it an enabling technology for mesh networks.
 
 2.  Latency
-
-    Likewise, this is listed as a disadvantage, but a copious amount of bandwidth is one of the Light Grid's chief assets.
 
 3.  Requisite Technical Competence
 
@@ -204,9 +200,9 @@ Light Grid may improve on.
 
 ## OptiPulse's Light Grid<a id="sec-2-3" name="sec-2-3"></a>
 
-OptiPulse is a tech startup with a revolutionary internet technology.  We believe that OptiPulse's Light Grid will come to dominate future internet infrastructure.  It is a revolutionary physical-layer technology based on a novel invention in electro-optics, which just so happens to
-overcome many of the difficulties associated with mesh networks.  Like other elite photonic transmitters, it is capable of 5G bit-rates.  Unlike fiber-optics, however, it is wireless and therefore relatively cheap and easy to deploy.  OptiPulse has secured an
-early partnership with Mesh Market in order to open a pre-sale of its products for end-consumers and network planners.
+OptiPulse is a tech startup with a revolutionary internet technology called the Light Grid.  It is a physical-layer technology based on a novel invention in electro-optics, which just so happens to
+overcome many of the difficulties associated with mesh networks like power consumption and latency.  Like other elite photonic transmitters, it is capable of 5G bit-rates.  Unlike fiber-optics, however, it is wireless and therefore relatively cheap and easy to deploy.
+Mesh Market has secured an early partnership with OptiPulse which will allow the opening of its products for pre-sale to end-consumers and network planners.
 
 ![img](./prototype-image.jpg)
 OptiPulse's Prototype
