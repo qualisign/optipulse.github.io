@@ -16,87 +16,93 @@ Protocol entries take the form:
 
 Vue.config.debug = true;
 
-var protocol = {"offer" :
-                {
-                    "explanation": "Make an Offer",
-                    "recommendations": {},                                  
-                    "upvotes": "",
-                    "downvotes": "",
-                    "units": {},
-                    "children": [],
+var protocol = {"official" : {},
+                "app" : {
+                    "offer" :
+                    {
+                        "explanation": "Make an Offer",
+                        "recommendations": {},                                  
+                        "upvotes": "",
+                        "downvotes": "",
+                        "units": {},
+                        "children": [],
+                    },
+                    "find" :
+                    {
+                        "explanation" : "Find an Offer",
+                        "recommendations": {},                                  
+                        "upvotes" : "",
+                        "downvotes" : "",
+                        "units": {},
+                        "children": [],
+                    },
+                    "address":
+                    {
+                        "explanation": "Your Public Key",
+                        "recommendations": "",
+                        "upvotes": "",
+                        "downvotes": "",
+                        "units": {},
+                        "children": []
+                    },
+                    "password":
+                    {
+                        "explanation": "Your Private Key -- Don't Forget It!!",
+                        "recommendations": "",
+                        "upvotes": "",
+                        "downvotes": "",
+                        "units": {},
+                        "children": []
+                    },
+                    "open-wallet":
+                    {
+                        "explanation": "Unlock an Existing Wallet",
+                        "recommendations": "",
+                        "upvotes": "",
+                        "downvotes": "",
+                        "units": {},
+                        "children": []
+                    },
+                    "create-wallet":
+                    {
+                        "explanation": "Generate a New Wallet",
+                        "recommendations": "",
+                        "upvotes": "",
+                        "downvotes": "",
+                        "units": {},
+                        "children": []
+                    }                                                    
                 },
-                "find" :
-                {
-                    "explanation" : "Find an Offer",
-                    "recommendations": {},                                  
-                    "upvotes" : "",
-                    "downvotes" : "",
-                    "units": {},
-                    "children": [],
+                "pro" : {
+                    "internet":
+                    {
+                        "explanation": "",
+                        "recommendations": {},                                
+                        "upvotes": "",
+                        "downvotes": "",
+                        "units": {},
+                        "children": ["wireless", "optical", "cables", "Wi-Fi"],
+                    },
+                    "wireless":
+                    {
+                        "explanation": "communications channel not requiring wires/cables",              
+                        "recommendations": {"optical": "faster, reduce RF polution"},   
+                        "upvotes": "",
+                        "downvotes": "",
+                        "units": {"bandwidth": "bit/s",  "information": "bits"},
+                        "children": [],
+                    },
+                    "transportation":
+                    {
+                        "explanation": "",
+                        "recommendations": "",
+                        "upvotes": "",
+                        "downvotes": "",
+                        "units": {"distance": "kilometers", "time": "minutes"},
+                        "children": ["delivery"]
+                    },
+
                 },
-                "internet":
-                {
-                    "explanation": "",
-                    "recommendations": {},                                
-                    "upvotes": "",
-                    "downvotes": "",
-                    "units": {},
-                    "children": ["wireless", "optical", "cables", "Wi-Fi"],
-                },
-                "wireless":
-                {
-                    "explanation": "communications channel not requiring wires/cables",              
-                    "recommendations": {"optical": "faster, reduce RF polution"},   
-                    "upvotes": "",
-                    "downvotes": "",
-                    "units": {"bandwidth": "bit/s", "distance": "kilometers", "information": "bits"},
-                    "children": [],
-                },
-                "transportation":
-                {
-                    "explanation": "",
-                    "recommendations": "",
-                    "upvotes": "",
-                    "downvotes": "",
-                    "units": {"distance": "kilometers", "time": "minutes"},
-                    "children": ["delivery"]
-                },
-                "address":
-                {
-                    "explanation": "Your Public Key",
-                    "recommendations": "",
-                    "upvotes": "",
-                    "downvotes": "",
-                    "units": {},
-                    "children": []
-                },
-                "password":
-                {
-                    "explanation": "Your Private Key -- Don't Forget It!!",
-                    "recommendations": "",
-                    "upvotes": "",
-                    "downvotes": "",
-                    "units": {},
-                    "children": []
-                },
-                "open-wallet":
-                {
-                    "explanation": "Unlock an Existing Wallet",
-                    "recommendations": "",
-                    "upvotes": "",
-                    "downvotes": "",
-                    "units": {},
-                    "children": []
-                },
-                "create-wallet":
-                {
-                    "explanation": "Generate a New Wallet",
-                    "recommendations": "",
-                    "upvotes": "",
-                    "downvotes": "",
-                    "units": {},
-                    "children": []
-                }                                
                };
 
 var offerPromptList = ["Give your offer a name:",
@@ -118,16 +124,6 @@ $(document).ready(function() {
         template: '<div class="row"><div class="col-xs-4">{{currency}}:</div><div class="col-xs-4"><input v-bind:id="currency" v-model="val" /></div><div class="col-xs-4"></div></div>'
         
     });
-
-    Vue.component('distance-row', {
-        proprs: ['', ''],
-        template: ''
-
-
-
-
-    });
-
     
     var vm = new Vue({
         el: '#site-container',
@@ -272,7 +268,7 @@ $(document).ready(function() {
         placeholder: '',
         allowFreeEntries: false,
         resultAsString: true,
-        data: Object.keys(protocol),
+        data: Object.keys(protocol["pro"]),
         valueField: 'name'
     });
 
