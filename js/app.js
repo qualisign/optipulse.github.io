@@ -89,7 +89,7 @@ var protocol = {"official" : {},
                         "recommendations": {"optical": "faster, reduce RF polution"},   
                         "upvotes": "",
                         "downvotes": "",
-                        "units": {"bandwidth": "bit/s",  "information": "bits"},
+                        "units": {"bandwidth": "bit/s",  "information": "bits", "time": "minutes"},
                         "children": [],
                     },
                     "transportation":
@@ -101,9 +101,45 @@ var protocol = {"official" : {},
                         "units": {"distance": "kilometers", "time": "minutes"},
                         "children": ["delivery"]
                     },
+                    "energy":
+                    {
+                        "explanation": "",
+                        "recommendations": "",
+                        "upvotes": "",
+                        "downvotes": "",
+                        "units": {"power": "kilowatt-hours", "time": "minutes"},
+                        "children": ["solar"]
+
+                    },
+                    "agriculture":
+                    {
+                        "explanation": "",
+                        "recommendations": "",
+                        "upvotes": "",
+                        "downvotes": "",
+                        "units": {},
+                        "children": ["produce"]
+
+                    },
+                    "real-estate":
+                    {
+                        "explanation": "",
+                        "recommendations": "",
+                        "upvotes": "",
+                        "downvotes": "",
+                        "units": {"time": "days"},
+                        "children": ["lease", "purchase"]
+                    }
 
                 },
                };
+
+
+
+
+
+
+
 
 var offerPromptList = ["Give your offer a name:",
                        "Add tags to your offer to make it easier to find:",
