@@ -204,37 +204,46 @@ Light Grid may improve on.
 
 ## OptiPulse's Light Grid<a id="sec-2-3" name="sec-2-3"></a>
 
-We believe that OptiPulse's Light Grid will come to dominate future internet infrastructure.  It is a revolutionary physical-layer technology based on a novel invention in electro-optics.  Like other elite photonic transmitters, it is capable of 5G bit-rates; unlike fiber-optics, however, it is wireless and easy to deploy.
-This makes it very cheap in comparison to the standard alternatives.  Besides being competitive with some of the best fiber-optics, it comes with a range of other benefits:
+OptiPulse is a tech startup with a revolutionary internet technology.  We believe that OptiPulse's Light Grid will come to dominate future internet infrastructure.  It is a revolutionary physical-layer technology based on a novel invention in electro-optics, which just so happens to
+overcome many of the difficulties associated with mesh networks.  Like other elite photonic transmitters, it is capable of 5G bit-rates.  Unlike fiber-optics, however, it is wireless and therefore relatively cheap and easy to deploy.  OptiPulse has secured an
+early partnership with Mesh Market in order to open a pre-sale of its products for end-consumers and network planners.
+
+![img](./prototype-image.jpg)
+OptiPulse's Prototype
 
 ### Specs<a id="sec-2-3-1" name="sec-2-3-1"></a>
 
-1.  Distance
+1.  Bandwidth
 
-    Early tests and estimates have projected that the Light Grid's transmission range may be over 10 km.  This is significantly far for optical wireless technologies.
+    OptiPulse has demonstrated 10Gb/s + bit rates.  This is thousands of time faster than what the FCC allows to be advertised as high-speed internet, or broadband.
 
-2.  Deployability
+2.  Distance
+
+    Early tests and estimates have projected that the Light Grid's transmission range may be over 10 km.
+
+3.  Deployability
 
     Unlike fiber-optics, there is no digging up of long stretches of earth to connect two end-points.  This is typically the brunt of the cost associate with FO.  As you can imagine,
     this also avoids legal difficulties like zoning laws.
 
-3.  Unlicensed Spectrum
+4.  Unlicensed Spectrum
 
     The Light Grid uses a part of the RF spectrum that isn't licensed.  Not only is signal interference negligible compared to typical broadcast connections like WiFi, but contending with competitors
     over spectrum licensing is also a non-issue.
 
-4.  Ecological Friendliness
+5.  Ecological Friendliness
 
     Taking load off the typical spectrum range also has huge benefits to living organisms, which many believe are harmed by the proliferation of microwaves in the atmosphere used for
     communication.
 
-5.  Low Size, Weight
+6.  Low Size, Weight
 
     Did we mention how small the Light Grid is?
+    ![img](./penny.jpg)
 
-6.  Low Power-Consumption
+7.  Low Power-Consumption
 
-7.  Low Cost
+8.  Low Cost
 
     Perhaps most importantly, an infrastructure built on Light Grid technology would be a fraction of the cost of using (comparably fast) fiber.
 
