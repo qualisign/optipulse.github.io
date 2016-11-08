@@ -317,7 +317,7 @@ $(document).ready(function() {
     function explain(element){
         var tag = element;
         console.log(tag);
-        var explanation = protocol[tag]["explanation"];
+        var explanation = protocol["app"][tag]["explanation"];
         $("#explanation").html('<transition name="fade">' + explanation + '</transition>');
     }
 
