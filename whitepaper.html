@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>whitepaper</title>
+<!-- 2016-11-07 Mo 10:21 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="David" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">whitepaper</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Introduction</a></li>
+<li><a href="#sec-2">2. Background</a>
+<ul>
+<li><a href="#sec-2-1">2.1. Platform Business</a>
+<ul>
+<li><a href="#sec-2-1-1">2.1.1. Overview</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-2">2.2. The Light Grid</a>
+<ul>
+<li><a href="#sec-2-2-1">2.2.1. Distance</a></li>
+<li><a href="#sec-2-2-2">2.2.2. Deployability</a></li>
+<li><a href="#sec-2-2-3">2.2.3. Unlicensed Spectrum</a></li>
+<li><a href="#sec-2-2-4">2.2.4. Ecological Friendliness</a></li>
+<li><a href="#sec-2-2-5">2.2.5. Low Size, Weight</a></li>
+<li><a href="#sec-2-2-6">2.2.6. Low Power-Consumption</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-3">2.3. Mesh Networking</a>
+<ul>
+<li><a href="#sec-2-3-1">2.3.1. Advantages</a></li>
+<li><a href="#sec-2-3-2">2.3.2. Disadvantages, Obstacles</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-4">2.4. Blockchain</a>
+<ul>
+<li><a href="#sec-2-4-1">2.4.1. Smart Contracts</a></li>
+<li><a href="#sec-2-4-2">2.4.2. Ethereum</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-3">3. The Mesh Market Platform</a>
+<ul>
+<li>
+<ul>
+<li><a href="#sec-3-0-1">3.0.1. Case Study: OptiPulse &#x2013; Making Mesh Networks Mass-Market Viable</a></li>
+<li><a href="#sec-3-0-2">3.0.2. Building the Platform to End Platforms</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-4">4. Application</a>
+<ul>
+<li><a href="#sec-4-1">4.1. Design</a>
+<ul>
+<li><a href="#sec-4-1-1">4.1.1. Installation</a></li>
+<li><a href="#sec-4-1-2">4.1.2. Core Features</a></li>
+<li><a href="#sec-4-1-3">4.1.3. GUI</a></li>
+<li><a href="#sec-4-1-4">4.1.4. API</a></li>
+<li><a href="#sec-4-1-5">4.1.5. Embeddable Widget</a></li>
+<li><a href="#sec-4-1-6">4.1.6. Transaction Sequence Diagram</a></li>
+<li><a href="#sec-4-1-7">4.1.7. Possible Directions</a></li>
+</ul>
+</li>
+<li><a href="#sec-4-2">4.2. Use Cases</a>
+<ul>
+<li><a href="#sec-4-2-1">4.2.1. Internet Service</a></li>
+<li><a href="#sec-4-2-2">4.2.2. Energy</a></li>
+<li><a href="#sec-4-2-3">4.2.3. Agriculture</a></li>
+<li><a href="#sec-4-2-4">4.2.4. Transportation</a></li>
+<li><a href="#sec-4-2-5">4.2.5. Real Estate</a></li>
+<li><a href="#sec-4-2-6">4.2.6. Small Business/Entrepreneurs</a></li>
+<li><a href="#sec-4-2-7">4.2.7. Government</a></li>
+<li><a href="#sec-4-2-8">4.2.8. City Planners</a></li>
+<li><a href="#sec-4-2-9">4.2.9. Suggest a Use Case!</a></li>
+</ul>
+</li>
+<li><a href="#sec-4-3">4.3. Development TODO's</a>
+<ul>
+<li><a href="#sec-4-3-1">4.3.1. How to Contribute</a></li>
+<li><a href="#sec-4-3-2">4.3.2. Whitepaper</a></li>
+<li><a href="#sec-4-3-3">4.3.3. App</a></li>
+<li><a href="#sec-4-3-4">4.3.4. Donate</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-5">5. The Mesh Market Foundation</a>
+<ul>
+<li><a href="#sec-5-1">5.1. Business Model Canvas</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+Mesh Market: A Marketplace for Decentralized Resources on the Blockchain
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Mesh Market is a free application aiming to:
+</p>
+
+<ul class="org-ul">
+<li>introduce the benefits of peer-to-peer goods and services to the public at large
+</li>
+<li>enable consumers to find friendlier and cheaper local alternatives to centrally-owned, inefficient resources
+</li>
+<li>accelerate deployment and improve market viability of beneficial technologies by providing them with a direct-to-consumer platform
+</li>
+</ul>
+
+<p>
+Check out the prototype (under construction &#x2013; very early stage, can't handle transactions yet):
+<a href="https://optipulse.github.io">https://optipulse.github.io</a>
+</p>
+
+<p>
+With Mesh Market, you can:
+</p>
+<ul class="org-ul">
+<li>get cheaper, better internet service
+</li>
+<li>start a do-it-yourself ISP
+</li>
+<li>start a profitable energy business from your own home
+</li>
+<li>reduce your electricity bills while supporting renewable energy
+</li>
+<li>do countless other things we haven't thought of, and some we have (see more use cases, or read on for an overview of how it works)
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Background</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+The Mesh Market app was originally conceived by developers at OptiPulse who were envisioning a direct-to-consumer platform for getting OptiPulse's internet technology
+to the market.  Eventually it was realized that the same infrastructure for doing this could also be used to decentralize resources besides bandwidth, and the Mesh Market Foundation was
+created to develop the app to its full potential.
+</p>
+</div>
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Platform Business</h3>
+<div class="outline-text-3" id="text-2-1">
+</div><div id="outline-container-sec-2-1-1" class="outline-4">
+<h4 id="sec-2-1-1"><span class="section-number-4">2.1.1</span> Overview</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+A platform business erases the distinction between producers and consumers of goods and services by providing consumers with some form of infrastructure for creating value on their own.  This infrastructure is
+often an unassuming means of facilitating customer match-making, such as Uber's mobile app.  Such businesses tend to uncover value already existent, but previously unrecognized - mainly because it resides in the hands of consumers.
+Platform business have shown us that this sort of value actually constitutes the lion's share of the market - when it is effectively utilized.
+As Tech Crunch put it<sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>,
+</p>
+<div class="org-src-container">
+
+<pre class="src src-shell">"Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner,
+ creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest
+accommodation provider, owns no real estate. Something interesting is happening."
+</pre>
+</div>
+
+<p>
+As internet access becomes more ubiquitous, this trend will intensify.  But as we've seen lately with Uber and AirBnB's legal battles, this isn't a welcome change for all.
+Despite the innocuous tenets of the "sharing economy" with which some platforms hope to be identified, opposition to their practices isn't without merit; if you look under the hood of the biggest platforms, it's business as usual.
+The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a giant pipeline to put people over profits.  Examples aren't hard to find in current news headlines; in Britain, regulators are taking issue with
+the convenience with which Uber can hire full-time workers without taking on the responsibilities of a full-time employer, like providing health insurance.  Furthermore, contractors have complained about the substantial cut it takes from drivers, typically 20%, which
+indeed seems hefty considering the labor involved by the contractors.  As mentioned, platform businesses facing such criticism seek to identify themselves with the bigger picture &#x2013; they are purveyors of this "sharing economy" average-joes are so keen on.
+AirBnb, for instance, is promoting a global consumer movement as a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't some of these people
+offer an alternative?  We believe the demand for this platform exists already, though it is yet to be realized.  Mesh Market strives to become this platform.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> The Light Grid</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+We believe that OptiPulse's Light Grid will come to dominate future internet infrastructure.  It is a revolutionary physical-layer technology based on a novel invention in electro-optics.  Like other elite photonic transmitters, it is capable of 5G bit-rates; unlike fiber-optics, however, it is wireless and easy to deploy.
+This makes it very cheap in comparison to the standard alternatives.  Besides being competitive with some of the best fiber-optics, it comes with a range of other benefits:
+</p>
+</div>
+<div id="outline-container-sec-2-2-1" class="outline-4">
+<h4 id="sec-2-2-1"><span class="section-number-4">2.2.1</span> Distance</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<p>
+Early tests and estimates have projected that the Light Grid's transmission range may be over 10 km.  This is significantly far for optical wireless technologies.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-2-2" class="outline-4">
+<h4 id="sec-2-2-2"><span class="section-number-4">2.2.2</span> Deployability</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<p>
+Unlike fiber-optics, there is no digging up of long stretches of earth to connect two end-points.  This is typically the brunt of the cost associate with FO.  As you can imagine,
+this also avoids legal difficulties like zoning laws.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-2-3" class="outline-4">
+<h4 id="sec-2-2-3"><span class="section-number-4">2.2.3</span> Unlicensed Spectrum</h4>
+<div class="outline-text-4" id="text-2-2-3">
+<p>
+The Light Grid uses a part of the RF spectrum that isn't licensed.  Not only is signal interference negligible compared to typical broadcast connections like WiFi, but contending with competitors
+over spectrum licensing is also a non-issue.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-2-4" class="outline-4">
+<h4 id="sec-2-2-4"><span class="section-number-4">2.2.4</span> Ecological Friendliness</h4>
+<div class="outline-text-4" id="text-2-2-4">
+<p>
+Taking load off the typical spectrum range also has huge benefits to living organisms, which many believe are harmed by the proliferation of microwaves in the atmosphere used for
+communication.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-2-5" class="outline-4">
+<h4 id="sec-2-2-5"><span class="section-number-4">2.2.5</span> Low Size, Weight</h4>
+<div class="outline-text-4" id="text-2-2-5">
+<p>
+Did we mention how small the Light Grid is?
+<i>picture</i>
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-2-6" class="outline-4">
+<h4 id="sec-2-2-6"><span class="section-number-4">2.2.6</span> Low Power-Consumption</h4>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> Mesh Networking</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Before we discuss how Mesh Market makes it so easy to decentralize resources, we need to explain the role that mesh networking plays.
+</p>
+
+<p>
+According to Wikipedia, "A mesh network is a network topology in which each node relays data for the network. All mesh nodes cooperate in the distribution of data in the network."
+</p>
+
+<p>
+In other words, mesh networks get rid of centralized computing resources in favor of distributed networks.
+</p>
+
+<p>
+Mesh Market takes this concept to the next level and seeks to decentralize all resources - insofar as that's possible.
+</p>
+
+<p>
+The original goal of this app was to develop OptiPulse unique potential for revolutionizing the mesh/ad-hoc networking market with its Light Grid technology.  Bandwidth, via mesh-networking, is the first resource
+that Mesh Market aims to decentralize - though by no means the last.While the mesh-networking userbase is presently miniscule compared to that of conventional, centrally serviced connections (usually provided by one of only a few differnet ISP's), meshes offer many advantages
+over heterogeneous networks, making them the ideal network topology for future networks needing to prioritize scalability.  There are many articles/papers weighing these advantages, so the discussion here will be brief:
+</p>
+</div>
+
+<div id="outline-container-sec-2-3-1" class="outline-4">
+<h4 id="sec-2-3-1"><span class="section-number-4">2.3.1</span> Advantages</h4>
+<div class="outline-text-4" id="text-2-3-1">
+</div><ol class="org-ol"><li><a id="sec-2-3-1-1" name="sec-2-3-1-1"></a>Scalability:<br  /><div class="outline-text-5" id="text-2-3-1-1">
+<p>
+Adding more devices to the network tends to improve mesh connections, in contrast to star topologies.  More devices connected to a mesh network locally means more possible paths through which internet traffic can be routed.
+</p>
+</div>
+</li>
+<li><a id="sec-2-3-1-2" name="sec-2-3-1-2"></a>Robustnesss:<br  /><div class="outline-text-5" id="text-2-3-1-2">
+<p>
+There is no central point of failure in a mesh network.  Power outages, network attacks, and threats to individual nodes circulate and infect the entire network, as in a star topology.
+Those who were able to get WIFI in the aftermath of Hurricane Sandy know this isn't mere speculation.  <a href="http://techpresident.com/news/23127/red-hook-mesh-network-connects-sandy-survivors-still-without-power">http://techpresident.com/news/23127/red-hook-mesh-network-connects-sandy-survivors-still-without-power</a>
+</p>
+</div>
+</li>
+
+<li><a id="sec-2-3-1-3" name="sec-2-3-1-3"></a>Democritization:<br  /><div class="outline-text-5" id="text-2-3-1-3">
+<p>
+Dictators have been known to cut off internet service during popular uprisings (e.g. Arab Spring).  It is virtually impossible to "shut down" a mesh-based internet. Without the imperitave for centrally-connected hubs, disrupting connections becomes very hard to achieve.
+<a href="http://europe.newsweek.com/dictator-proofing-internet-68705?rm=eu">http://europe.newsweek.com/dictator-proofing-internet-68705?rm=eu</a>
+</p>
+
+<p>
+That authorities might cut off the internet is significantly less likely in countries without egregious network collusion with government as we
+see in many developing countries (Sorry Donald Trump <a href="http://fortune.com/2015/12/08/donald-trump-bill-gates-internet/">http://fortune.com/2015/12/08/donald-trump-bill-gates-internet/</a>.)  Such countries may turn out to be some of the
+best stages on which to demonstrate the power of decentralized markets for effecting positive social change.
+</p>
+
+<p>
+One criticism of the idea that mesh networks could make the internet impervious to control by dictators is that WIFI signals can be traced and individuals can be targeted even
+if the network is a mesh <a href="https://www.schneier.com/blog/archives/2012/12/dictators_shutt.html#c1034991">https://www.schneier.com/blog/archives/2012/12/dictators_shutt.html#c1034991</a>.  This criticism would not apply to a network using OptiPulse's
+technology, since its point-to-point signals are not broadcast and would be very difficult to intercept.
+</p>
+</div>
+</li></ol>
+</div>
+
+<div id="outline-container-sec-2-3-2" class="outline-4">
+<h4 id="sec-2-3-2"><span class="section-number-4">2.3.2</span> Disadvantages, Obstacles</h4>
+<div class="outline-text-4" id="text-2-3-2">
+<p>
+There are also several difficulties associated with meshes that shouldn't be overlooked.  Some of these may be mitigated by the design of an app fulfilling many
+functions normally assigned to the network administrator, while others may be reducable to inadequacies of current physical layer internet technologies that OptiPulse's (a key partner)
+Light Grid may improve on.
+</p>
+</div>
+<ol class="org-ol"><li><a id="sec-2-3-2-1" name="sec-2-3-2-1"></a>Power Consumption<br  /><div class="outline-text-5" id="text-2-3-2-1">
+<p>
+From link-labs: "Because each node in a mesh has to act as an endpoint and a router, it has to draw more power to operate. Thus, if you have battery-powered, low-power nodes, a mesh may be difficult to deploy without a lot of network planning."
+This is listed as a disadvantage, but OptiPulse's Light Grid requires very little power consumption, which may make it an enabling technology for mesh networks.
+</p>
+</div>
+</li>
+<li><a id="sec-2-3-2-2" name="sec-2-3-2-2"></a>Latency<br  /><div class="outline-text-5" id="text-2-3-2-2">
+<p>
+Likewise, this is listed as a disadvantage, but a copious amount of bandwidth is one of the Light Grid's chief assets.
+</p>
+</div>
+</li>
+<li><a id="sec-2-3-2-3" name="sec-2-3-2-3"></a>Requisite Technical Competence<br  /><div class="outline-text-5" id="text-2-3-2-3">
+<p>
+Currently, most mesh networking protocols are available solely as command line tools for Unix-like operating systems.  As it stands, this significantly reduces the class of users
+capable of connecting to a mesh network.
+</p>
+</div>
+</li>
+<li><a id="sec-2-3-2-4" name="sec-2-3-2-4"></a>Opposition from Established Middlemen<br  /><div class="outline-text-5" id="text-2-3-2-4">
+<p>
+Analagous to the situation faced by Tesla due to their direct-to-consumer market, those who normally take a large share of the profits by acting as middle-men
+between the consumer and the product/service stand to lose much in a decentralized consumer-to-consumer market.  This means that, just as Tesla sales have been
+blocked in certain states due to the threat it poses to the established car-dealership model (<a href="https://electrek.co/2016/05/01/tesla-gm-direct-sales-connecticut/">https://electrek.co/2016/05/01/tesla-gm-direct-sales-connecticut/</a>),
+a mesh-networking platform with a chance of succeeding may raise the defenses of ISP's. This possibility should be discussed in more detail.  It seems to me that
+the case against a mesh-networks would be much more difficult to make, and legal challenges are unlikely to pose a sustained threat.
+</p>
+</div>
+</li></ol>
+</div>
+</div>
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><span class="section-number-3">2.4</span> Blockchain</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+Blockchain technology is based on the idea of a distributed ledger.  It is meant to provide trust and security through radical transparency rather than limited access.
+Blockchain plays a crucial role in Mesh Market's plan to overcome the inertia keeping local value creation from being released.
+</p>
+</div>
+<div id="outline-container-sec-2-4-1" class="outline-4">
+<h4 id="sec-2-4-1"><span class="section-number-4">2.4.1</span> Smart Contracts</h4>
+<div class="outline-text-4" id="text-2-4-1">
+<p>
+The concept of a smart contract was first formulated in the 90's, but required blockchain technology to achieve practical implementability.  Basically a smart contract is
+a contract that can execute itself.  This means that terms and conditions are defined programatically, such that a computer can know how they should be interpreted.
+Of course, this limits the contents of the contract what is computationally tractable.  For example, a smart contract may define certain operations being executed when an
+account on the blockchain receives a certain amount of funds.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-4-2" class="outline-4">
+<h4 id="sec-2-4-2"><span class="section-number-4">2.4.2</span> Ethereum</h4>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> The Mesh Market Platform</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+It may not seem obvious from the simplistic discussion of smart contracts above, but the ability for computers to listen to data and execute transactions on a blockchain enables the implementing of
+an innumerable array of business solutions heretofore unworkable or impractical - particularly those based on the idea of turning a traditionally top-down service into a consumer-to-consumer platform.
+Decentralized platforms based on blockchain/smart contracts are already being developed across a range of industries (even entire governemnts!), though it is still too early
+for average consumers to have noticeably benefited.  The platform business phenomenon and the sharing economy at large, on the other hand, have had a huge impact on what customers expect from the services they use,
+and demonstrated the substantial demand for useful peer-to-peer services.
+</p>
+
+<p>
+Where does Blockchain fit in?  There is no shortage of useful ideas and technologies that would have a positive impact on the world were they adopted; blind inertia often prevents this (see Tragedy of the Commons).
+We've made the case for certain technologies above; others are making it for renewable energy, a service-based economy, reducing meat consumption, a basic income, and so on.  The ultimate goal of Mesh Market is to create a way to incentivize collective behavior that is manifestly beneficial to everyone.  The purpose of the Mesh Market Protocol is to define what this behavior is.  Finally, the Mesh Market Foundation channels funds into
+businesses that seek to implement these solutions, and to incentivize businesses (and people) to use the platform.  Mesh Market the DApp should be thought of as one part of this eco-system.
+</p>
+
+<p>
+It would be unwise for any business developing in the post-smart contract world to implement an overtly top-down approach to customer relations.  We take very seriously
+the idea that whatever can be decentralized will be decentralized as the world awakens to the utility of the Blockchain.  Of course, this includes any aspects of the Mesh Market platform that
+are inadvertently top-down or fail to prioritize customers' priorities.  This is why we open the design of the Mesh Market platform to feedback and revision via the Protocol.
+The Mesh Market aspires to be the platform to end platforms; to achieve this, there must be built-in mechanisms for self-correction.
+</p>
+</div>
+
+<div id="outline-container-sec-3-0-1" class="outline-4">
+<h4 id="sec-3-0-1"><span class="section-number-4">3.0.1</span> Case Study: OptiPulse &#x2013; Making Mesh Networks Mass-Market Viable</h4>
+<div class="outline-text-4" id="text-3-0-1">
+<p>
+Now we'll discuss how these principles can apply to promoting mesh networks, which could enable several exciting use-cases for the Mesh Market.
+</p>
+
+<p>
+Since the benefits of mesh networks are not immediately apparent to anyone not versed in computer networking, getting people to switch may prove a difficult task unless some
+incentive is provided.
+</p>
+
+<p>
+OptiPulse's incredible physical layer technology may be enough to provide this incentive alone, if OptiPulse were to follow a strategy of exclusively promoting its mesh network
+capabilities.  However, this would be unecessarily prescriptive and possibly counterproductive; a better way to show users the advantages of mesh networks would be to give them
+a reason to try it for themselves so that they'd come to understand the benefits through firsthand experience.
+</p>
+
+<p>
+With the amount of excess bandwidth the Light Grid may be giving customers, they may be able to get away with sharing (or selling) what they don't use to those around them.
+(It might not occur to someone with a 12 Mb/s connection to try this).  In effect, this would make buyers of OptiPulse's internet service their own mini ISP's,
+analagous to operators of once-widespread internet cafes.  With some added income from selling bandwidth, OptiPulse's users may be able to break even or even make a profit while
+receiving some of the best internet service on the market.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-0-2" class="outline-4">
+<h4 id="sec-3-0-2"><span class="section-number-4">3.0.2</span> Building the Platform to End Platforms</h4>
+<div class="outline-text-4" id="text-3-0-2">
+<p>
+This implies that OptiPulse, as an ISP, might sell internet that comes with a commercial license (or form thereof) to end-users.  While this would give users the ability to resell
+service and potentially cut into some of OptiPulse's target market, there would be some overwhelmingly positive side-effects:
+</p>
+
+<ul class="org-ul">
+<li>Each customer ultimately connected through an OptiPulse uplink is one fewer customer of an OptiPulse competitor.
+</li>
+<li>It would be hard to overestimate customer satisfaction with such a deal.  This would grow the network of app users possibly exponentially, and if every transaction is charged a certain amount to go into OptiPulse's "tip jar", this could grow astronomically.
+</li>
+<li>If OptiPulse wished to prevent any portion of profit whatsoever from being appropriated by end-users, it would be very simple to stipulate in a smart contract that customers can only sell to those out of range of OptiPulse service.  Other schemes have been proposed, such as offering customers the opportunity to become an OptiPulse franchise.
+</li>
+</ul>
+
+<p>
+These benefits seem especially appealing considering that Mesh Market can facilitate other types of exchange besides internet service.  Given the rise of companies like
+Uber, AirBnB, Craigslist and others &#x2013; the services of each of which Mesh Market can replicate &#x2013; a general strategy of growing a base network of users and promoting new use-cases
+could prove very lucrative.
+</p>
+
+<p>
+In the language of Mesh Market, offers translate into smart contracts, which in turn serve as licenses that may be offered by companies acting as users of the platform.  The products/services
+of these companies are the driving force behind Mesh Market's various use-cases.  The Mesh Market platform gives these companies free reign over their own contracts, so they are free to test the waters
+between the platform and pipelines philosophies.  Minimizing the demand Mesh-Market places on users &#x2013; be they large companies or first-time DIY'ers &#x2013; ensures that the platform
+remains agnostic towards content and inviting to any type of endeavor.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Application</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> Design</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+One design decision built into Mesh Market is to treat users, whether they be businesses or end-consumers in the conventional sense, as basically having the same requirements for using the Mesh Market platform.  This creates an amorphous market which, while inscrutable to classical economists, will tend to multiply
+choices and improve services, thereby fulfilling the basic functions of healthy economy.  As we've shown above, An ISP may use the Mesh Market platform to sell internet service without restrictions on how it does so, treating customers as (perhaps equally)
+non-restricted entitites that may act as "mini ISP's" in their own right.  Therefore, the most effective design is the one most capable of meeting the business requirements of the "producers", while making little or no distinction between them
+and consumers.  The core features of the app, described below, are an attempt to create such an environment.
+</p>
+
+<p>
+Mesh networks are inherently friendly to businesses embracing the platform model.  With a decentralized and free communications medium, preferable local alternatives to inefficient,
+sub-par goods and services can be discovered.  This is how "free markets" are supposed to work; they only free and efficient insofar as information flow is.
+</p>
+
+<p>
+Incidentally, this is why there is no paid advertising on the Mesh Market platform.  It is an intentional design decision that the only information users see when looking for offers is
+what they decide is relevant to making a good choice.
+</p>
+</div>
+
+<div id="outline-container-sec-4-1-1" class="outline-4">
+<h4 id="sec-4-1-1"><span class="section-number-4">4.1.1</span> Installation</h4>
+<div class="outline-text-4" id="text-4-1-1">
+</div><ol class="org-ol"><li><a id="sec-4-1-1-1" name="sec-4-1-1-1"></a>Dependencies:<br  /><div class="outline-text-5" id="text-4-1-1-1">
+<ul class="org-ul">
+<li>1. git
+</li>
+<li>2. geth, plus a running Ethereum client
+</li>
+<li>3. Node.js
+</li>
+<li>4. web3.js
+</li>
+<li>5. web3<sub>extended</sub>.js
+</li>
+<li>6. CJDNS, for ad-hoc routing
+</li>
+<li>7. Clojure, for interfacing with device OS (using Trickle <a href="https://github.com/mariusae/trickle">https://github.com/mariusae/trickle</a> or similar command line tools)
+</li>
+<li>8. a modern web browser
+</li>
+</ul>
+</div>
+</li>
+
+<li><a id="sec-4-1-1-2" name="sec-4-1-1-2"></a>Instructions:<br  /><div class="outline-text-5" id="text-4-1-1-2">
+<p>
+Now to get Mesh Market:
+</p>
+
+<ul class="org-ul">
+<li>1. clone the Mesh Market repo:
+</li>
+</ul>
+<div class="org-src-container">
+
+<pre class="src src-shell">git clone https://github.com/optipulse/mesh-market.git
+</pre>
+</div>
+<ul class="org-ul">
+<li>2. connect to an Ethereum client locally
+</li>
+<li>3. connect to CJDNS
+</li>
+<li>4. run the Mesh Market server
+</li>
+</ul>
+<div class="org-src-container">
+
+<pre class="src src-shell">$ cd mesh-market
+$ mesh-market run
+</pre>
+</div>
+
+<p>
+Mesh Market is now available in your browser at:
+localhost:8545
+</p>
+
+<p>
+To change the port number, <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span>.
+</p>
+</div>
+</li>
+
+<li><a id="sec-4-1-1-3" name="sec-4-1-1-3"></a>Simplification (for Non-Nerds)<br  /><div class="outline-text-5" id="text-4-1-1-3">
+<p>
+We know, that's a lot of installation.  Bear with us until we get something simpler working.
+</p>
+
+<p>
+The Mesh Market Foundation plans to sell minimalist computers in the future shipping with Mesh Market pre-installed plus dependencies.  These will be available in packaged bundles for specific use-cases, such as:
+</p>
+
+<ul class="org-ul">
+<li>solar starter kit
+</li>
+<li>ISP starter kit
+</li>
+<li>aeroponic starter kit
+</li>
+</ul>
+
+<p>
+and more to come.
+</p>
+</div>
+</li></ol>
+</div>
+
+
+<div id="outline-container-sec-4-1-2" class="outline-4">
+<h4 id="sec-4-1-2"><span class="section-number-4">4.1.2</span> Core Features</h4>
+</div>
+<div id="outline-container-sec-4-1-3" class="outline-4">
+<h4 id="sec-4-1-3"><span class="section-number-4">4.1.3</span> GUI</h4>
+<div class="outline-text-4" id="text-4-1-3">
+
+<div class="figure">
+<p><img src="./mesh-market-gui.png" alt="mesh-market-gui.png" />
+</p>
+</div>
+</div>
+<ol class="org-ol"><li><a id="sec-4-1-3-1" name="sec-4-1-3-1"></a>A. Make an Offer<br  /></li>
+<li><a id="sec-4-1-3-2" name="sec-4-1-3-2"></a>B. Find an Offer<br  /><ol class="org-ol"><li><a id="sec-4-1-3-2-1" name="sec-4-1-3-2-1"></a><span class="todo TODO">TODO</span> add find form<br  /></li></ol>
+</li>
+<li><a id="sec-4-1-3-3" name="sec-4-1-3-3"></a>C. Wallet<br  /><ol class="org-ol"><li><a id="sec-4-1-3-3-1" name="sec-4-1-3-3-1"></a>Create Wallet<br  /><div class="outline-text-6" id="text-4-1-3-3-1">
+<p>
+To create a new wallet, you just need to come up with a good password (your private key.)  Be careful!  If you lose/forget this, it can never be retrieved.
+</p>
+</div>
+</li>
+<li><a id="sec-4-1-3-3-2" name="sec-4-1-3-3-2"></a>Open Wallet<br  /><div class="outline-text-6" id="text-4-1-3-3-2">
+<p>
+In order to add offers to Mesh Market, you will need your address (the public key you were given when you created your wallet) and your password.
+</p>
+</div>
+</li></ol>
+</li>
+<li><a id="sec-4-1-3-4" name="sec-4-1-3-4"></a>D. Protocol: Definining Resource Consumption for the Future<br  /><div class="outline-text-5" id="text-4-1-3-4">
+<p>
+The Mesh Market protocol provides dynamically updated in-app documentation for:
+</p>
+<ul class="org-ul">
+<li>the features of the app itself
+</li>
+<li>the contents of offers available in the app
+</li>
+</ul>
+
+<p>
+The Mesh Market Foundation will release an initial protocol specification.  Further development of the protocol may be determined democratically by user-submitted
+entries, which is handled in a section of the website separate from the app.
+</p>
+
+<p>
+A protocol entry includes:
+</p>
+<ul class="org-ul">
+<li>a tag
+</li>
+<li>a recommendation
+</li>
+<li>a justification
+</li>
+</ul>
+
+<p>
+The Mesh Market protocol specifies which technologies are conducive to the overall goals of the Mesh Market Foundation.  Businesses (and individuals acting as businesses)
+may apply for grants to help them develop
+</p>
+
+<p>
+Each user-submitted protocol entry undergoes vetting before it is added to the Protocol Object, which is a JSON object referenced for dynamic updating of in-app documentation.
+Vetting is simple: those entries that receive more upvotes than downvotes are added to the Protocol Object.
+</p>
+</div>
+<ol class="org-ol"><li><a id="sec-4-1-3-4-1" name="sec-4-1-3-4-1"></a>protocol entry syntax:<br  /><div class="outline-text-6" id="text-4-1-3-4-1">
+<div class="org-src-container">
+
+<pre class="src src-json">{"tag1":
+  {"upvotes": "",
+   "downvotes" : "",
+   "recommendation": "",
+   "justification": "",
+   "children": ["childTag1", "childTag2", ...]
+  },
+  "tag2":
+  {...}
+}
+</pre>
+</div>
+</div>
+</li>
+
+<li><a id="sec-4-1-3-4-2" name="sec-4-1-3-4-2"></a>a sample protocol entry:<br  /><div class="outline-text-6" id="text-4-1-3-4-2">
+<div class="org-src-container">
+
+<pre class="src src-json">{"wireless":
+  {"upvotes": 15,
+   "downvotes": 5,
+   "recommendation": "optical",
+   "justification" : "more bandwidth, less RF pollution",
+   "children": ["optical", "WIFI", "WiGig", ...]
+  }
+}
+</pre>
+</div>
+</div>
+</li></ol>
+</li>
+
+<li><a id="sec-4-1-3-5" name="sec-4-1-3-5"></a>E. Results<br  /><ol class="org-ol"><li><a id="sec-4-1-3-5-1" name="sec-4-1-3-5-1"></a><span class="todo TODO">TODO</span> add results section<br  /></li></ol>
+</li>
+<li><a id="sec-4-1-3-6" name="sec-4-1-3-6"></a>F. Map<br  /></li></ol>
+</div>
+<div id="outline-container-sec-4-1-4" class="outline-4">
+<h4 id="sec-4-1-4"><span class="section-number-4">4.1.4</span> API</h4>
+</div>
+<div id="outline-container-sec-4-1-5" class="outline-4">
+<h4 id="sec-4-1-5"><span class="section-number-4">4.1.5</span> Embeddable Widget</h4>
+</div>
+<div id="outline-container-sec-4-1-6" class="outline-4">
+<h4 id="sec-4-1-6"><span class="section-number-4">4.1.6</span> Transaction Sequence Diagram</h4>
+<div class="outline-text-4" id="text-4-1-6">
+
+<div class="figure">
+<p><img src="./optipulse-app-transaction.png" alt="optipulse-app-transaction.png" />
+</p>
+</div>
+
+<ul class="org-ul">
+<li>1) Make Offer
+</li>
+</ul>
+
+<p>
+Before users have the ability to find internet service near them, other users need to be able to advertise that they have available connections. The interaction shown in the above diagram revolves around these two core functions; methods peripheral to these are meant to provide a system of trust to ensure that all parties are satisfied with the transaction.
+</p>
+
+<p>
+Making an offer is as simple as filling out a form, which may look something like this:
+</p>
+
+<p>
+The submitted data is then made public on the blockchain. Unlike conventional apps, a decentralized app (DApp) does not require a “back-end” that can be pinned geographically to one server or another. Instead, all relevant data is saved to the blockchain and bound to public keys. These keys may represent a simple account balance, as in the case of Bitcoin, or a complete smart contract. Data can include important details about offers like names, descriptions, time-restrictions, etc.
+</p>
+
+<ul class="org-ul">
+<li>2) Find Offer
+</li>
+</ul>
+
+<p>
+This step involves another class of user, the offer taker, submitting a form to query data on the blockchain. This is somewhat tricky compared to fetching data from a server where one knows which tables to read data from. Data stored in the Ethereum blockchain is included in a smart contract, which is invoked using a public key. But how can a user find a suitable offer among the multitude of contracts living on the blockchain? Obviously it won’t work to query each available offer for satisfactory properties like bandwidth, price, etc – this would be very inefficient, because many of these might be in different cities or countries. The best solution may be to create a smart contract bound to a geographical area that will limit queries to only local options, or options within a certain range defined by the user.
+</p>
+
+<p>
+This introduces some complications. Blockchain data is immutable, but offers available to users will be constantly changing. The most clever way around this is to have the smart contract bound to a geographical area simply point to the latest version of the area’s blockchain, so that queries will be made on up-to-date data. This creates the illusion that the data users are querying is dynamic, though it is actually immutable.
+</p>
+
+<p>
+The latest version of Ethereum has native support for this capability. Here’s an example smart contract meant to relay queries to another that is updateable (borrowed from a Stackoverflow answer <a href="http://ethereum.stackexchange.com/questions/2404/upgradeable-contracts">http://ethereum.stackexchange.com/questions/2404/upgradeable-contracts</a>):
+</p>
+
+
+<div class="org-src-container">
+
+<pre class="src src-javascript">contract Relay {
+    address public currentVersion;
+    address public owner;
+
+    function Relay(address initAddr){
+        currentVersion = initAddr;
+        owner = msg.sender;
+    }
+
+    function update(address newAddress){
+        if(msg.sender != owner) throw;
+        currentVersion = newAddress;
+    }
+
+    function(){
+        if(!currentVersion.delegatecall(msg.data)) throw;
+    }
+</pre>
+</div>
+
+<ul class="org-ul">
+<li>3) Show Results
+</li>
+</ul>
+
+<p>
+Displaying the results to the user is completely straightforward; data retrieved from the blockchain can subsequently be passed to the front-end and may be represented on a map and/or table that the user can interact with.
+</p>
+
+<ul class="org-ul">
+<li>4) Take Offer
+</li>
+</ul>
+
+<p>
+The most important way a user can interact with the offers they find is to take (accept) one of them. This involves transfering funds to the smart contract the offer represents, which then tells the offer maker’s device to proceed with releasing the consideration.
+</p>
+
+<ul class="org-ul">
+<li>5) Trigger Consideration
+</li>
+</ul>
+
+<p>
+With this step, the blockchain informs the offer maker’s device that the offer has been accepted and it should now fulfill its part of the contract.
+</p>
+
+<ul class="org-ul">
+<li>6) Trigger Side Effects
+</li>
+</ul>
+
+<p>
+Now that the maker’s device has received the go-ahead to give consideration, computation may be performed to decide how to go about doing this. This could hypothetically be as simple as converting one currency into another, or may be an involved shell script for allocating bandwidth based on the requirements of the contract.
+</p>
+
+<ul class="org-ul">
+<li>7) Send Resources
+</li>
+</ul>
+
+<p>
+Once the requisite computation has been performed to send a resource, it may be sent. This is the only step taking place on the physical layer – be it a laser sending messages or a solar panel plus cabel sending power.
+</p>
+
+<ul class="org-ul">
+<li>8) Send Confirmation
+</li>
+</ul>
+
+<p>
+The offer taker’s device is then triggered to inform the blockchain that consideration was met, and that funds should be released.
+</p>
+
+<ul class="org-ul">
+<li>9) Transfer Funds
+</li>
+</ul>
+
+<p>
+Finally, the funds being held by the contract starting at step 4 are released, and the transaction is complete.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-4-1-7" class="outline-4">
+<h4 id="sec-4-1-7"><span class="section-number-4">4.1.7</span> Possible Directions</h4>
+<div class="outline-text-4" id="text-4-1-7">
+</div><ol class="org-ol"><li><a id="sec-4-1-7-1" name="sec-4-1-7-1"></a>Transactions<br  /><ol class="org-ol"><li><a id="sec-4-1-7-1-1" name="sec-4-1-7-1-1"></a>Meshmarks: A Credit System for Enabling Seemless Interaction with the Blockchain<br  /><div class="outline-text-6" id="text-4-1-7-1-1">
+<p>
+Offers on the Mesh Market can be paid for in currencies of the offer maker's choosing, as well as in the Mesh Market's own virtual currency, Meshmarks.
+</p>
+
+<p>
+Meshmarks enables easy conversion between payment methods.  Users can load credit to their account using PayPal, credit, debit, or a crypto-currency of their choice.
+</p>
+
+<p>
+Users are not required to buy Meshmarks to make transactions with one-another, but it does help users using unequal payment methods (e.g. Bitcoin and PayPal) reach one-another.
+</p>
+</div>
+</li>
+
+<li><a id="sec-4-1-7-1-2" name="sec-4-1-7-1-2"></a>A Possible Cryptocurrency (MMR)<br  /><div class="outline-text-6" id="text-4-1-7-1-2">
+<p>
+One possibility that should be discussed is the minting of a new crypto-currency to serve as store credit.  As such, it would be bound to the growth of decentralized resources.
+</p>
+</div>
+</li></ol>
+</li></ol>
+</div>
+</div>
+
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2"><span class="section-number-3">4.2</span> Use Cases</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+These use cases will be made into tutorials in the future.
+</p>
+</div>
+<div id="outline-container-sec-4-2-1" class="outline-4">
+<h4 id="sec-4-2-1"><span class="section-number-4">4.2.1</span> Internet Service</h4>
+<div class="outline-text-4" id="text-4-2-1">
+</div><ol class="org-ol"><li><a id="sec-4-2-1-1" name="sec-4-2-1-1"></a>Start an ISP .<br  /><div class="outline-text-5" id="text-4-2-1-1">
+<ul class="org-ul">
+<li>Difficulty: Medium
+</li>
+<li>Investment:
+</li>
+<li>Profit:
+</li>
+</ul>
+</div>
+</li>
+<li><a id="sec-4-2-1-2" name="sec-4-2-1-2"></a>Get Cheaper, Better Internet Service.<br  /><div class="outline-text-5" id="text-4-2-1-2">
+<ul class="org-ul">
+<li>Difficulty: Easy
+</li>
+<li>Investment: Low
+</li>
+<li>Profit: N/A
+</li>
+</ul>
+</div>
+</li></ol>
+</div>
+<div id="outline-container-sec-4-2-2" class="outline-4">
+<h4 id="sec-4-2-2"><span class="section-number-4">4.2.2</span> Energy</h4>
+<div class="outline-text-4" id="text-4-2-2">
+</div><ol class="org-ol"><li><a id="sec-4-2-2-1" name="sec-4-2-2-1"></a>Make a Profit on Solar.<br  /><div class="outline-text-5" id="text-4-2-2-1">
+<ul class="org-ul">
+<li>Difficulty: Medium/Hard
+</li>
+<li>Investment: High
+</li>
+<li>Profit: High
+</li>
+</ul>
+</div>
+</li>
+<li><a id="sec-4-2-2-2" name="sec-4-2-2-2"></a>Lower Your Electricity Bills<br  /></li></ol>
+</div>
+<div id="outline-container-sec-4-2-3" class="outline-4">
+<h4 id="sec-4-2-3"><span class="section-number-4">4.2.3</span> Agriculture</h4>
+<div class="outline-text-4" id="text-4-2-3">
+</div><ol class="org-ol"><li><a id="sec-4-2-3-1" name="sec-4-2-3-1"></a>Start an Urban Homestead for Profit and Pleasure.<br  /><div class="outline-text-5" id="text-4-2-3-1">
+<ul class="org-ul">
+<li>Difficulty: Hard
+</li>
+<li>Investment: High
+</li>
+<li>Profit: Medium
+</li>
+</ul>
+</div>
+</li>
+<li><a id="sec-4-2-3-2" name="sec-4-2-3-2"></a>Buy Organic Produce Without Paying out the Wazoo.<br  /><div class="outline-text-5" id="text-4-2-3-2">
+<ul class="org-ul">
+<li>Difficulty: Easy
+</li>
+<li>Investment: Low
+</li>
+<li>Profit: N/A
+</li>
+</ul>
+</div>
+</li></ol>
+</div>
+<div id="outline-container-sec-4-2-4" class="outline-4">
+<h4 id="sec-4-2-4"><span class="section-number-4">4.2.4</span> Transportation</h4>
+<div class="outline-text-4" id="text-4-2-4">
+</div><ol class="org-ol"><li><a id="sec-4-2-4-1" name="sec-4-2-4-1"></a>Make a Living Driving.<br  /><div class="outline-text-5" id="text-4-2-4-1">
+<ul class="org-ul">
+<li>Difficulty: Medium
+</li>
+<li>Investment: Medium/Low (provided you own a car)
+</li>
+<li>Profit: Medium
+</li>
+</ul>
+</div>
+</li>
+<li><a id="sec-4-2-4-2" name="sec-4-2-4-2"></a>Get Dinner Delivered<br  /><div class="outline-text-5" id="text-4-2-4-2">
+<ul class="org-ul">
+<li>Difficulty: Easy
+</li>
+<li>Investment: Low
+</li>
+<li>Profit: N/A
+</li>
+</ul>
+</div>
+</li></ol>
+</div>
+<div id="outline-container-sec-4-2-5" class="outline-4">
+<h4 id="sec-4-2-5"><span class="section-number-4">4.2.5</span> Real Estate</h4>
+<div class="outline-text-4" id="text-4-2-5">
+</div><ol class="org-ol"><li><a id="sec-4-2-5-1" name="sec-4-2-5-1"></a>Lease a Spare Room in Your House.<br  /><div class="outline-text-5" id="text-4-2-5-1">
+<ul class="org-ul">
+<li>Difficulty: Medium
+</li>
+<li>Investment: Low/Medium
+</li>
+<li>Profit: Medium
+</li>
+</ul>
+</div>
+</li></ol>
+</div>
+<div id="outline-container-sec-4-2-6" class="outline-4">
+<h4 id="sec-4-2-6"><span class="section-number-4">4.2.6</span> Small Business/Entrepreneurs</h4>
+<div class="outline-text-4" id="text-4-2-6">
+</div><ol class="org-ol"><li><a id="sec-4-2-6-1" name="sec-4-2-6-1"></a>Add Your Business to the Mesh Market and Reach New Audiences.<br  /><div class="outline-text-5" id="text-4-2-6-1">
+<ul class="org-ul">
+<li>Difficulty: Easy
+</li>
+<li>Investment: N/A
+</li>
+<li>Profit: Low/Medium/High
+</li>
+</ul>
+</div>
+</li>
+<li><a id="sec-4-2-6-2" name="sec-4-2-6-2"></a>Open Your Product for Pre-Sale and Sponsor Your Business Development<br  /></li></ol>
+</div>
+<div id="outline-container-sec-4-2-7" class="outline-4">
+<h4 id="sec-4-2-7"><span class="section-number-4">4.2.7</span> Government</h4>
+<div class="outline-text-4" id="text-4-2-7">
+</div><ol class="org-ol"><li><a id="sec-4-2-7-1" name="sec-4-2-7-1"></a>Roll Out Basic Income and Boost Your Economy<br  /></li>
+<li><a id="sec-4-2-7-2" name="sec-4-2-7-2"></a>Help Citizens Get Insured<br  /></li></ol>
+</div>
+<div id="outline-container-sec-4-2-8" class="outline-4">
+<h4 id="sec-4-2-8"><span class="section-number-4">4.2.8</span> City Planners</h4>
+</div>
+<div id="outline-container-sec-4-2-9" class="outline-4">
+<h4 id="sec-4-2-9"><span class="section-number-4">4.2.9</span> Suggest a Use Case!</h4>
+<div class="outline-text-4" id="text-4-2-9">
+<p>
+Did we miss something?  Submit a pull request!
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4-3" class="outline-3">
+<h3 id="sec-4-3"><span class="section-number-3">4.3</span> Development TODO's</h3>
+<div class="outline-text-3" id="text-4-3">
+</div><div id="outline-container-sec-4-3-1" class="outline-4">
+<h4 id="sec-4-3-1"><span class="section-number-4">4.3.1</span> How to Contribute</h4>
+<div class="outline-text-4" id="text-4-3-1">
+</div><ol class="org-ol"><li><a id="sec-4-3-1-1" name="sec-4-3-1-1"></a>Submit on GitHub<br  /><div class="outline-text-5" id="text-4-3-1-1">
+<p>
+If you have a good idea and you're up to working it out on your own, feel free to submit a pull request.  This isn't limited to code!  Designers, artists, writers, philosophers, - all are encouraged to contribute.
+</p>
+</div>
+</li>
+<li><a id="sec-4-3-1-2" name="sec-4-3-1-2"></a>Work with Us<br  /><div class="outline-text-5" id="text-4-3-1-2">
+<p>
+Or, if you're looking for a more stable position, we're looking for:
+</p>
+<ul class="org-ul">
+<li>smart contract writers (using Solidity)
+</li>
+<li>BitCoin developers
+</li>
+<li>FinTech developers
+</li>
+<li>networking (especially mesh) experts
+</li>
+<li>sysadmin, Linux experts
+</li>
+<li>C, Clojure, ClojureScript programmers
+</li>
+<li>web security, cryptography experts
+</li>
+<li>mobile app developers (especially w/ knowledge of Android, FB, iOS)
+</li>
+<li>user experience experts
+</li>
+<li>DevOps engineers
+</li>
+<li>legal engineers (especially those specializing in internet, business, non-profit, international law)
+</li>
+<li>systems engineers
+</li>
+</ul>
+
+<p>
+Interested?  Don't hesitate to get in touch (please include summary of relevant experience and work samples):
+djoseph@optipulse.com
+</p>
+</div>
+</li></ol>
+</div>
+
+<div id="outline-container-sec-4-3-2" class="outline-4">
+<h4 id="sec-4-3-2"><span class="section-number-4">4.3.2</span> Whitepaper</h4>
+</div>
+<div id="outline-container-sec-4-3-3" class="outline-4">
+<h4 id="sec-4-3-3"><span class="section-number-4">4.3.3</span> App</h4>
+<div class="outline-text-4" id="text-4-3-3">
+</div><ol class="org-ol"><li><a id="sec-4-3-3-1" name="sec-4-3-3-1"></a><span class="todo TODO">TODO</span> Base-Site<br  /><ol class="org-ol"><li><a id="sec-4-3-3-1-1" name="sec-4-3-3-1-1"></a><span class="todo TODO">TODO</span> create base site<br  /></li></ol>
+</li>
+<li><a id="sec-4-3-3-2" name="sec-4-3-3-2"></a><span class="todo TODO">TODO</span> Make Offer<br  /><ol class="org-ol"><li><a id="sec-4-3-3-2-1" name="sec-4-3-3-2-1"></a><span class="done DONE">DONE</span> add units<br  /></li>
+<li><a id="sec-4-3-3-2-2" name="sec-4-3-3-2-2"></a><span class="done DONE">DONE</span> autocomplete tags from protocol object - jquery<br  /></li>
+<li><a id="sec-4-3-3-2-3" name="sec-4-3-3-2-3"></a><span class="todo TODO">TODO</span> autocomplete tags w/ vue component<br  /></li>
+<li><a id="sec-4-3-3-2-4" name="sec-4-3-3-2-4"></a><span class="todo TODO">TODO</span> add currency conversions with vue component<br  /></li>
+<li><a id="sec-4-3-3-2-5" name="sec-4-3-3-2-5"></a><span class="todo TODO">TODO</span> display date interval in offer preview<br  /></li>
+<li><a id="sec-4-3-3-2-6" name="sec-4-3-3-2-6"></a><span class="todo TODO">TODO</span> on enter go to next<br  /></li>
+<li><a id="sec-4-3-3-2-7" name="sec-4-3-3-2-7"></a><span class="todo TODO">TODO</span> add focus to input<br  /></li>
+
+<li><a id="sec-4-3-3-2-8" name="sec-4-3-3-2-8"></a><span class="todo TODO">TODO</span> display "next" if input entered, skip if none<br  /></li>
+<li><a id="sec-4-3-3-2-9" name="sec-4-3-3-2-9"></a><span class="todo TODO">TODO</span> add multiple locations with component<br  /></li>
+<li><a id="sec-4-3-3-2-10" name="sec-4-3-3-2-10"></a><span class="todo TODO">TODO</span> convert offer-preview to view component<br  /></li></ol>
+</li>
+<li><a id="sec-4-3-3-3" name="sec-4-3-3-3"></a><span class="todo TODO">TODO</span> Protocol<br  /><ol class="org-ol"><li><a id="sec-4-3-3-3-1" name="sec-4-3-3-3-1"></a><span class="todo TODO">TODO</span> add protocol section to base site<br  /></li>
+<li><a id="sec-4-3-3-3-2" name="sec-4-3-3-3-2"></a><span class="todo TODO">TODO</span> create protocol form<br  /></li>
+<li><a id="sec-4-3-3-3-3" name="sec-4-3-3-3-3"></a><span class="todo TODO">TODO</span> add transition effects to .pro elements<br  /></li>
+<li><a id="sec-4-3-3-3-4" name="sec-4-3-3-3-4"></a><span class="todo TODO">TODO</span> update protocol object with wallet tags<br  /></li></ol>
+</li>
+<li><a id="sec-4-3-3-4" name="sec-4-3-3-4"></a><span class="todo TODO">TODO</span> Wallet<br  /><ol class="org-ol"><li><a id="sec-4-3-3-4-1" name="sec-4-3-3-4-1"></a><span class="todo TODO">TODO</span> add address, password to offer model<br  /></li>
+<li><a id="sec-4-3-3-4-2" name="sec-4-3-3-4-2"></a><span class="todo TODO">TODO</span> <br  /></li></ol>
+</li>
+<li><a id="sec-4-3-3-5" name="sec-4-3-3-5"></a><span class="todo TODO">TODO</span> Find Offer<br  /></li>
+<li><a id="sec-4-3-3-6" name="sec-4-3-3-6"></a><span class="todo TODO">TODO</span> Results<br  /><ol class="org-ol"><li><a id="sec-4-3-3-6-1" name="sec-4-3-3-6-1"></a><span class="todo TODO">TODO</span> <br  /></li></ol>
+</li>
+<li><a id="sec-4-3-3-7" name="sec-4-3-3-7"></a><span class="todo TODO">TODO</span> Map<br  /><ol class="org-ol"><li><a id="sec-4-3-3-7-1" name="sec-4-3-3-7-1"></a><span class="todo TODO">TODO</span> remove zoom<br  /></li>
+<li><a id="sec-4-3-3-7-2" name="sec-4-3-3-7-2"></a><span class="todo TODO">TODO</span> remove mouse interactivity<br  /></li></ol>
+</li></ol>
+</div>
+
+<div id="outline-container-sec-4-3-4" class="outline-4">
+<h4 id="sec-4-3-4"><span class="section-number-4">4.3.4</span> Donate</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> The Mesh Market Foundation</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+The form the app eventually takes on will determine the type of business that can best support it.  Presently, a non-profit DAO (decentralized autonomous organization)
+seems like the most effective way to channel funds generated by the app can be used to encourage businesses - most likely through grants - to decentralize and liberate their services
+for increased customer participation.
+</p>
+</div>
+
+<div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> Business Model Canvas</h3>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> <p><a href="https://techcrunch.com/2015/03/03/in-the-age-of-disintermediation-the-battle-is-all-for-the-customer-interface/">https://techcrunch.com/2015/03/03/in-the-age-of-disintermediation-the-battle-is-all-for-the-customer-interface/</a></p></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="author">Author: David</p>
+<p class="date">Created: 2016-11-07 Mo 10:21</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

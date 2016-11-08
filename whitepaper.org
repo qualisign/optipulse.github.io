@@ -444,6 +444,11 @@ Did we miss something?  Submit a pull request!
 *** Whitepaper
 **** TODO add banner w/ logo showing community using decentralized resources
 **** TODO export to HTML
+**** TODO write pre-sale use case
+**** TODO write transportation use cases
+**** TODO write real estate use cases
+
+
 *** App
 **** TODO Base-Site
 ***** TODO create base site

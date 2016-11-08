@@ -119,6 +119,15 @@ $(document).ready(function() {
         
     });
 
+    Vue.component('distance-row', {
+        proprs: ['', ''],
+        template: ''
+
+
+
+
+    });
+
     
     var vm = new Vue({
         el: '#site-container',
