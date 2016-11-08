@@ -10,12 +10,15 @@
 <li><a href="#sec-2-1-1">2.1.1. Overview</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-2">2.2. Mesh Networking</a></li>
+<li><a href="#sec-2-2">2.2. Mesh Networking</a>
+<ul>
+<li><a href="#sec-2-2-1">2.2.1. Advantages</a></li>
+<li><a href="#sec-2-2-2">2.2.2. Disadvantages, Obstacles</a></li>
+</ul>
+</li>
 <li><a href="#sec-2-3">2.3. OptiPulse's Light Grid</a>
 <ul>
 <li><a href="#sec-2-3-1">2.3.1. Specs</a></li>
-<li><a href="#sec-2-3-2">2.3.2. Advantages</a></li>
-<li><a href="#sec-2-3-3">2.3.3. Disadvantages, Obstacles</a></li>
 </ul>
 </li>
 <li><a href="#sec-2-4">2.4. Blockchain</a>
@@ -132,11 +135,11 @@ offer an alternative?  We believe the demand for this platform exists already, t
 Mesh Market is like a black-box into which one can put ideas that are good, but challenging to implement, and expect positive developments to come out.
 ![img](./incentive-creation-diagram.png)
 
-To see how this works, let's start with a good idea:
+To see how this works, let's start with a good idea..
 
 ## Mesh Networking<a id="sec-2-2" name="sec-2-2"></a>
 
-Before we discuss how Mesh Market makes it so easy to decentralize resources, we need to explain the role that mesh networking plays.
+Before we discuss how Mesh Market makes it so easy to decentralize resources, we need to explain why adopting mesh networks would be a good idea.
 
 According to Wikipedia, "A mesh network is a network topology in which each node relays data for the network. All mesh nodes cooperate in the distribution of data in the network."
 
@@ -147,6 +150,57 @@ Mesh Market takes this concept to the next level and seeks to decentralize all r
 The original goal of this app was to develop OptiPulse unique potential for revolutionizing the mesh/ad-hoc networking market with its Light Grid technology.  Bandwidth, via mesh-networking, is the first resource
 that Mesh Market aims to decentralize - though by no means the last.While the mesh-networking userbase is presently miniscule compared to that of conventional, centrally serviced connections (usually provided by one of only a few differnet ISP's), meshes offer many advantages
 over heterogeneous networks, making them the ideal network topology for future networks needing to prioritize scalability.  There are many articles/papers weighing these advantages, so the discussion here will be brief:
+
+### Advantages<a id="sec-2-2-1" name="sec-2-2-1"></a>
+
+1.  Scalability:
+
+    Adding more devices to the network tends to improve mesh connections, in contrast to star topologies.  More devices connected to a mesh network locally means more possible paths through which internet traffic can be routed.
+
+2.  Robustnesss:
+
+    There is no central point of failure in a mesh network.  Power outages, network attacks, and threats to individual nodes circulate and infect the entire network, as in a star topology.
+    Those who were able to get WIFI in the aftermath of Hurricane Sandy know this isn't mere speculation.  <http://techpresident.com/news/23127/red-hook-mesh-network-connects-sandy-survivors-still-without-power>
+
+3.  Democritization:
+
+    Dictators have been known to cut off internet service during popular uprisings (e.g. Arab Spring).  It is virtually impossible to "shut down" a mesh-based internet. Without the imperitave for centrally-connected hubs, disrupting connections becomes very hard to achieve.
+    (Sorry Donald Trump).
+
+    That authorities might cut off the internet is significantly less likely in countries without egregious network collusion with government as we
+    see in many developing countries.  Such countries may turn out to be some of the best stages on which to demonstrate the power of decentralized markets for effecting positive social change.
+
+    One criticism of the idea that mesh networks could make the internet impervious to control by dictators is that WIFI signals can be traced and individuals can be targeted even
+    if the network is a mesh .  This criticism would not apply to a network using OptiPulse's
+    technology, since its point-to-point signals are not broadcast and would be very difficult to intercept.
+
+### Disadvantages, Obstacles<a id="sec-2-2-2" name="sec-2-2-2"></a>
+
+There are also several difficulties associated with meshes that shouldn't be overlooked.  Some of these may be mitigated by the design of an app fulfilling many
+functions normally assigned to the network administrator, while others may be reducable to inadequacies of current physical layer internet technologies that OptiPulse's (a key partner)
+Light Grid may improve on.
+
+1.  Power Consumption
+
+    From link-labs: "Because each node in a mesh has to act as an endpoint and a router, it has to draw more power to operate. Thus, if you have battery-powered, low-power nodes, a mesh may be difficult to deploy without a lot of network planning."
+    This is listed as a disadvantage, but OptiPulse's Light Grid requires very little power consumption, which may make it an enabling technology for mesh networks.
+
+2.  Latency
+
+    Likewise, this is listed as a disadvantage, but a copious amount of bandwidth is one of the Light Grid's chief assets.
+
+3.  Requisite Technical Competence
+
+    Currently, most mesh networking protocols are available solely as command line tools for Unix-like operating systems.  As it stands, this significantly reduces the class of users
+    capable of connecting to a mesh network.
+
+4.  Opposition from Established Middlemen
+
+    Analagous to the situation faced by Tesla due to their direct-to-consumer market, those who normally take a large share of the profits by acting as middle-men
+    between the consumer and the product/service stand to lose much in a decentralized consumer-to-consumer market.  This means that, just as Tesla sales have been
+    blocked in certain states due to the threat it poses to the established car-dealership model,
+    a mesh-networking platform with a chance of succeeding may raise the defenses of ISP's. This possibility should be discussed in more detail.  It seems to me that
+    the case against a mesh-networks would be much more difficult to make, and legal challenges are unlikely to pose a sustained threat.
 
 ## OptiPulse's Light Grid<a id="sec-2-3" name="sec-2-3"></a>
 
@@ -183,57 +237,6 @@ This makes it very cheap in comparison to the standard alternatives.  Besides be
 7.  Low Cost
 
     Perhaps most importantly, an infrastructure built on Light Grid technology would be a fraction of the cost of using (comparably fast) fiber.
-
-### Advantages<a id="sec-2-3-2" name="sec-2-3-2"></a>
-
-1.  Scalability:
-
-    Adding more devices to the network tends to improve mesh connections, in contrast to star topologies.  More devices connected to a mesh network locally means more possible paths through which internet traffic can be routed.
-
-2.  Robustnesss:
-
-    There is no central point of failure in a mesh network.  Power outages, network attacks, and threats to individual nodes circulate and infect the entire network, as in a star topology.
-    Those who were able to get WIFI in the aftermath of Hurricane Sandy know this isn't mere speculation.  <http://techpresident.com/news/23127/red-hook-mesh-network-connects-sandy-survivors-still-without-power>
-
-3.  Democritization:
-
-    Dictators have been known to cut off internet service during popular uprisings (e.g. Arab Spring).  It is virtually impossible to "shut down" a mesh-based internet. Without the imperitave for centrally-connected hubs, disrupting connections becomes very hard to achieve.
-    (Sorry Donald Trump).
-
-    That authorities might cut off the internet is significantly less likely in countries without egregious network collusion with government as we
-    see in many developing countries.  Such countries may turn out to be some of the best stages on which to demonstrate the power of decentralized markets for effecting positive social change.
-
-    One criticism of the idea that mesh networks could make the internet impervious to control by dictators is that WIFI signals can be traced and individuals can be targeted even
-    if the network is a mesh .  This criticism would not apply to a network using OptiPulse's
-    technology, since its point-to-point signals are not broadcast and would be very difficult to intercept.
-
-### Disadvantages, Obstacles<a id="sec-2-3-3" name="sec-2-3-3"></a>
-
-There are also several difficulties associated with meshes that shouldn't be overlooked.  Some of these may be mitigated by the design of an app fulfilling many
-functions normally assigned to the network administrator, while others may be reducable to inadequacies of current physical layer internet technologies that OptiPulse's (a key partner)
-Light Grid may improve on.
-
-1.  Power Consumption
-
-    From link-labs: "Because each node in a mesh has to act as an endpoint and a router, it has to draw more power to operate. Thus, if you have battery-powered, low-power nodes, a mesh may be difficult to deploy without a lot of network planning."
-    This is listed as a disadvantage, but OptiPulse's Light Grid requires very little power consumption, which may make it an enabling technology for mesh networks.
-
-2.  Latency
-
-    Likewise, this is listed as a disadvantage, but a copious amount of bandwidth is one of the Light Grid's chief assets.
-
-3.  Requisite Technical Competence
-
-    Currently, most mesh networking protocols are available solely as command line tools for Unix-like operating systems.  As it stands, this significantly reduces the class of users
-    capable of connecting to a mesh network.
-
-4.  Opposition from Established Middlemen
-
-    Analagous to the situation faced by Tesla due to their direct-to-consumer market, those who normally take a large share of the profits by acting as middle-men
-    between the consumer and the product/service stand to lose much in a decentralized consumer-to-consumer market.  This means that, just as Tesla sales have been
-    blocked in certain states due to the threat it poses to the established car-dealership model,
-    a mesh-networking platform with a chance of succeeding may raise the defenses of ISP's. This possibility should be discussed in more detail.  It seems to me that
-    the case against a mesh-networks would be much more difficult to make, and legal challenges are unlikely to pose a sustained threat.
 
 ## Blockchain<a id="sec-2-4" name="sec-2-4"></a>
 
