@@ -80,7 +80,7 @@ var protocol = {"official" : {},
                         "recommendations": {},                                
                         "upvotes": "",
                         "downvotes": "",
-                        "units": {},
+                        "units": {"bandwidth": "bit/s",  "information": "bits"},
                         "children": ["wireless", "optical", "cables", "Wi-Fi"],
                     },
                     "wireless":
