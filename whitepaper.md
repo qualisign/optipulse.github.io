@@ -168,7 +168,6 @@ over heterogeneous networks, making them the ideal network topology for future n
 3.  Democritization:
 
     Dictators have been known to cut off internet service during popular uprisings (e.g. Arab Spring).  It is virtually impossible to "shut down" a mesh-based internet. Without the imperitave for centrally-connected hubs, disrupting connections becomes very hard to achieve.
-    (Sorry Donald Trump).
 
     That authorities might cut off the internet is significantly less likely in countries without egregious network collusion with government as we
     see in many developing countries.  Such countries may turn out to be some of the best stages on which to demonstrate the power of decentralized markets for effecting positive social change.
@@ -723,8 +722,6 @@ Did we miss something?  Submit a pull request!
 
 3.  Donate
 
-    David is a full-stack web developer with extensive experience in building apps for getting cutting-edge technologies into the marketplaces.  He is the lead architect of the Light Grid's application to mesh networks, and is working on solutions for connecting customers through P2P technologies to build robust and scalable networks.
-
 <div id="footnotes">
 <h2 class="footnotes">Footnotes: </h2>
 <div id="text-footnotes">
@@ -735,15 +732,13 @@ Did we miss something?  Submit a pull request!
 
 <div class="footdef"><sup><a id="fn.3" name="fn.3" class="footnum" href="#fnr.3">3</a></sup> <p><https://www.theguardian.com/technology/2016/oct/29/airbnb-backlash-customers-fight-back-london></p></div>
 
-<div class="footdef"><sup><a id="fn.4" name="fn.4" class="footnum" href="#fnr.4">4</a></sup> <p><http://europe.newsweek.com/dictator-proofing-internet-68705?rm=eu></p></div>
+<div class="footdef"><sup><a id="fn.4" name="fn.4" class="footnum" href="#fnr.4">4</a></sup> <p><https://www.schneier.com/blog/archives/2012/12/dictators_shutt.html#c1034991></p></div>
 
-<div class="footdef"><sup><a id="fn.5" name="fn.5" class="footnum" href="#fnr.5">5</a></sup> <p><https://www.schneier.com/blog/archives/2012/12/dictators_shutt.html#c1034991></p></div>
+<div class="footdef"><sup><a id="fn.5" name="fn.5" class="footnum" href="#fnr.5">5</a></sup> <p><https://electrek.co/2016/05/01/tesla-gm-direct-sales-connecticut/></p></div>
 
-<div class="footdef"><sup><a id="fn.6" name="fn.6" class="footnum" href="#fnr.6">6</a></sup> <p><https://electrek.co/2016/05/01/tesla-gm-direct-sales-connecticut/></p></div>
+<div class="footdef"><sup><a id="fn.6" name="fn.6" class="footnum" href="#fnr.6">6</a></sup> <p><https://github.com/mariusae/trickle> or similar command line tools</p></div>
 
-<div class="footdef"><sup><a id="fn.7" name="fn.7" class="footnum" href="#fnr.7">7</a></sup> <p><https://github.com/mariusae/trickle> or similar command line tools</p></div>
-
-<div class="footdef"><sup><a id="fn.8" name="fn.8" class="footnum" href="#fnr.8">8</a></sup> <p><http://ethereum.stackexchange.com/questions/2404/upgradeable-contracts></p></div>
+<div class="footdef"><sup><a id="fn.7" name="fn.7" class="footnum" href="#fnr.7">7</a></sup> <p><http://ethereum.stackexchange.com/questions/2404/upgradeable-contracts></p></div>
 
 
 </div>

@@ -85,7 +85,6 @@ Those who were able to get WIFI in the aftermath of Hurricane Sandy know this is
 
 **** Democritization:
 Dictators have been known to cut off internet service during popular uprisings (e.g. Arab Spring).  It is virtually impossible to "shut down" a mesh-based internet. Without the imperitave for centrally-connected hubs, disrupting connections becomes very hard to achieve.
-(Sorry Donald Trump[fn::http://europe.newsweek.com/dictator-proofing-internet-68705?rm=eu]).
 
 That authorities might cut off the internet is significantly less likely in countries without egregious network collusion with government as we
 see in many developing countries.  Such countries may turn out to be some of the best stages on which to demonstrate the power of decentralized markets for effecting positive social change.
@@ -527,7 +526,3 @@ Interested?  Don't hesitate to get in touch (please include summary of relevant 
 djoseph@optipulse.com
 
 **** Donate
-
-
-
-David is a full-stack web developer with extensive experience in building apps for getting cutting-edge technologies into the marketplaces.  He is the lead architect of the Light Grid's application to mesh networks, and is working on solutions for connecting customers through P2P technologies to build robust and scalable networks.
