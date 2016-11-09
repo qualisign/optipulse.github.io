@@ -175,7 +175,7 @@ The Mesh Market aspires to be the platform to end platforms; to achieve this, th
 *** Case Study: OptiPulse -- Making Mesh Networks Mass-Market Viable
 
 Now it should be clear how this platform might actually help good ideas gain momentum.  As we've made the case for above, OptiPulse's Light Grid enabling mesh networks is one potential
-application.
+application of this formula.
 
 [[./mesh-network-incentivization.png]]
 
@@ -183,9 +183,12 @@ The logic works like this:
 Since the benefits of mesh networks are not immediately apparent to anyone not versed in computer networking, getting people to switch may prove a difficult task unless some
 incentive is provided.
 
-OptiPulse's incredible physical layer technology may be enough to provide this incentive alone, if OptiPulse were to follow a strategy of exclusively promoting its mesh network
-capabilities.  However, this would be unecessarily prescriptive and possibly counterproductive; a better way to show users the advantages of mesh networks would be to give them
-a reason to try it for themselves so that they'd come to understand the benefits through firsthand experience.
+An enabling technology like OptiPulse's can help this good idea overcome the initial hurdles toward viability.  But to get complacent users of centralized networks to switch services,
+there must be some other incentive provided.
+
+Of course, OptiPulse may have a chance of doing this on the strengths of its incredible hardware alone - if it were to follow a strategy of exclusively promoting its mesh network
+capabilities.  However, this would be unnecessarily prescriptive and possibly counterproductive; a better way to show users the advantages of mesh networks would be to give them
+a reason to choose it for themselves so that they'd come to understand the benefits through firsthand experience.
 
 With the amount of excess bandwidth the Light Grid may be giving customers, they may be able to get away with sharing (or selling) what they don't use to those around them.
 (It might not occur to someone with a 12 Mb/s connection to try this).  In effect, this would make buyers of OptiPulse's internet service their own mini ISP's,
