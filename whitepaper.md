@@ -135,7 +135,7 @@ offer an alternative?  We believe the demand for this platform exists already, t
 
 ### Incentivization as a Service<a id="sec-2-1-2" name="sec-2-1-2"></a>
 
-Mesh Market is like a black-box into which one can put ideas that are good, but challenging to implement, and expect progress to come out.
+Mesh Market is like a black-box into which one can put ideas that are good but lack traction, and see real progress as an output.
 ![img](./incentive-creation-diagram.png)
 
 To see how this works, let's start with a good idea..
