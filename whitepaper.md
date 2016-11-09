@@ -131,7 +131,7 @@ The 'Invisible Hand' is just as unlikely to guide a giant platform as it is a gi
 the convenience with which Uber can hire full-time workers without taking on the responsibilities of a full-time employer, like providing health insurance .  Furthermore, contractors have complained about the substantial cut it takes from drivers, typically 20%, which
 indeed seems hefty considering the labor involved by the contractors.  As mentioned, platform businesses facing such criticism seek to identify themselves with the bigger picture &#x2013; they are purveyors of this "sharing economy" average-joes are so keen on.
 AirBnb, for instance, is promoting a global consumer movementas a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't some of these people
-offer an alternative?  We believe the demand for this platform exists already, though it is yet to be realized.  Mesh Market strives to become this platform.
+offer an alternative?  We believe the demand for this platform is already high.  Mesh Market's mission is to become this platform.
 
 ### Incentivization as a Service<a id="sec-2-1-2" name="sec-2-1-2"></a>
 
