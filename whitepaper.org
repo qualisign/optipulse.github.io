@@ -17,7 +17,7 @@ A Marketplace for Decentralized Resources on the Blockchain
 Mesh Market is a free application aiming to:
 
 - introduce the benefits of peer-to-peer goods and services to the public at large
-- enable consumers to find friendlier and cheaper local alternatives to centrally-owned, inefficient resources
+- enable consumers to find friendlier and cheaper local alternatives to centrally-owned, inefficiently distributed resources
 - accelerate deployment and improve market viability of beneficial technologies by providing them with a direct-to-consumer platform
 
 Check out the prototype (under construction -- very early stage, can't handle transactions yet):
