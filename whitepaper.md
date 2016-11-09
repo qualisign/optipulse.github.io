@@ -282,11 +282,10 @@ The Mesh Market aspires to be the platform to end platforms; to achieve this, th
 
 ### Case Study: OptiPulse &#x2013; Making Mesh Networks Mass-Market Viable<a id="sec-3-0-1" name="sec-3-0-1"></a>
 
-Remember that black-box for good ideas?
-![img](./mesh-network-incentivization.png)
-
 Now it should be clear how this platform might actually help good ideas gain momentum.  As we've made the case for above, OptiPulse's Light Grid enabling mesh networks is one potential
 application.
+
+![img](./mesh-network-incentivization.png)
 
 The logic works like this:
 Since the benefits of mesh networks are not immediately apparent to anyone not versed in computer networking, getting people to switch may prove a difficult task unless some
