@@ -140,7 +140,7 @@ migrate their products and services onto the Blockchain, maintaining customizati
 
 ![img](./incentive-creation-diagram.png)
 
-To see how this works, let's start with a good idea&#x2026;
+To see how this works, let's start with a beneficial idea lacking in incentive&#x2026;
 
 ## Mesh Networking<a id="sec-2-2" name="sec-2-2"></a>
 
