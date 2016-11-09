@@ -60,7 +60,6 @@ offer an alternative?  We believe the demand for this platform is already high. 
 The way Mesh Market can accomplish this is by being a universal platform.  Businesses looking for way to keep up with the shifting nature of C2B relations have a way to
 migrate their products and services onto the Blockchain, maintaining customization and integrity of their products, but reaching customers through a new channel.
 
-Into the Mesh Network Platform
 [[./incentive-creation-diagram.png]]
 
 To see how this works, let's start with a good idea...
