@@ -8,7 +8,7 @@
 <li><a href="#sec-2-1">2.1. Platform Business</a>
 <ul>
 <li><a href="#sec-2-1-1">2.1.1. Overview</a></li>
-<li><a href="#sec-2-1-2">2.1.2. Incentivization as a Service</a></li>
+<li><a href="#sec-2-1-2">2.1.2. Platformization as a Service</a></li>
 </ul>
 </li>
 <li><a href="#sec-2-2">2.2. Mesh Networking</a>
@@ -133,12 +133,15 @@ indeed seems hefty considering the labor involved by the contractors.  As mentio
 AirBnb, for instance, is promoting a global consumer movementas a shield to their foreseeable legal woes.  But before consumers rise to the defense of the sharing economy à la Uber, might it not be better to ask for a better platform?  If so many people are willing to defend the admittedly imperfect platforms they've come to rely on, why can't some of these people
 offer an alternative?  We believe the demand for this platform is already high.  Mesh Market's mission is to become this platform.
 
-### Incentivization as a Service<a id="sec-2-1-2" name="sec-2-1-2"></a>
+### Platformization as a Service<a id="sec-2-1-2" name="sec-2-1-2"></a>
 
-Mesh Market is like a black-box into which one can put ideas that are good but lack traction, and see real progress as an output.
+The way Mesh Market can accomplish this is by being a universal platform.  Businesses looking for way to keep up with the shifting nature of C2B relations have a way to
+migrate their products and services onto the Blockchain, maintaining customization and integrity of their products, but reaching customers through a new channel.
+
+Into the Mesh Network Platform
 ![img](./incentive-creation-diagram.png)
 
-To see how this works, let's start with a good idea..
+To see how this works, let's start with a good idea&#x2026;
 
 ## Mesh Networking<a id="sec-2-2" name="sec-2-2"></a>
 
