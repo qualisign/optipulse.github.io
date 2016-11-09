@@ -183,7 +183,7 @@ The logic works like this:
 Since the benefits of mesh networks are not immediately apparent to anyone not versed in computer networking, getting people to switch may prove a difficult task unless some
 incentive is provided.
 
-An enabling technology like OptiPulse's can help this good idea overcome the initial hurdles toward viability.  But to get complacent users of centralized networks to switch services,
+An enabling technology like OptiPulse's can help this good idea overcome the initial hurdles on the road to viability.  But to get complacent users of centralized networks to switch services,
 there must be some other incentive provided.
 
 Of course, OptiPulse may have a chance of doing this on the strengths of its incredible hardware alone - if it were to follow a strategy of exclusively promoting its mesh network
