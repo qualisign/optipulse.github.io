@@ -14,7 +14,7 @@
 <li><a href="#sec-2-2">2.2. Mesh Networking</a>
 <ul>
 <li><a href="#sec-2-2-1">2.2.1. Advantages</a></li>
-<li><a href="#sec-2-2-2">2.2.2. Disadvantages, Obstacles</a></li>
+<li><a href="#sec-2-2-2">2.2.2. Difficulties</a></li>
 </ul>
 </li>
 <li><a href="#sec-2-3">2.3. OptiPulse's Light Grid</a>
@@ -178,7 +178,7 @@ over heterogeneous networks, making them the ideal network topology for future n
     if the network is a mesh .  This criticism would not apply to a network using OptiPulse's
     technology, since its point-to-point signals are not broadcast and would be very difficult to intercept.
 
-### Disadvantages, Obstacles<a id="sec-2-2-2" name="sec-2-2-2"></a>
+### Difficulties<a id="sec-2-2-2" name="sec-2-2-2"></a>
 
 There are also several difficulties associated with meshes that shouldn't be overlooked.  Some of these may be mitigated by the design of an app fulfilling many
 functions normally assigned to the network administrator, while others may be reducable to inadequacies of present physical layer technologies.

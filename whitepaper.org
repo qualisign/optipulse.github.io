@@ -95,7 +95,7 @@ One criticism of the idea that mesh networks could make the internet impervious 
 if the network is a mesh [fn::https://www.schneier.com/blog/archives/2012/12/dictators_shutt.html#c1034991].  This criticism would not apply to a network using OptiPulse's
 technology, since its point-to-point signals are not broadcast and would be very difficult to intercept.
 
-*** Disadvantages, Obstacles
+*** Difficulties
 There are also several difficulties associated with meshes that shouldn't be overlooked.  Some of these may be mitigated by the design of an app fulfilling many
 functions normally assigned to the network administrator, while others may be reducable to inadequacies of present physical layer technologies.
 **** Power Consumption
