@@ -250,7 +250,7 @@ OptiPulse's Prototype
 ## Blockchain<a id="sec-2-4" name="sec-2-4"></a>
 
 Blockchain technology is based on the idea of a distributed ledger.  It is meant to provide trust and security through radical transparency rather than limited access.
-Blockchain plays a crucial role in Mesh Market's plan to overcome the inertia keeping local value creation from being released.
+Blockchain plays a crucial role in Mesh Market's plan to overcome the inertia keeping good ideas from gaining traction.
 
 ### Smart Contracts<a id="sec-2-4-1" name="sec-2-4-1"></a>
 
@@ -259,21 +259,21 @@ a contract that can execute itself.  This means that terms and conditions are de
 Of course, this limits the contents of the contract to what is computationally tractable.  For example, a smart contract may define certain operations being executed when an
 account on the blockchain receives a certain amount of funds.
 
-### Ethereum<a id="sec-2-4-2" name="sec-2-4-2"></a>
-
-# The Mesh Market Platform<a id="sec-3" name="sec-3"></a>
-
-![img](./mesh-market-ecosystem.png)
-
 It may not seem obvious from the simplistic discussion of smart contracts above, but the ability for computers to listen to data and execute transactions on a blockchain enables the implementing of
 an innumerable array of business solutions heretofore unworkable or impractical - particularly those based on the idea of turning a traditionally top-down service into a consumer-to-consumer platform.
 Decentralized platforms based on blockchain/smart contracts are already being developed across a range of industries (even entire governemnts!), though it is still too early
 for average consumers to have noticeably benefited.  The platform business phenomenon and the sharing economy at large, on the other hand, have had a huge impact on what customers expect from the services they use,
 and demonstrated the substantial demand for useful peer-to-peer services.
 
+### Ethereum<a id="sec-2-4-2" name="sec-2-4-2"></a>
+
+# The Mesh Market Platform<a id="sec-3" name="sec-3"></a>
+
 Where does Blockchain fit in?  There is no shortage of good ideas and technologies that would have a positive impact on the world, if they were only adopted.  Inertia prevents change, even when it is necessary (see Tragedy of the Commons).
 We've made the case for certain technologies above; others are making it for renewable energy, a service-based economy, reducing meat consumption, a basic income, and so on.  The ultimate goal of Mesh Market is to create a way to incentivize collective behavior that is manifestly beneficial to everyone.  The purpose of the Mesh Market Protocol is to define what this behavior is.  Finally, the Mesh Market Foundation channels funds into
 businesses that seek to implement these solutions, and to incentivize businesses (and people) to use the platform.  Mesh Market the DApp should be thought of as one part of this eco-system.
+
+![img](./mesh-market-ecosystem.png)
 
 It would be unwise for any business developing in the post-smart contract world to implement an overtly top-down approach to customer relations.  We take very seriously
 the idea that whatever can be decentralized will be decentralized as the world awakens to the utility of the Blockchain.  Of course, this includes any aspects of the Mesh Market platform that
