@@ -211,6 +211,9 @@ Mesh Market has secured an early partnership with OptiPulse which will allow the
 ![img](./prototype-image.jpg)
 OptiPulse's Prototype
 
+OptiPulse's Mesh-Networking Concept
+![img](./mesh-pole.jpg)
+
 ### Specs<a id="sec-2-3-1" name="sec-2-3-1"></a>
 
 1.  Bandwidth
@@ -713,7 +716,7 @@ Did we miss something?  Submit a pull request!
     -   mesh networking experts
     -   sysadmin, Linux experts
     -   web security, cryptography experts
-    -   C, Clojure, ClojureScript programmers
+    -   C, Clojure, ClojureScript, Haskell, Python programmers (any language really, if you have sufficient knowledge and drive)
     -   mobile app developers (especially w/ Android, FB, iOS experience)
     -   UX experts
     -   DevOps engineers
