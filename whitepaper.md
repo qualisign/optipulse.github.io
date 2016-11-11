@@ -239,7 +239,6 @@ OptiPulse's Prototype
 6.  Low Size, Weight
 
     Did we mention how small the Light Grid is?
-    ![img](./penny.jpg)
 
 7.  Low Power-Consumption
 
