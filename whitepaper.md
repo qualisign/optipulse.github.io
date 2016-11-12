@@ -100,22 +100,19 @@ Mesh Market is a free application aiming to:
 -   introduce the benefits of peer-to-peer goods and services to the public at large
 -   enable consumers to find friendlier and cheaper local alternatives to centrally-owned, inefficiently distributed resources
 -   accelerate deployment and improve market viability of beneficial technologies by providing them with a direct-to-consumer platform
--   realize the ideal of a free economic market by
+-   turn free-market ideals into a functioning reality by incorporating information integrity into this platform
 
 Check out the prototype (under construction &#x2013; very early stage, can't handle transactions yet):
 <https://optipulse.github.io>
 
 With Mesh Market, you can:
 -   get cheaper, better internet service &#x2013;
-
-or start a do-it-yourself ISP to offer it
+    or start a do-it-yourself ISP to offer it
 -   reduce the cost of your electricity bills while supporting renewable energy &#x2013;
-
-or start a profitable energy business from your own home that enables people to do so
+    or start a profitable energy business from your own home that enables people to do so
 -   find the highest quality, most relevant news for making economic decisions &#x2013;
-
-or get paid to distribute such information at a local or global level
--   do countless other things (see our various use cases)
+    or get paid to distribute such information at a local or global level
+-   do countless other things, many yet to be conceived (see our various use cases)
 
 # Background<a id="sec-2" name="sec-2"></a>
 
