@@ -19,16 +19,19 @@ Mesh Market is a free application aiming to:
 - introduce the benefits of peer-to-peer goods and services to the public at large
 - enable consumers to find friendlier and cheaper local alternatives to centrally-owned, inefficiently distributed resources
 - accelerate deployment and improve market viability of beneficial technologies by providing them with a direct-to-consumer platform
+- realize the ideal of a free economic market by
 
 Check out the prototype (under construction -- very early stage, can't handle transactions yet):
 https://optipulse.github.io
 
 With Mesh Market, you can:
-- get cheaper, better internet service
-- start a do-it-yourself ISP
-- start a profitable energy business from your own home
-- reduce your electricity bills while supporting renewable energy
-- do countless other things we haven't thought of, and some we have (see more use cases, or read on for an overview of how it works)
+- get cheaper, better internet service --
+or start a do-it-yourself ISP to offer it
+- reduce the cost of your electricity bills while supporting renewable energy --
+or start a profitable energy business from your own home that enables people to do so
+- find the highest quality, most relevant news for making economic decisions --
+or get paid to distribute such information at a local or global level
+- do countless other things (see our various use cases)
 
 * Background
 The Mesh Market app was originally conceived by developers at OptiPulse who were envisioning a direct-to-consumer platform for getting OptiPulse's internet technology
@@ -113,10 +116,21 @@ a mesh-networking platform with a chance of succeeding may raise the defenses of
 the case against a mesh-networks would be much more difficult to make, and legal challenges are unlikely to pose a sustained threat.
 
 
-** OptiPulse's Light Grid
+** Next-Generation Wireless
+
+While big names like Google make plans for massive yet noninclusive fiber buildouts, a new generation of wireless internet technologies is emerging as a serious challenger
+to the conventional wisdom that more bandwidth necessitates more fiber. Feats of innovation have and will continue to power an internet revolution that can deliver high-speed connections
+to everyone -- not just those privileged to be living in the richest cities where costly backhaul buildout is conceivable.  Wireless seems the obvious means toward this end, as it the avoids
+prohibitively costly construction costs of digging up vast stretches of earth, repairing broken cables, etc.  Not to mention the added convenience of avoiding zoning laws in many instances.
+Let's examine some of the exciting new developments in wireless hardware:
+
+*** Optipulse
+
 OptiPulse is a tech startup with a revolutionary internet technology called the Light Grid.  It is a physical-layer technology based on a novel invention in electro-optics, which just so happens to
-overcome many of the difficulties associated with mesh networks like power consumption and latency.  Like other elite photonic transmitters, it is capable of 5G bit-rates.  Unlike fiber-optics, however, it is wireless and therefore relatively cheap and easy to deploy.
-Mesh Market has secured an early partnership with OptiPulse which will allow the opening of its products for pre-sale to end-consumers and network planners.
+overcome many of the difficulties associated with mesh networks like power consumption and latency.  Like other elite photonic transmitters, it is capable of 5G bit-rates.  Unlike fiber-optics, however,
+it is wireless and therefore relatively cheap and easy to deploy.  Being a relatively new company in the prototype stage of development, Optipulse (or similar companies with already-proven concepts) could
+use Mesh Market to offer a pre-sale of its products and fund product development without resorting to outside investment.  A pre-sale strategy  could enable companies to reach production stage
+without diluting ownership and sacrificing vision.
 
 [[./prototype-image.jpg]]
 OptiPulse's Prototype
@@ -124,8 +138,9 @@ OptiPulse's Prototype
 OptiPulse's Mesh-Networking Concept
 [[./mesh-pole.jpg]]
 
+Disclosure: The creator of Mesh Market is a former employee of Optipulse.
 
-*** Specs
+**** Specs
 **** Bandwidth
 OptiPulse has demonstrated 10Gb/s + bit rates.  This is thousands of time faster than what the FCC allows to be advertised as high-speed internet, or broadband.
 **** Distance
@@ -144,6 +159,12 @@ Did we mention how small the Light Grid is?
 **** Low Power-Consumption
 **** Low Cost
 Perhaps most importantly, an infrastructure built on Light Grid technology would be a fraction of the cost of using (comparably fast) fiber.
+
+
+
+Full Disclosure: Mesh Market's creator was an employee of OptiPulse and has vested interest in its success.
+
+*** Ubiquiti
 
 ** Blockchain
 Blockchain technology is based on the idea of a distributed ledger.  It is meant to provide trust and security through radical transparency rather than limited access.
@@ -270,7 +291,7 @@ The Mesh Market Foundation plans to sell minimalist computers in the future ship
 and more to come.
 
 
-*** Core Features
+** Core Features
 *** GUI
 [[./mesh-market-gui.png]]
 **** A. Make an Offer
@@ -330,8 +351,8 @@ Vetting is simple: those entries that receive more upvotes than downvotes are ad
 }
 #+END_SRC
 
-**** E. Results
-***** TODO add results section
+**** E. News
+No market can be sustainable without a willfully informed consumer base.  News, opinion, and information of any sort is monetzi
 **** F. Map
 *** API
 *** Embeddable Widget

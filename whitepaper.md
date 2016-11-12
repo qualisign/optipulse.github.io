@@ -17,9 +17,10 @@
 <li><a href="#sec-2-2-2">2.2.2. Difficulties</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-3">2.3. OptiPulse's Light Grid</a>
+<li><a href="#sec-2-3">2.3. Next-Generation Wireless</a>
 <ul>
-<li><a href="#sec-2-3-1">2.3.1. Specs</a></li>
+<li><a href="#sec-2-3-1">2.3.1. Optipulse</a></li>
+<li><a href="#sec-2-3-2">2.3.2. Ubiquiti</a></li>
 </ul>
 </li>
 <li><a href="#sec-2-4">2.4. Blockchain</a>
@@ -45,31 +46,34 @@
 <li><a href="#sec-4-1">4.1. Design</a>
 <ul>
 <li><a href="#sec-4-1-1">4.1.1. Installation</a></li>
-<li><a href="#sec-4-1-2">4.1.2. Core Features</a></li>
-<li><a href="#sec-4-1-3">4.1.3. GUI</a></li>
-<li><a href="#sec-4-1-4">4.1.4. API</a></li>
-<li><a href="#sec-4-1-5">4.1.5. Embeddable Widget</a></li>
-<li><a href="#sec-4-1-6">4.1.6. Transaction Sequence Diagram</a></li>
-<li><a href="#sec-4-1-7">4.1.7. Possible Directions</a></li>
 </ul>
 </li>
-<li><a href="#sec-4-2">4.2. Use Cases</a>
+<li><a href="#sec-4-2">4.2. Core Features</a>
 <ul>
-<li><a href="#sec-4-2-1">4.2.1. Internet</a></li>
-<li><a href="#sec-4-2-2">4.2.2. Energy</a></li>
-<li><a href="#sec-4-2-3">4.2.3. Agriculture</a></li>
-<li><a href="#sec-4-2-4">4.2.4. Transportation</a></li>
-<li><a href="#sec-4-2-5">4.2.5. Real Estate</a></li>
-<li><a href="#sec-4-2-6">4.2.6. Small Business/Entrepreneurs</a></li>
-<li><a href="#sec-4-2-7">4.2.7. Government</a></li>
-<li><a href="#sec-4-2-8">4.2.8. City Planners</a></li>
-<li><a href="#sec-4-2-9">4.2.9. Suggest a Use Case!</a></li>
+<li><a href="#sec-4-2-1">4.2.1. GUI</a></li>
+<li><a href="#sec-4-2-2">4.2.2. API</a></li>
+<li><a href="#sec-4-2-3">4.2.3. Embeddable Widget</a></li>
+<li><a href="#sec-4-2-4">4.2.4. Transaction Sequence Diagram</a></li>
+<li><a href="#sec-4-2-5">4.2.5. Possible Directions</a></li>
 </ul>
 </li>
-<li><a href="#sec-4-3">4.3. Development TODO's</a>
+<li><a href="#sec-4-3">4.3. Use Cases</a>
 <ul>
-<li><a href="#sec-4-3-1">4.3.1. Whitepaper</a></li>
-<li><a href="#sec-4-3-2">4.3.2. App</a></li>
+<li><a href="#sec-4-3-1">4.3.1. Internet</a></li>
+<li><a href="#sec-4-3-2">4.3.2. Energy</a></li>
+<li><a href="#sec-4-3-3">4.3.3. Agriculture</a></li>
+<li><a href="#sec-4-3-4">4.3.4. Transportation</a></li>
+<li><a href="#sec-4-3-5">4.3.5. Real Estate</a></li>
+<li><a href="#sec-4-3-6">4.3.6. Small Business/Entrepreneurs</a></li>
+<li><a href="#sec-4-3-7">4.3.7. Government</a></li>
+<li><a href="#sec-4-3-8">4.3.8. City Planners</a></li>
+<li><a href="#sec-4-3-9">4.3.9. Suggest a Use Case!</a></li>
+</ul>
+</li>
+<li><a href="#sec-4-4">4.4. Development TODO's</a>
+<ul>
+<li><a href="#sec-4-4-1">4.4.1. Whitepaper</a></li>
+<li><a href="#sec-4-4-2">4.4.2. App</a></li>
 </ul>
 </li>
 </ul>
@@ -96,16 +100,22 @@ Mesh Market is a free application aiming to:
 -   introduce the benefits of peer-to-peer goods and services to the public at large
 -   enable consumers to find friendlier and cheaper local alternatives to centrally-owned, inefficiently distributed resources
 -   accelerate deployment and improve market viability of beneficial technologies by providing them with a direct-to-consumer platform
+-   realize the ideal of a free economic market by
 
 Check out the prototype (under construction &#x2013; very early stage, can't handle transactions yet):
 <https://optipulse.github.io>
 
 With Mesh Market, you can:
--   get cheaper, better internet service
--   start a do-it-yourself ISP
--   start a profitable energy business from your own home
--   reduce your electricity bills while supporting renewable energy
--   do countless other things we haven't thought of, and some we have (see more use cases, or read on for an overview of how it works)
+-   get cheaper, better internet service &#x2013;
+
+or start a do-it-yourself ISP to offer it
+-   reduce the cost of your electricity bills while supporting renewable energy &#x2013;
+
+or start a profitable energy business from your own home that enables people to do so
+-   find the highest quality, most relevant news for making economic decisions &#x2013;
+
+or get paid to distribute such information at a local or global level
+-   do countless other things (see our various use cases)
 
 # Background<a id="sec-2" name="sec-2"></a>
 
@@ -202,11 +212,21 @@ functions normally assigned to the network administrator, while others may be re
     a mesh-networking platform with a chance of succeeding may raise the defenses of ISP's. This possibility should be discussed in more detail.  It seems to me that
     the case against a mesh-networks would be much more difficult to make, and legal challenges are unlikely to pose a sustained threat.
 
-## OptiPulse's Light Grid<a id="sec-2-3" name="sec-2-3"></a>
+## Next-Generation Wireless<a id="sec-2-3" name="sec-2-3"></a>
+
+While big names like Google make plans for massive yet noninclusive fiber buildouts, a new generation of wireless internet technologies is emerging as a serious challenger
+to the conventional wisdom that more bandwidth necessitates more fiber. Feats of innovation have and will continue to power an internet revolution that can deliver high-speed connections
+to everyone &#x2013; not just those privileged to be living in the richest cities where costly backhaul buildout is conceivable.  Wireless seems the obvious means toward this end, as it the avoids
+prohibitively costly construction costs of digging up vast stretches of earth, repairing broken cables, etc.  Not to mention the added convenience of avoiding zoning laws in many instances.
+Let's examine some of the exciting new developments in wireless hardware:
+
+### Optipulse<a id="sec-2-3-1" name="sec-2-3-1"></a>
 
 OptiPulse is a tech startup with a revolutionary internet technology called the Light Grid.  It is a physical-layer technology based on a novel invention in electro-optics, which just so happens to
-overcome many of the difficulties associated with mesh networks like power consumption and latency.  Like other elite photonic transmitters, it is capable of 5G bit-rates.  Unlike fiber-optics, however, it is wireless and therefore relatively cheap and easy to deploy.
-Mesh Market has secured an early partnership with OptiPulse which will allow the opening of its products for pre-sale to end-consumers and network planners.
+overcome many of the difficulties associated with mesh networks like power consumption and latency.  Like other elite photonic transmitters, it is capable of 5G bit-rates.  Unlike fiber-optics, however,
+it is wireless and therefore relatively cheap and easy to deploy.  Being a relatively new company in the prototype stage of development, Optipulse (or similar companies with already-proven concepts) could
+use Mesh Market to offer a pre-sale of its products and fund product development without resorting to outside investment.  A pre-sale strategy  could enable companies to reach production stage
+without diluting ownership and sacrificing vision.
 
 ![img](./prototype-image.jpg)
 OptiPulse's Prototype
@@ -214,40 +234,46 @@ OptiPulse's Prototype
 OptiPulse's Mesh-Networking Concept
 ![img](./mesh-pole.jpg)
 
-### Specs<a id="sec-2-3-1" name="sec-2-3-1"></a>
+Disclosure: The creator of Mesh Market is a former employee of Optipulse.
 
-1.  Bandwidth
+1.  Specs
+
+2.  Bandwidth
 
     OptiPulse has demonstrated 10Gb/s + bit rates.  This is thousands of time faster than what the FCC allows to be advertised as high-speed internet, or broadband.
 
-2.  Distance
+3.  Distance
 
     Early tests and estimates have projected that the Light Grid's transmission range may be over 10 km.
 
-3.  Deployability
+4.  Deployability
 
     Unlike fiber-optics, there is no digging up of long stretches of earth to connect two end-points.  This is typically the brunt of the cost associate with FO.  As you can imagine,
     this also avoids legal difficulties like zoning laws.
 
-4.  Unlicensed Spectrum
+5.  Unlicensed Spectrum
 
     The Light Grid uses a part of the RF spectrum that isn't licensed.  Not only is signal interference negligible compared to typical broadcast connections like WiFi, but contending with competitors
     over spectrum licensing is also a non-issue.
 
-5.  Ecological Friendliness
+6.  Ecological Friendliness
 
     Taking load off the typical spectrum range also has huge benefits to living organisms, which many believe are harmed by the proliferation of microwaves in the atmosphere used for
     communication.
 
-6.  Low Size, Weight
+7.  Low Size, Weight
 
     Did we mention how small the Light Grid is?
 
-7.  Low Power-Consumption
+8.  Low Power-Consumption
 
-8.  Low Cost
+9.  Low Cost
 
     Perhaps most importantly, an infrastructure built on Light Grid technology would be a fraction of the cost of using (comparably fast) fiber.
+
+    Full Disclosure: Mesh Market's creator was an employee of OptiPulse and has vested interest in its success.
+
+### Ubiquiti<a id="sec-2-3-2" name="sec-2-3-2"></a>
 
 ## Blockchain<a id="sec-2-4" name="sec-2-4"></a>
 
@@ -380,9 +406,9 @@ what they decide is relevant to making a good choice.
 
     and more to come.
 
-### Core Features<a id="sec-4-1-2" name="sec-4-1-2"></a>
+## Core Features<a id="sec-4-2" name="sec-4-2"></a>
 
-### GUI<a id="sec-4-1-3" name="sec-4-1-3"></a>
+### GUI<a id="sec-4-2-1" name="sec-4-2-1"></a>
 
 ![img](./mesh-market-gui.png)
 
@@ -446,17 +472,17 @@ what they decide is relevant to making a good choice.
               }
             }
 
-5.  E. Results
+5.  E. News
 
-    1.  TODO add results section
+    No market can be sustainable without a willfully informed consumer base.  News, opinion, and information of any sort is monetzi
 
 6.  F. Map
 
-### API<a id="sec-4-1-4" name="sec-4-1-4"></a>
+### API<a id="sec-4-2-2" name="sec-4-2-2"></a>
 
-### Embeddable Widget<a id="sec-4-1-5" name="sec-4-1-5"></a>
+### Embeddable Widget<a id="sec-4-2-3" name="sec-4-2-3"></a>
 
-### Transaction Sequence Diagram<a id="sec-4-1-6" name="sec-4-1-6"></a>
+### Transaction Sequence Diagram<a id="sec-4-2-4" name="sec-4-2-4"></a>
 
 ![img](./optipulse-app-transaction.png)
 
@@ -522,7 +548,7 @@ The offer taker’s device is then triggered to inform the blockchain that consi
 
 Finally, the funds being held by the contract starting at step 4 are released, and the transaction is complete.
 
-### Possible Directions<a id="sec-4-1-7" name="sec-4-1-7"></a>
+### Possible Directions<a id="sec-4-2-5" name="sec-4-2-5"></a>
 
 1.  Transactions
 
@@ -538,11 +564,11 @@ Finally, the funds being held by the contract starting at step 4 are released, a
 
         One possibility that should be discussed is the minting of a new crypto-currency to serve as store credit.  As such, it would be bound to the growth of decentralized resources.
 
-## Use Cases<a id="sec-4-2" name="sec-4-2"></a>
+## Use Cases<a id="sec-4-3" name="sec-4-3"></a>
 
 These use cases will be made into tutorials in the future.
 
-### Internet<a id="sec-4-2-1" name="sec-4-2-1"></a>
+### Internet<a id="sec-4-3-1" name="sec-4-3-1"></a>
 
 1.  Start a DIY ISP .
 
@@ -556,7 +582,7 @@ These use cases will be made into tutorials in the future.
     -   Investment: Low
     -   Profit: N/A
 
-### Energy<a id="sec-4-2-2" name="sec-4-2-2"></a>
+### Energy<a id="sec-4-3-2" name="sec-4-3-2"></a>
 
 1.  Make a Profit on Solar
 
@@ -566,7 +592,7 @@ These use cases will be made into tutorials in the future.
 
 2.  Lower Your Electricity Bills
 
-### Agriculture<a id="sec-4-2-3" name="sec-4-2-3"></a>
+### Agriculture<a id="sec-4-3-3" name="sec-4-3-3"></a>
 
 1.  Start an Urban Homestead for Profit and Pleasure
 
@@ -580,7 +606,7 @@ These use cases will be made into tutorials in the future.
     -   Investment: Low
     -   Profit: N/A
 
-### Transportation<a id="sec-4-2-4" name="sec-4-2-4"></a>
+### Transportation<a id="sec-4-3-4" name="sec-4-3-4"></a>
 
 1.  Make a Living Wage Driving
 
@@ -594,7 +620,7 @@ These use cases will be made into tutorials in the future.
     -   Investment: Low
     -   Profit: N/A
 
-### Real Estate<a id="sec-4-2-5" name="sec-4-2-5"></a>
+### Real Estate<a id="sec-4-3-5" name="sec-4-3-5"></a>
 
 1.  Lease a Spare Room in Your House
 
@@ -602,7 +628,7 @@ These use cases will be made into tutorials in the future.
     -   Investment: Low/Medium
     -   Profit: Medium
 
-### Small Business/Entrepreneurs<a id="sec-4-2-6" name="sec-4-2-6"></a>
+### Small Business/Entrepreneurs<a id="sec-4-3-6" name="sec-4-3-6"></a>
 
 1.  Add Your Business to the Mesh Market and Reach New Audiences
 
@@ -612,21 +638,21 @@ These use cases will be made into tutorials in the future.
 
 2.  Open Your Product for Pre-Sale and Sponsor Your Business Development
 
-### Government<a id="sec-4-2-7" name="sec-4-2-7"></a>
+### Government<a id="sec-4-3-7" name="sec-4-3-7"></a>
 
 1.  Roll Out Basic Income and Boost Your Economy
 
 2.  Help Citizens Get Insured
 
-### City Planners<a id="sec-4-2-8" name="sec-4-2-8"></a>
+### City Planners<a id="sec-4-3-8" name="sec-4-3-8"></a>
 
-### Suggest a Use Case!<a id="sec-4-2-9" name="sec-4-2-9"></a>
+### Suggest a Use Case!<a id="sec-4-3-9" name="sec-4-3-9"></a>
 
 Did we miss something?  Submit a pull request!
 
-## Development TODO's<a id="sec-4-3" name="sec-4-3"></a>
+## Development TODO's<a id="sec-4-4" name="sec-4-4"></a>
 
-### Whitepaper<a id="sec-4-3-1" name="sec-4-3-1"></a>
+### Whitepaper<a id="sec-4-4-1" name="sec-4-4-1"></a>
 
 1.  TODO add banner w/ logo showing community using decentralized resources
 
@@ -638,7 +664,7 @@ Did we miss something?  Submit a pull request!
 
 5.  TODO write real estate use cases
 
-### App<a id="sec-4-3-2" name="sec-4-3-2"></a>
+### App<a id="sec-4-4-2" name="sec-4-4-2"></a>
 
 1.  TODO Base-Site
 
